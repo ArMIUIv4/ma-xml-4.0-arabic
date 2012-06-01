@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+  <string name="app_label">ÊÎÒםה ÌוÇÊ ÇבÇÊÕÇב</string>
+  <string name="create_contact">ÌוÉ ÇÊÕÇב ÌÏםÏÉ</string>
+  <string name="default_directory">ÌוÇÊ ÇבÇÊÕÇב</string>
+  <string name="edit_contact">ÅÖÇÝÉ Åבל ÌוÉ ÇÊÕÇב</string>
+  <string name="local_invisible_directory">ÛםÑ Ðב‗</string>
+  <string name="pound_search_tip">ÅÏÎÇב ÇבÑÞד ÈÚÏ \"#\" בÈÍË ÌוÇÊ ÇבÇÊÕÇב</string>
+  <string name="provider_label">ÌוÇÊ ÇבÇÊÕÇב</string>
+  <string name="read_write_all_voicemail_description">בבÓדÇÍ בבÊØÈםÞ ÈÊÎÒםה זÇÓÊÑÏÇÏ ÌדםÚ ÑÓÇÆב ÇבÈÑםÏ ÇבÕזÊם ÇבÊם םד‗ה ÇבזÕזב ÅבםוÇ ÚÈÑ וÐÇ ÇבÌוÇÒ.</string>
+  <string name="read_write_all_voicemail_label">ÇבזÕזב Åבל ÌדםÚ ÑÓÇÆב ÇבÈÑםÏ ÇבÕזÊם</string>
+  <string name="send_sms">ÅÑÓÇב mms/sms</string>
+  <string name="sharedUserLabel">ÊØÈםÞÇÊ Android ÇבדÑ‗ÒםÉ</string>
+  <string name="upgrade_msg">ÌÇÑע ÊÑÞםÉ ÞÇÚÏÉ ÈםÇהÇÊ ÌוÇÊ ÇבÇÊÕÇב.</string>
+  <string name="upgrade_out_of_memory_notification_text">ÍÏÏ בÅ‗דÇב ÇבÊÑÞםÉ.</string>
+  <string name="upgrade_out_of_memory_notification_ticker">ÊÍÊÇÌ ÊÑÞםÉ ÌוÉ ÇבÇÊÕÇב Åבל דÒםÏ דה ÇבÐÇ‗ÑÉ</string>
+  <string name="upgrade_out_of_memory_notification_title">ÊÑÞםÉ ÊÎÒםה ÌוÇÊ ÇבÅÊÕÇב</string>
+  <string name="voicemail_from_column">"ÈÑםÏ ÕזÊם דה "</string>
+</resources>

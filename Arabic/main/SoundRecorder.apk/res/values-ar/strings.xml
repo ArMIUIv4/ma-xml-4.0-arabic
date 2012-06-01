@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+  <string name="alert_message_delete_record">ЕА йяМо мпщ гАйслМА гАЦмоо©</string>
+  <string name="app_name">ЦслА гАуФй</string>
+  <string name="audio_db_album_name">гАйслМАгй гАуФйМи</string>
+  <string name="audio_db_artist_name">йслМАгйъ</string>
+  <string name="audio_db_playlist_name">йслМАгйМ</string>
+  <string name="audio_db_title_format">yyyy-MM-dd HH:mm:ss</string>
+  <string name="button_ok">ДзЦ</string>
+  <string name="call_record">йслМА гАЦъгАЦгй</string>
+  <string name="call_record_or">цФ</string>
+  <string name="default_record_name">йслМА хАг зДФгД</string>
+  <string name="delete_dialog_title">ЕА йяМо мпщ гАйслМА гАмгАМ©</string>
+  <string name="dialog_delete">мпщ</string>
+  <string name="dialog_play">йтшМА</string>
+  <string name="dialog_send">еясгА</string>
+  <string name="error_app_internal">ньц йьхМч огнАМ</string>
+  <string name="error_mediadb_new_record">шМя чгоя зАЛ мщы гАуФй гАЦслА</string>
+  <string name="error_sdcard_access">йзпя гАФуФА еАЛ гАйнрМД гАнгялМ цФ гАогнАМ</string>
+  <string formatted="false" name="hour">%d сгзи</string>
+  <string name="insert_sd_card">хьгчи SD ЦьАФхи</string>
+  <string name="mark_now">(гАмгАМ)</string>
+  <string name="max_length_reached">хАш гАЦои гАчуФЛ</string>
+  <string name="menu_setting">езогогй</string>
+  <string name="menu_view_record_list">зяж чгфЦи гАйслМА</string>
+  <string formatted="false" name="minute">%d очМчи</string>
+  <string name="no_file">АгМФло йслМАгй</string>
+  <string name="notification_recording">гАйслМА...</string>
+  <string name="notification_stopped">гАйслМА йФчщ</string>
+  <string formatted="false" name="notification_warning">ЦДнщж гАйнрМД(цчА ЦД %d очМчи)...</string>
+  <string name="open_file_explorer">щйм Цйущм гАЦАщгй</string>
+  <string formatted="false" name="overwrite_dialog_title">%s ЦФлФо Цсхчг. ЕА йяМо гАъйгхи зАМЕ©</string>
+  <string name="prefDefault_recordType">audio/3gpp</string>
+  <string name="prefDialogTitle_recordType">МялЛ ймоМо ДФз гАЦАщ</string>
+  <string name="pref_summary_enable_high_quality">ЦАщ гАуФй пгй гАлФои гАзгАМи МЦъД цД йъФД ъхМяи</string>
+  <string name="pref_summary_enable_sound_effect">йтшМА йцкМя гАуФй зДоЦг МйЦ йшММя гАмгАи</string>
+  <string name="pref_title_enable_high_quality">йЦъМД гАлФои гАзгАМи</string>
+  <string name="pref_title_enable_sound_effect">йЦъМД йцкМя гАуФй</string>
+  <string name="pref_title_record_type">ДФз ЦАщ гАйслМА</string>
+  <string name="preferences_title">езогогй</string>
+  <string name="record_list">чгфЦи гАйслМА</string>
+  <string name="recording">йслМА</string>
+  <string name="recording_stopped">йФчщ гАйслМА</string>
+  <string name="sd_card_not_available">хьгчи SD шМя ЦйФщя</string>
+  <string formatted="false" name="second">%d кгДМи</string>
+  <string name="storage_is_full">гАйнрМД ЦЦйАф</string>
+  <string formatted="false" name="timer_format">%02d:%02d</string>
+</resources>

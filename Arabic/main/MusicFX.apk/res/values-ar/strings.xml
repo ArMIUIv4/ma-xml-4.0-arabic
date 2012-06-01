@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+  <string name="app_name">MusicFX</string>
+  <string name="bass_boost_strength">สอำํไ วแฬๅํั</string>
+  <string name="ci_extreme">FX Booster</string>
+  <string name="eq_dialog_title">วแใฺวฯแ</string>
+  <string name="headset_plug">วแัฬวม สๆีํแ ำใวฺวส วแัรำ แแวำสใวฺ ลแ์ ๅะๅ วแสรหํัวส</string>
+  <string name="main_toggle_effects_title">สรหํัวส วแีๆส</string>
+  <string name="no_effects">วแสรหํัวส Ûํั ใสวอษ</string>
+  <string name="picker_title">แๆอษ สอ฿ใ วแสรหํัวส วแใๆำํÞํษ</string>
+  <string name="pr_dialog_title">วแลฺฯวฯ วแใำศÞ แแีฯ์</string>
+  <string name="pr_summary">วแสรหํัวส วแลึวÝํษ แีฯ์ วแÛัÝษ</string>
+  <string name="pr_title">วแีฯ์:</string>
+  <string name="setup">วแลฺฯวฯ</string>
+  <string name="user">วแใำสฮฯใ</string>
+  <string name="virtualizer_strength">สรหํั หแวหํ วแรศฺวฯ</string>
+</resources>

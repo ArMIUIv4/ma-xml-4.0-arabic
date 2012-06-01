@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string-array name="pref_camera_focusmode_entryvalues">
+    <item>تلقائي</item>
+    <item>لانهائية</item>
+    <item>ماكرو</item>
+  </string-array>
+  <string-array name="pref_camera_flashmode_entryvalues">
+    <item>تلقائي</item>
+    <item>تشغيل</item>
+    <item>إيقاف</item>
+  </string-array>
+  <string-array name="pref_camera_video_flashmode_entryvalues">
+    <item>أضاءة</item>
+    <item>إيقاف</item>
+  </string-array>
+  <string-array name="pref_camera_recordlocation_entryvalues">
+    <item>إيقاف</item>
+    <item>تشغيل</item>
+  </string-array>
+  <string-array name="pref_camera_whitebalance_entryvalues">
+    <item>تلقائي</item>
+    <item>ساطع</item>
+    <item>نهاري</item>
+    <item>فلوري</item>
+    <item>نهاري غائم</item>
+  </string-array>
+  <string-array name="pref_camera_scenemode_entryvalues">
+    <item>تلقائي</item>
+    <item>تأثير</item>
+    <item>ليل</item>
+    <item>غروب</item>
+    <item>حفلة</item>
+  </string-array>
+  <string-array name="pref_camera_focusmode_default_array">
+    <item>صورة متواصلة</item>
+    <item>تلقائي</item>
+  </string-array>
+</resources>
