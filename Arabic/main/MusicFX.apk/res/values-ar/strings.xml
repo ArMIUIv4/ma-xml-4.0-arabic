@@ -1,17 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
   <string name="app_name">MusicFX</string>
-  <string name="bass_boost_strength">สอำํไ วแฬๅํั</string>
+  <string name="bass_boost_strength">ุชุญุณูู ุงูุฌููุฑ</string>
   <string name="ci_extreme">FX Booster</string>
-  <string name="eq_dialog_title">วแใฺวฯแ</string>
-  <string name="headset_plug">วแัฬวม สๆีํแ ำใวฺวส วแัรำ แแวำสใวฺ ลแ์ ๅะๅ วแสรหํัวส</string>
-  <string name="main_toggle_effects_title">สรหํัวส วแีๆส</string>
-  <string name="no_effects">วแสรหํัวส Ûํั ใสวอษ</string>
-  <string name="picker_title">แๆอษ สอ฿ใ วแสรหํัวส วแใๆำํÞํษ</string>
-  <string name="pr_dialog_title">วแลฺฯวฯ วแใำศÞ แแีฯ์</string>
-  <string name="pr_summary">วแสรหํัวส วแลึวÝํษ แีฯ์ วแÛัÝษ</string>
-  <string name="pr_title">วแีฯ์:</string>
-  <string name="setup">วแลฺฯวฯ</string>
-  <string name="user">วแใำสฮฯใ</string>
-  <string name="virtualizer_strength">สรหํั หแวหํ วแรศฺวฯ</string>
+  <string name="eq_dialog_title">ุงูู…ุนุงุฏู</string>
+  <string name="headset_plug">ุงูุฑุฌุงุก ุชูุตูู ุณู…ุงุนุงุช ุงูุฑุฃุณ ููุงุณุชู…ุงุน ุฅูู ูุฐู ุงูุชุฃุซูุฑุงุช</string>
+  <string name="main_toggle_effects_title">ุชุฃุซูุฑุงุช ุงูุตูุช</string>
+  <string name="no_effects">ุงูุชุฃุซูุฑุงุช ุบูุฑ ู…ุชุงุญุฉ</string>
+  <string name="picker_title">ููุญุฉ ุชุญูู… ุงูุชุฃุซูุฑุงุช ุงูู…ูุณูููุฉ</string>
+  <string name="pr_dialog_title">ุงูุฅุนุฏุงุฏ ุงูู…ุณุจู ููุตุฏู</string>
+  <string name="pr_summary">ุงูุชุฃุซูุฑุงุช ุงูุฅุถุงููุฉ ูุตุฏู ุงูุบุฑูุฉ</string>
+  <string name="pr_title">ุงูุตุฏู:</string>
+  <string name="setup">ุงูุฅุนุฏุงุฏ</string>
+  <string name="user">ุงูู…ุณุชุฎุฏู…</string>
+  <string name="virtualizer_strength">ุชุฃุซูุฑ ุซูุงุซู ุงูุฃุจุนุงุฏ</string>
 </resources>

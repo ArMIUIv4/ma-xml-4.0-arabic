@@ -1,48 +1,48 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
-  <string name="alert_message_delete_record">ๅแ สัํฯ อะÝ วแสำฬํแ วแใอฯฯฟ</string>
-  <string name="app_name">ใำฬแ วแีๆส</string>
-  <string name="audio_db_album_name">วแสำฬํแวส วแีๆสํษ</string>
-  <string name="audio_db_artist_name">สำฬํแวส฿</string>
-  <string name="audio_db_playlist_name">สำฬํแวสํ</string>
+  <string name="alert_message_delete_record">ูู ุชุฑูุฏ ุญุฐู ุงูุชุณุฌูู ุงูู…ุญุฏุฏุ</string>
+  <string name="app_name">ู…ุณุฌู ุงูุตูุช</string>
+  <string name="audio_db_album_name">ุงูุชุณุฌููุงุช ุงูุตูุชูุฉ</string>
+  <string name="audio_db_artist_name">ุชุณุฌููุงุชู</string>
+  <string name="audio_db_playlist_name">ุชุณุฌููุงุชู</string>
   <string name="audio_db_title_format">yyyy-MM-dd HH:mm:ss</string>
-  <string name="button_ok">ไฺใ</string>
-  <string name="call_record">สำฬํแ วแใ฿วแใวส</string>
-  <string name="call_record_or">รๆ</string>
-  <string name="default_record_name">สำฬํแ ศแว ฺไๆวไ</string>
-  <string name="delete_dialog_title">ๅแ สัํฯ อะÝ วแสำฬํแ วแอวแํฟ</string>
-  <string name="dialog_delete">อะÝ</string>
-  <string name="dialog_play">สิÛํแ</string>
-  <string name="dialog_send">ลัำวแ</string>
-  <string name="error_app_internal">ฮุร สุศํÞ ฯวฮแํ</string>
-  <string name="error_mediadb_new_record">Ûํั Þวฯั ฺแ์ อÝู วแีๆส วแใำฬแ</string>
-  <string name="error_sdcard_access">สฺะั วแๆีๆแ ลแ์ วแสฮาํไ วแฮวัฬํ รๆ วแฯวฮแํ</string>
-  <string formatted="false" name="hour">%d ำวฺษ</string>
-  <string name="insert_sd_card">ศุวÞษ SD ใุแๆศษ</string>
-  <string name="mark_now">(วแอวแํ)</string>
-  <string name="max_length_reached">ศแÛ วแใฯษ วแÞีๆ์</string>
-  <string name="menu_setting">ลฺฯวฯวส</string>
-  <string name="menu_view_record_list">ฺัึ Þวฦใษ วแสำฬํแ</string>
-  <string formatted="false" name="minute">%d ฯÞํÞษ</string>
-  <string name="no_file">แวํๆฬฯ สำฬํแวส</string>
-  <string name="notification_recording">วแสำฬํแ...</string>
-  <string name="notification_stopped">วแสำฬํแ สๆÞÝ</string>
-  <string formatted="false" name="notification_warning">ใไฮÝึ วแสฮาํไ(รÞแ ใไ %d ฯÞํÞษ)...</string>
-  <string name="open_file_explorer">Ýสอ ใสีÝอ วแใแÝวส</string>
-  <string formatted="false" name="overwrite_dialog_title">%s ใๆฬๆฯ ใำศÞว. ๅแ สัํฯ วแ฿สวศษ ฺแํๅฟ</string>
+  <string name="button_ok">ูุนู…</string>
+  <string name="call_record">ุชุณุฌูู ุงูู…ูุงูู…ุงุช</string>
+  <string name="call_record_or">ุฃู</string>
+  <string name="default_record_name">ุชุณุฌูู ุจูุง ุนููุงู</string>
+  <string name="delete_dialog_title">ูู ุชุฑูุฏ ุญุฐู ุงูุชุณุฌูู ุงูุญุงููุ</string>
+  <string name="dialog_delete">ุญุฐู</string>
+  <string name="dialog_play">ุชุดุบูู</string>
+  <string name="dialog_send">ุฅุฑุณุงู</string>
+  <string name="error_app_internal">ุฎุทุฃ ุชุทุจูู ุฏุงุฎูู</string>
+  <string name="error_mediadb_new_record">ุบูุฑ ูุงุฏุฑ ุนูู ุญูุธ ุงูุตูุช ุงูู…ุณุฌู</string>
+  <string name="error_sdcard_access">ุชุนุฐุฑ ุงููุตูู ุฅูู ุงูุชุฎุฒูู ุงูุฎุงุฑุฌู ุฃู ุงูุฏุงุฎูู</string>
+  <string formatted="false" name="hour">%d ุณุงุนุฉ</string>
+  <string name="insert_sd_card">ุจุทุงูุฉ SD ู…ุทููุจุฉ</string>
+  <string name="mark_now">(ุงูุญุงูู)</string>
+  <string name="max_length_reached">ุจูุบ ุงูู…ุฏุฉ ุงููุตูู</string>
+  <string name="menu_setting">ุฅุนุฏุงุฏุงุช</string>
+  <string name="menu_view_record_list">ุนุฑุถ ูุงุฆู…ุฉ ุงูุชุณุฌูู</string>
+  <string formatted="false" name="minute">%d ุฏูููุฉ</string>
+  <string name="no_file">ูุงููุฌุฏ ุชุณุฌููุงุช</string>
+  <string name="notification_recording">ุงูุชุณุฌูู...</string>
+  <string name="notification_stopped">ุงูุชุณุฌูู ุชููู</string>
+  <string formatted="false" name="notification_warning">ู…ูุฎูุถ ุงูุชุฎุฒูู(ุฃูู ู…ู %d ุฏูููุฉ)...</string>
+  <string name="open_file_explorer">ูุชุญ ู…ุชุตูุญ ุงูู…ููุงุช</string>
+  <string formatted="false" name="overwrite_dialog_title">%s ู…ูุฌูุฏ ู…ุณุจูุง. ูู ุชุฑูุฏ ุงููุชุงุจุฉ ุนูููุ</string>
   <string name="prefDefault_recordType">audio/3gpp</string>
-  <string name="prefDialogTitle_recordType">ํัฬ์ สอฯํฯ ไๆฺ วแใแÝ</string>
-  <string name="pref_summary_enable_high_quality">ใแÝ วแีๆส ะวส วแฬๆฯษ วแฺวแํษ ํใ฿ไ รไ ส฿ๆไ ฿ศํัษ</string>
-  <string name="pref_summary_enable_sound_effect">สิÛํแ สรหํั วแีๆส ฺไฯใว ํสใ สÛํํั วแอวแษ</string>
-  <string name="pref_title_enable_high_quality">สใ฿ํไ วแฬๆฯษ วแฺวแํษ</string>
-  <string name="pref_title_enable_sound_effect">สใ฿ํไ สรหํั วแีๆส</string>
-  <string name="pref_title_record_type">ไๆฺ ใแÝ วแสำฬํแ</string>
-  <string name="preferences_title">ลฺฯวฯวส</string>
-  <string name="record_list">Þวฦใษ วแสำฬํแ</string>
-  <string name="recording">สำฬํแ</string>
-  <string name="recording_stopped">สๆÞÝ วแสำฬํแ</string>
-  <string name="sd_card_not_available">ศุวÞษ SD Ûํั ใสๆÝั</string>
-  <string formatted="false" name="second">%d หวไํษ</string>
-  <string name="storage_is_full">วแสฮาํไ ใใสแฦ</string>
+  <string name="prefDialogTitle_recordType">ูุฑุฌู ุชุญุฏูุฏ ููุน ุงูู…ูู</string>
+  <string name="pref_summary_enable_high_quality">ู…ูู ุงูุตูุช ุฐุงุช ุงูุฌูุฏุฉ ุงูุนุงููุฉ ูู…ูู ุฃู ุชููู ูุจูุฑุฉ</string>
+  <string name="pref_summary_enable_sound_effect">ุชุดุบูู ุชุฃุซูุฑ ุงูุตูุช ุนูุฏู…ุง ูุชู… ุชุบููุฑ ุงูุญุงูุฉ</string>
+  <string name="pref_title_enable_high_quality">ุชู…ููู ุงูุฌูุฏุฉ ุงูุนุงููุฉ</string>
+  <string name="pref_title_enable_sound_effect">ุชู…ููู ุชุฃุซูุฑ ุงูุตูุช</string>
+  <string name="pref_title_record_type">ููุน ู…ูู ุงูุชุณุฌูู</string>
+  <string name="preferences_title">ุฅุนุฏุงุฏุงุช</string>
+  <string name="record_list">ูุงุฆู…ุฉ ุงูุชุณุฌูู</string>
+  <string name="recording">ุชุณุฌูู</string>
+  <string name="recording_stopped">ุชููู ุงูุชุณุฌูู</string>
+  <string name="sd_card_not_available">ุจุทุงูุฉ SD ุบูุฑ ู…ุชููุฑ</string>
+  <string formatted="false" name="second">%d ุซุงููุฉ</string>
+  <string name="storage_is_full">ุงูุชุฎุฒูู ู…ู…ุชูุฆ</string>
   <string formatted="false" name="timer_format">%02d:%02d</string>
 </resources>

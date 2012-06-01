@@ -1,67 +1,67 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
-  <string name="app_name">วแำใวส</string>
-  <string name="apply_font_btn_exclude">สุศํÞ ศฯๆไ วแฮุ</string>
-  <string name="apply_font_btn_reboot">สุศํÞ ๆลฺวฯษ วแสิÛํแ</string>
-  <string name="apply_font_tip">วแำใษ สอสๆํ ฺแ์ ฮุก แะแ฿ ๅไว฿ อวฬษ ลแ์ ลฺวฯษ วแสิÛํแ.</string>
-  <string name="apply_lockscreen_paper_tips">ÞÝแ วแิวิษ วแใำสฮฯใ อวแํว๐ แว ํฯฺใ สÛํํั ฮแÝํษ ÞÝแ แิวิษ ก ฮแÝํษ ÞÝแ วแิวิษ Þฯ แว ส฿ๆไ ใัฦํษ .</string>
-  <string name="apply_theme_no_select_message">วแัฬวม วฮสํวั วแใ฿ๆไวส.</string>
-  <string name="backup_preference_title">ไำฮ วอสํวุํ แแำใษ</string>
-  <string name="backup_theme_dialog_message">"ไำฮ วอสํวุํ แแำใษ วแอวแํษ ลแ์
+  <string name="app_name">ุงูุณู…ุงุช</string>
+  <string name="apply_font_btn_exclude">ุชุทุจูู ุจุฏูู ุงูุฎุท</string>
+  <string name="apply_font_btn_reboot">ุชุทุจูู ูุฅุนุงุฏุฉ ุงูุชุดุบูู</string>
+  <string name="apply_font_tip">ุงูุณู…ุฉ ุชุญุชูู ุนูู ุฎุทุ ูุฐูู ููุงู ุญุงุฌุฉ ุฅูู ุฅุนุงุฏุฉ ุงูุชุดุบูู.</string>
+  <string name="apply_lockscreen_paper_tips">ููู ุงูุดุงุดุฉ ุงูู…ุณุชุฎุฏู… ุญุงููุงู ูุง ูุฏุนู… ุชุบููุฑ ุฎูููุฉ ููู ูุดุงุดุฉ ุ ุฎูููุฉ ููู ุงูุดุงุดุฉ ูุฏ ูุง ุชููู ู…ุฑุฆูุฉ .</string>
+  <string name="apply_theme_no_select_message">ุงูุฑุฌุงุก ุงุฎุชูุงุฑ ุงูู…ูููุงุช.</string>
+  <string name="backup_preference_title">ูุณุฎ ุงุญุชูุงุทู ููุณู…ุฉ</string>
+  <string name="backup_theme_dialog_message">"ูุณุฎ ุงุญุชูุงุทู ููุณู…ุฉ ุงูุญุงููุฉ ุฅูู
 %1$s"</string>
-  <string name="backup_theme_dialog_ok">ไำฮ วอสํวุํ</string>
-  <string name="backup_theme_progress_message">ไำฮ วอสํวุํ แใแÝวส วแำใษก ํัฬ์ วแวไสูวั ...</string>
-  <string name="backup_theme_success_message">ว฿สใแ วแไำฮ วแวอสํวุํ แแำใษ</string>
-  <string name="change_wallpaper">สÛํํั วแฮแÝํษ</string>
-  <string name="component_category_ringtone_title">วแไÛใวส</string>
-  <string name="component_category_style_title">รไใวุ</string>
-  <string name="component_category_title">สฮีํี</string>
-  <string name="component_category_wallpaper_title">วแฮแÝํวส</string>
-  <string name="component_include_title">ํอสๆํ %1$s ใ฿ๆไวส</string>
-  <string name="component_screen_title">ํสึใไ ฮแÝํษ</string>
-  <string name="component_select_title">สอฯํฯ %1$s ใ฿ๆไวส</string>
-  <string name="component_settings_title">สฮีํี วแำใษ</string>
-  <string name="desktop_wallpaper">ฮแÝํษ ำุอ วแใ฿สศ</string>
-  <string name="live_wallpaper">วแฮแÝํษ วแใสอั฿ษ</string>
-  <string name="lockscreen_wallpaper">ฮแÝํษ ÞÝแ วแิวิษ</string>
-  <string name="new_format_convert">สอๆํแ %1$s ลแ์ วแสไำํÞ วแฬฯํฯก ํัฬ์ วแวไสูวั ...</string>
-  <string name="old_format_convert_tip1">วแำใษ แํำส ศวแสไำํÞ วแฬฯํฯก สอๆํแๅว ำํรฮะ ศฺึ วแๆÞส แํ฿สใแ. วแสอๆํแ วแยไฟ</string>
-  <string name="old_format_convert_tip2">รๆ อะÝๅว ๆสอใํแ วแลีฯวั วแฬฯํฯ.</string>
-  <string name="old_format_fail">Ýิแ Ýํ สอๆํแก วึÛุ สุศํÞ แลฺวฯษ วแใอวๆแษ.</string>
-  <string name="old_format_title">สไำํÞ Þฯํใ</string>
-  <string name="play_all_audio_effect">สิÛํแ สรหํั วแีๆส (วแใฬใๆฺ: %1$s)</string>
-  <string name="resource_fail_to_show">วแำใษ แว ํอสๆํ ฺแ์ วแใๆวัฯ วแใุแๆศษ.</string>
-  <string name="theme_activity_lable">วแำใวส</string>
-  <string name="theme_changed_failed_message">Ýิแ Ýํ สุศํÞ วแำใษ.</string>
-  <string name="theme_changed_message">สใ วแสุศํÞ ศไฬวอ.</string>
-  <string name="theme_changing_dialog_title">สุศํÞ ำใษ ฬฯํฯษก ํัฬ์ วแวไสูวั ...</string>
-  <string name="theme_component_title_alarm">วแใไศษ</string>
-  <string name="theme_component_title_all">วแำใษ</string>
-  <string name="theme_component_title_audio_effect">ใฤหั วแีๆส</string>
-  <string name="theme_component_title_boot_animation">ิวิษ วแวÞแวฺ</string>
-  <string name="theme_component_title_boot_audio">ีๆส วแวÞแวฺ</string>
-  <string name="theme_component_title_clock">วแำวฺษ</string>
-  <string name="theme_component_title_contact">แๆอษ วแวสีวแ</string>
-  <string name="theme_component_title_font">วแฮุ</string>
-  <string name="theme_component_title_framework">วแลุวั</string>
-  <string name="theme_component_title_icon">วแรํÞๆไวส</string>
-  <string name="theme_component_title_launcher">วแัฦํำํษ</string>
-  <string name="theme_component_title_lockstyle">ÞÝแ วแิวิษ</string>
-  <string name="theme_component_title_lockwallpaper">ฮแÝํษ ÞÝแ วแิวิษ</string>
-  <string name="theme_component_title_mms">วแัำวฦแ</string>
-  <string name="theme_component_title_notification">วแลิฺวัวส</string>
-  <string name="theme_component_title_others">รฮั์</string>
-  <string name="theme_component_title_photo_frame">ลุวั วแีๆัษ</string>
-  <string name="theme_component_title_ringtone">วแไÛใษ</string>
-  <string name="theme_component_title_statusbar">ิัํุ วแอวแษ</string>
-  <string name="theme_component_title_wallpaper">วแฮแÝํษ</string>
-  <string name="theme_description_title_customized">ใฮีี</string>
-  <string name="theme_description_title_default">ลÝสัวึํ</string>
-  <string name="theme_import">วแวำสํัวฯ ใไ ศุวÞษ SD</string>
-  <string name="theme_select_others">รฮั์</string>
-  <string name="third_party_pickers_activity_title">ึศุ %1$s</string>
-  <string name="title_component">ใฮสแุ</string>
-  <string name="title_local">ใอแํ</string>
-  <string name="title_online">ฮวัฬํ</string>
-  <string name="wallpaper_settings">ลฺฯวฯวส วแฮแÝํษ</string>
+  <string name="backup_theme_dialog_ok">ูุณุฎ ุงุญุชูุงุทู</string>
+  <string name="backup_theme_progress_message">ูุณุฎ ุงุญุชูุงุทู ูู…ููุงุช ุงูุณู…ุฉุ ูุฑุฌู ุงูุงูุชุธุงุฑ ...</string>
+  <string name="backup_theme_success_message">ุงูุชู…ู ุงููุณุฎ ุงูุงุญุชูุงุทู ููุณู…ุฉ</string>
+  <string name="change_wallpaper">ุชุบููุฑ ุงูุฎูููุฉ</string>
+  <string name="component_category_ringtone_title">ุงููุบู…ุงุช</string>
+  <string name="component_category_style_title">ุฃูู…ุงุท</string>
+  <string name="component_category_title">ุชุฎุตูุต</string>
+  <string name="component_category_wallpaper_title">ุงูุฎูููุงุช</string>
+  <string name="component_include_title">ูุญุชูู %1$s ู…ูููุงุช</string>
+  <string name="component_screen_title">ูุชุถู…ู ุฎูููุฉ</string>
+  <string name="component_select_title">ุชุญุฏูุฏ %1$s ู…ูููุงุช</string>
+  <string name="component_settings_title">ุชุฎุตูุต ุงูุณู…ุฉ</string>
+  <string name="desktop_wallpaper">ุฎูููุฉ ุณุทุญ ุงูู…ูุชุจ</string>
+  <string name="live_wallpaper">ุงูุฎูููุฉ ุงูู…ุชุญุฑูุฉ</string>
+  <string name="lockscreen_wallpaper">ุฎูููุฉ ููู ุงูุดุงุดุฉ</string>
+  <string name="new_format_convert">ุชุญููู %1$s ุฅูู ุงูุชูุณูู ุงูุฌุฏูุฏุ ูุฑุฌู ุงูุงูุชุธุงุฑ ...</string>
+  <string name="old_format_convert_tip1">ุงูุณู…ุฉ ููุณุช ุจุงูุชูุณูู ุงูุฌุฏูุฏุ ุชุญููููุง ุณูุฃุฎุฐ ุจุนุถ ุงูููุช ูููุชู…ู. ุงูุชุญููู ุงูุขูุ</string>
+  <string name="old_format_convert_tip2">ุฃู ุญุฐููุง ูุชุญู…ูู ุงูุฅุตุฏุงุฑ ุงูุฌุฏูุฏ.</string>
+  <string name="old_format_fail">ูุดู ูู ุชุญูููุ ุงุถุบุท ุชุทุจูู ูุฅุนุงุฏุฉ ุงูู…ุญุงููุฉ.</string>
+  <string name="old_format_title">ุชูุณูู ูุฏูู…</string>
+  <string name="play_all_audio_effect">ุชุดุบูู ุชุฃุซูุฑ ุงูุตูุช (ุงูู…ุฌู…ูุน: %1$s)</string>
+  <string name="resource_fail_to_show">ุงูุณู…ุฉ ูุง ูุญุชูู ุนูู ุงูู…ูุงุฑุฏ ุงูู…ุทููุจุฉ.</string>
+  <string name="theme_activity_lable">ุงูุณู…ุงุช</string>
+  <string name="theme_changed_failed_message">ูุดู ูู ุชุทุจูู ุงูุณู…ุฉ.</string>
+  <string name="theme_changed_message">ุชู… ุงูุชุทุจูู ุจูุฌุงุญ.</string>
+  <string name="theme_changing_dialog_title">ุชุทุจูู ุณู…ุฉ ุฌุฏูุฏุฉุ ูุฑุฌู ุงูุงูุชุธุงุฑ ...</string>
+  <string name="theme_component_title_alarm">ุงูู…ูุจุฉ</string>
+  <string name="theme_component_title_all">ุงูุณู…ุฉ</string>
+  <string name="theme_component_title_audio_effect">ู…ุคุซุฑ ุงูุตูุช</string>
+  <string name="theme_component_title_boot_animation">ุดุงุดุฉ ุงูุงููุงุน</string>
+  <string name="theme_component_title_boot_audio">ุตูุช ุงูุงููุงุน</string>
+  <string name="theme_component_title_clock">ุงูุณุงุนุฉ</string>
+  <string name="theme_component_title_contact">ููุญุฉ ุงูุงุชุตุงู</string>
+  <string name="theme_component_title_font">ุงูุฎุท</string>
+  <string name="theme_component_title_framework">ุงูุฅุทุงุฑ</string>
+  <string name="theme_component_title_icon">ุงูุฃููููุงุช</string>
+  <string name="theme_component_title_launcher">ุงูุฑุฆูุณูุฉ</string>
+  <string name="theme_component_title_lockstyle">ููู ุงูุดุงุดุฉ</string>
+  <string name="theme_component_title_lockwallpaper">ุฎูููุฉ ููู ุงูุดุงุดุฉ</string>
+  <string name="theme_component_title_mms">ุงูุฑุณุงุฆู</string>
+  <string name="theme_component_title_notification">ุงูุฅุดุนุงุฑุงุช</string>
+  <string name="theme_component_title_others">ุฃุฎุฑู</string>
+  <string name="theme_component_title_photo_frame">ุฅุทุงุฑ ุงูุตูุฑุฉ</string>
+  <string name="theme_component_title_ringtone">ุงููุบู…ุฉ</string>
+  <string name="theme_component_title_statusbar">ุดุฑูุท ุงูุญุงูุฉ</string>
+  <string name="theme_component_title_wallpaper">ุงูุฎูููุฉ</string>
+  <string name="theme_description_title_customized">ู…ุฎุตุต</string>
+  <string name="theme_description_title_default">ุฅูุชุฑุงุถู</string>
+  <string name="theme_import">ุงูุงุณุชูุฑุงุฏ ู…ู ุจุทุงูุฉ SD</string>
+  <string name="theme_select_others">ุฃุฎุฑู</string>
+  <string name="third_party_pickers_activity_title">ุถุจุท %1$s</string>
+  <string name="title_component">ู…ุฎุชูุท</string>
+  <string name="title_local">ู…ุญูู</string>
+  <string name="title_online">ุฎุงุฑุฌู</string>
+  <string name="wallpaper_settings">ุฅุนุฏุงุฏุงุช ุงูุฎูููุฉ</string>
 </resources>

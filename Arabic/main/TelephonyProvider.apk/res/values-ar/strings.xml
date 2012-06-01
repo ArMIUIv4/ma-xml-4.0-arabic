@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
-  <string name="app_label">╟сх╟╩▌ / у╬╥ф ╟с╤╙╟╞с</string>
-  <string name="mms_provider_label">╟сц╙╟╞╪ ╟су╩┌╧╧╔</string>
-  <string name="mms_sms_provider_label">╟с╤╙╟╞с</string>
-  <string name="sms_provider_label">╟с╤╙╟╞с ╟с▐╒э╤╔</string>
+  <string name="app_label">╪з┘Д┘З╪з╪к┘Б / ┘Е╪о╪▓┘Ж ╪з┘Д╪▒╪│╪з╪ж┘Д</string>
+  <string name="mms_provider_label">╪з┘Д┘И╪│╪з╪ж╪╖ ╪з┘Д┘Е╪к╪╣╪п╪п╪й</string>
+  <string name="mms_sms_provider_label">╪з┘Д╪▒╪│╪з╪ж┘Д</string>
+  <string name="sms_provider_label">╪з┘Д╪▒╪│╪з╪ж┘Д ╪з┘Д┘В╪╡┘К╪▒╪й</string>
 </resources>

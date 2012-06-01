@@ -1,19 +1,19 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
-  <string name="app_label">สฮาํไ ฬๅวส วแวสีวแ</string>
-  <string name="create_contact">ฬๅษ วสีวแ ฬฯํฯษ</string>
-  <string name="default_directory">ฬๅวส วแวสีวแ</string>
-  <string name="edit_contact">ลึวÝษ ลแ์ ฬๅษ วสีวแ</string>
-  <string name="local_invisible_directory">Ûํั ะแ฿</string>
-  <string name="pound_search_tip">ลฯฮวแ วแัÞใ ศฺฯ \"#\" แศอห ฬๅวส วแวสีวแ</string>
-  <string name="provider_label">ฬๅวส วแวสีวแ</string>
-  <string name="read_write_all_voicemail_description">แแำใวอ แแสุศํÞ ศสฮาํไ ๆวำสัฯวฯ ฬใํฺ ัำวฦแ วแศัํฯ วแีๆสํ วแสํ ํใ฿ไ วแๆีๆแ ลแํๅว ฺศั ๅะว วแฬๅวา.</string>
-  <string name="read_write_all_voicemail_label">วแๆีๆแ ลแ์ ฬใํฺ ัำวฦแ วแศัํฯ วแีๆสํ</string>
-  <string name="send_sms">ลัำวแ mms/sms</string>
-  <string name="sharedUserLabel">สุศํÞวส Android วแใั฿าํษ</string>
-  <string name="upgrade_msg">ฬวั๒ สัÞํษ Þวฺฯษ ศํวไวส ฬๅวส วแวสีวแ.</string>
-  <string name="upgrade_out_of_memory_notification_text">อฯฯ แล฿ใวแ วแสัÞํษ.</string>
-  <string name="upgrade_out_of_memory_notification_ticker">สอสวฬ สัÞํษ ฬๅษ วแวสีวแ ลแ์ ใาํฯ ใไ วแะว฿ัษ</string>
-  <string name="upgrade_out_of_memory_notification_title">สัÞํษ สฮาํไ ฬๅวส วแลสีวแ</string>
-  <string name="voicemail_from_column">"ศัํฯ ีๆสํ ใไ "</string>
+  <string name="app_label">ุชุฎุฒูู ุฌูุงุช ุงูุงุชุตุงู</string>
+  <string name="create_contact">ุฌูุฉ ุงุชุตุงู ุฌุฏูุฏุฉ</string>
+  <string name="default_directory">ุฌูุงุช ุงูุงุชุตุงู</string>
+  <string name="edit_contact">ุฅุถุงูุฉ ุฅูู ุฌูุฉ ุงุชุตุงู</string>
+  <string name="local_invisible_directory">ุบูุฑ ุฐูู</string>
+  <string name="pound_search_tip">ุฅุฏุฎุงู ุงูุฑูู… ุจุนุฏ \"#\" ูุจุญุซ ุฌูุงุช ุงูุงุชุตุงู</string>
+  <string name="provider_label">ุฌูุงุช ุงูุงุชุตุงู</string>
+  <string name="read_write_all_voicemail_description">ููุณู…ุงุญ ููุชุทุจูู ุจุชุฎุฒูู ูุงุณุชุฑุฏุงุฏ ุฌู…ูุน ุฑุณุงุฆู ุงูุจุฑูุฏ ุงูุตูุชู ุงูุชู ูู…ูู ุงููุตูู ุฅูููุง ุนุจุฑ ูุฐุง ุงูุฌูุงุฒ.</string>
+  <string name="read_write_all_voicemail_label">ุงููุตูู ุฅูู ุฌู…ูุน ุฑุณุงุฆู ุงูุจุฑูุฏ ุงูุตูุชู</string>
+  <string name="send_sms">ุฅุฑุณุงู mms/sms</string>
+  <string name="sharedUserLabel">ุชุทุจููุงุช Android ุงูู…ุฑูุฒูุฉ</string>
+  <string name="upgrade_msg">ุฌุงุฑู ุชุฑููุฉ ูุงุนุฏุฉ ุจูุงูุงุช ุฌูุงุช ุงูุงุชุตุงู.</string>
+  <string name="upgrade_out_of_memory_notification_text">ุญุฏุฏ ูุฅูู…ุงู ุงูุชุฑููุฉ.</string>
+  <string name="upgrade_out_of_memory_notification_ticker">ุชุญุชุงุฌ ุชุฑููุฉ ุฌูุฉ ุงูุงุชุตุงู ุฅูู ู…ุฒูุฏ ู…ู ุงูุฐุงูุฑุฉ</string>
+  <string name="upgrade_out_of_memory_notification_title">ุชุฑููุฉ ุชุฎุฒูู ุฌูุงุช ุงูุฅุชุตุงู</string>
+  <string name="voicemail_from_column">"ุจุฑูุฏ ุตูุชู ู…ู "</string>
 </resources>

@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
-  <string name="app_label">ЗбИжХбЙ</string>
-  <string name="cannot_get_location">бЗ нгЯд ЗбНХжб Ъбм гжЮЪЯ</string>
-  <string name="getting_location">ЗбНХжб Ъбм ЗбгжЮЪ ...</string>
+  <string name="app_label">Ш§Щ„ШЁЩ€ШµЩ„Ш©</string>
+  <string name="cannot_get_location">Щ„Ш§ ЩЉЩ…ЩѓЩ† Ш§Щ„Ш­ШµЩ€Щ„ Ш№Щ„Щ‰ Щ…Щ€Щ‚Ш№Щѓ</string>
+  <string name="getting_location">Ш§Щ„Ш­ШµЩ€Щ„ Ш№Щ„Щ‰ Ш§Щ„Щ…Щ€Щ‚Ш№ ...</string>
   <string name="location_east">%s E</string>
   <string name="location_north">%s N</string>
   <string name="location_south">%s S</string>

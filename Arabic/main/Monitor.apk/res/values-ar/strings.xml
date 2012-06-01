@@ -1,62 +1,62 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
-  <string name="adjust_data">ึศุ อั฿ษ วแศํวไวส</string>
-  <string name="all_apps">ฬใํฺ วแสุศํÞวส</string>
-  <string name="app_detail">สÝวีํแ วแสุศํÞ</string>
-  <string name="app_detail_control">ใัวÞศษ วแศํวไวส</string>
-  <string name="app_name">วแใัวÞศษ</string>
-  <string name="apply_rules_failed">Ýิแ Ýํ สุศํÞ Þๆวไํไ วแฬฯวั วแไวัํก อวๆแ ใัษ รฮั์.</string>
-  <string name="apply_rules_failed_known">ใฬๅๆแ</string>
-  <string name="auto_turn_off_mobile">ลํÞวÝ สแÞวฦํ</string>
-  <string name="data_usage_app_restrict_dialog">Ýํ อวแษ ฺฯใ ๆฬๆฯ วสีวแ Wi-Fiกๅะๅ วแใําษ Þฯ สฤฯํ ลแ์ สฺะั สิÛํแ วแศํวไวส วแฮแÝํษ แแสุศํÞวส.</string>
-  <string name="data_usage_cycle_editor_positive">ไฺใ</string>
-  <string name="data_usage_cycle_editor_subtitle">วแสวัํฮ:\u0020</string>
-  <string name="data_usage_label_background">วแฮแÝํษ: %s</string>
-  <string name="data_usage_label_foreground">วแรใวใํษ: %s</string>
-  <string name="data_usage_restrict_background">อฯๆฯ ศํวไวส วแฮแÝํษ</string>
-  <string name="data_usage_restrict_background_help">แแอฯ ใไ วำสฮฯวใ ศํวไวส วแฮแÝํษ แๅะๅ วแสุศํÞวสกํัฬ์ สฺํํไ อฯๆฯ ศฯวํษ วแศํวไวส วแใสไÞแษ.</string>
-  <string name="data_usage_restrict_background_summary">ละว อฯฯส ศํวไวส วแฮแÝํษก วแฮฯใวส แไ สฺใแ ลแว ละว ฿ไส ใสีแว ศิศ฿ษ Wi-Fi.</string>
-  <string name="data_usage_restrict_background_title">อฯ วำสฮฯวใ วแฮแÝํษฟ</string>
-  <string name="data_usage_uninstalled_apps">ลแÛวม สหศํส วแสุศํÞ</string>
+  <string name="adjust_data">ุถุจุท ุญุฑูุฉ ุงูุจูุงูุงุช</string>
+  <string name="all_apps">ุฌู…ูุน ุงูุชุทุจููุงุช</string>
+  <string name="app_detail">ุชูุงุตูู ุงูุชุทุจูู</string>
+  <string name="app_detail_control">ู…ุฑุงูุจุฉ ุงูุจูุงูุงุช</string>
+  <string name="app_name">ุงูู…ุฑุงูุจุฉ</string>
+  <string name="apply_rules_failed">ูุดู ูู ุชุทุจูู ููุงููู ุงูุฌุฏุงุฑ ุงููุงุฑูุ ุญุงูู ู…ุฑุฉ ุฃุฎุฑู.</string>
+  <string name="apply_rules_failed_known">ู…ุฌููู</string>
+  <string name="auto_turn_off_mobile">ุฅููุงู ุชููุงุฆู</string>
+  <string name="data_usage_app_restrict_dialog">ูู ุญุงูุฉ ุนุฏู… ูุฌูุฏ ุงุชุตุงู Wi-Fiุูุฐู ุงูู…ูุฒุฉ ูุฏ ุชุคุฏู ุฅูู ุชุนุฐุฑ ุชุดุบูู ุงูุจูุงูุงุช ุงูุฎูููุฉ ููุชุทุจููุงุช.</string>
+  <string name="data_usage_cycle_editor_positive">ูุนู…</string>
+  <string name="data_usage_cycle_editor_subtitle">ุงูุชุงุฑูุฎ:\u0020</string>
+  <string name="data_usage_label_background">ุงูุฎูููุฉ: %s</string>
+  <string name="data_usage_label_foreground">ุงูุฃู…ุงู…ูุฉ: %s</string>
+  <string name="data_usage_restrict_background">ุญุฏูุฏ ุจูุงูุงุช ุงูุฎูููุฉ</string>
+  <string name="data_usage_restrict_background_help">ููุญุฏ ู…ู ุงุณุชุฎุฏุงู… ุจูุงูุงุช ุงูุฎูููุฉ ููุฐู ุงูุชุทุจููุงุชุูุฑุฌู ุชุนููู ุญุฏูุฏ ุจุฏุงูุฉ ุงูุจูุงูุงุช ุงูู…ุชูููุฉ.</string>
+  <string name="data_usage_restrict_background_summary">ุฅุฐุง ุญุฏุฏุช ุจูุงูุงุช ุงูุฎูููุฉุ ุงูุฎุฏู…ุงุช ูู ุชุนู…ู ุฅูุง ุฅุฐุง ููุช ู…ุชุตูุง ุจุดุจูุฉ Wi-Fi.</string>
+  <string name="data_usage_restrict_background_title">ุญุฏ ุงุณุชุฎุฏุงู… ุงูุฎูููุฉุ</string>
+  <string name="data_usage_uninstalled_apps">ุฅูุบุงุก ุชุซุจูุช ุงูุชุทุจูู</string>
   <string formatted="false" name="date_format">%s</string>
-  <string name="display_system_app">ลูๅวั สุศํÞวส วแไูวใ</string>
-  <string formatted="false" name="duration">ใฯษ วแำฬแ: %d/%d/%d - %d/%d/%d</string>
-  <string formatted="false" name="duration_days">%d รํวใ %d ำวฺวส %d ฯÞวฦÞ</string>
-  <string formatted="false" name="duration_hours">%d ำวฺวส %d ฯÞวฦÞ</string>
-  <string formatted="false" name="duration_minutes">%d ฯÞวฦÞ</string>
-  <string name="exceed">\u0020สฬวๆา\u0020</string>
-  <string name="force_stop">สๆÞÝ ลฬศวัํ</string>
-  <string name="input_adjust_data">รฯฮแ อฯ วแศํวไวส (MB)</string>
-  <string name="input_max_traffic">อฯๆฯ วแศํวไวส</string>
-  <string name="input_warning_traffic">สอะํั วแศํวไวส</string>
-  <string name="loading_apps_list">สอใํแ วแสุศํÞวส ...</string>
-  <string name="max_traffic_monthly">วแศํวไวส วแิๅัํษ วแใสวอษ</string>
-  <string name="menu_display_system_app">ลูๅวั สุศํÞวส วแไูวใ</string>
-  <string name="menu_not_display_system_app">ลฮÝวม สุศํÞวส วแไูวใ</string>
-  <string name="menu_refresh">สอฯํห</string>
-  <string name="menu_sort_by_name">Ýัา อำศ วแวำใ</string>
-  <string name="menu_sort_by_traffic">Ýัา อำศ ฿ใํษ วแศํวไวส</string>
+  <string name="display_system_app">ุฅุธูุงุฑ ุชุทุจููุงุช ุงููุธุงู…</string>
+  <string formatted="false" name="duration">ู…ุฏุฉ ุงูุณุฌู: %d/%d/%d - %d/%d/%d</string>
+  <string formatted="false" name="duration_days">%d ุฃูุงู… %d ุณุงุนุงุช %d ุฏูุงุฆู</string>
+  <string formatted="false" name="duration_hours">%d ุณุงุนุงุช %d ุฏูุงุฆู</string>
+  <string formatted="false" name="duration_minutes">%d ุฏูุงุฆู</string>
+  <string name="exceed">\u0020ุชุฌุงูุฒ\u0020</string>
+  <string name="force_stop">ุชููู ุฅุฌุจุงุฑู</string>
+  <string name="input_adjust_data">ุฃุฏุฎู ุญุฏ ุงูุจูุงูุงุช (MB)</string>
+  <string name="input_max_traffic">ุญุฏูุฏ ุงูุจูุงูุงุช</string>
+  <string name="input_warning_traffic">ุชุญุฐูุฑ ุงูุจูุงูุงุช</string>
+  <string name="loading_apps_list">ุชุญู…ูู ุงูุชุทุจููุงุช ...</string>
+  <string name="max_traffic_monthly">ุงูุจูุงูุงุช ุงูุดูุฑูุฉ ุงูู…ุชุงุญุฉ</string>
+  <string name="menu_display_system_app">ุฅุธูุงุฑ ุชุทุจููุงุช ุงููุธุงู…</string>
+  <string name="menu_not_display_system_app">ุฅุฎูุงุก ุชุทุจููุงุช ุงููุธุงู…</string>
+  <string name="menu_refresh">ุชุญุฏูุซ</string>
+  <string name="menu_sort_by_name">ูุฑุฒ ุญุณุจ ุงูุงุณู…</string>
+  <string name="menu_sort_by_traffic">ูุฑุฒ ุญุณุจ ูู…ูุฉ ุงูุจูุงูุงุช</string>
   <string name="mobile">2G/3G</string>
   <string formatted="false" name="mobile_format">2G/3G: %s</string>
-  <string name="mobile_traffic">ศํวไวส วแๅวสÝ วแใำสฮฯใษ</string>
-  <string name="monitor_settings">วแสÝึํแวส</string>
-  <string name="monitor_starting_day">ึศุ สวัํฮ ศฯวํษ วแใัวÞศษ</string>
-  <string name="network_control">สใ฿ํไ ใัวÞศษ ฬฯวั วแอใวํษ</string>
-  <string name="network_monitor">ฬฯวั วแอใวํษ</string>
+  <string name="mobile_traffic">ุจูุงูุงุช ุงููุงุชู ุงูู…ุณุชุฎุฏู…ุฉ</string>
+  <string name="monitor_settings">ุงูุชูุถููุงุช</string>
+  <string name="monitor_starting_day">ุถุจุท ุชุงุฑูุฎ ุจุฏุงูุฉ ุงูู…ุฑุงูุจุฉ</string>
+  <string name="network_control">ุชู…ููู ู…ุฑุงูุจุฉ ุฌุฏุงุฑ ุงูุญู…ุงูุฉ</string>
+  <string name="network_monitor">ุฌุฏุงุฑ ุงูุญู…ุงูุฉ</string>
   <string name="process_kernel_label">Android OS</string>
-  <string name="refresh">สอฯํห</string>
-  <string name="remain">\u0020ศวÞํ\u0020</string>
-  <string name="settings">ส฿ๆํไ</string>
-  <string name="tether_settings_title_all">วแัศุ ๆไÞุษ วแวสีวแ วแใอใๆแษ</string>
-  <string name="tether_settings_title_bluetooth">ัศุ วแศแๆสๆห</string>
-  <string name="tether_settings_title_usb">ัศุ USB</string>
-  <string name="tether_settings_title_usb_bluetooth">ัศุ ศแๆสๆห USB</string>
-  <string name="tether_settings_title_wifi">ไÞุษ วสีวแ ใอใๆแษ</string>
-  <string name="threshold">\u0020สไศํษ\u0020</string>
-  <string name="traffic_data">อั฿ษ วแศํวไวส</string>
+  <string name="refresh">ุชุญุฏูุซ</string>
+  <string name="remain">\u0020ุจุงูู\u0020</string>
+  <string name="settings">ุชูููู</string>
+  <string name="tether_settings_title_all">ุงูุฑุจุท ูููุทุฉ ุงูุงุชุตุงู ุงูู…ุญู…ููุฉ</string>
+  <string name="tether_settings_title_bluetooth">ุฑุจุท ุงูุจููุชูุซ</string>
+  <string name="tether_settings_title_usb">ุฑุจุท USB</string>
+  <string name="tether_settings_title_usb_bluetooth">ุฑุจุท ุจููุชูุซ USB</string>
+  <string name="tether_settings_title_wifi">ููุทุฉ ุงุชุตุงู ู…ุญู…ููุฉ</string>
+  <string name="threshold">\u0020ุชูุจูุฉ\u0020</string>
+  <string name="traffic_data">ุญุฑูุฉ ุงูุจูุงูุงุช</string>
   <string name="traffic_none">0MB</string>
-  <string name="used">ใำสฮฯใ\u0020</string>
-  <string formatted="false" name="version_text">วแลีฯวั: %1$s</string>
+  <string name="used">ู…ุณุชุฎุฏู…\u0020</string>
+  <string formatted="false" name="version_text">ุงูุฅุตุฏุงุฑ: %1$s</string>
   <string name="wifi">Wi-Fi</string>
   <string formatted="false" name="wifi_format">Wi-Fi: %s</string>
 </resources>
