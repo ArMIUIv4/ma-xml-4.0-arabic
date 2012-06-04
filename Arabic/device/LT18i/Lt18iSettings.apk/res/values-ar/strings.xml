@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lt18i_settings">المصنع</string>
+    <string name="lt18i_settings_summary">المصنع</string>
+    <string name="xloud_strings_xloud_txt">xLOUD™</string>
+    <string name="xloud_strings_xloud_desc_txt">تحسين مستوى صوت السماعة</string>
+    <string name="swiqi_strings_swiqi_txt">Mobile BRAVIA محرك</string>
+    <string name="swiqi_strings_swiqi_desc_txt">تحسين جودة الصورة للصور ومقاطع الفيديو</string>
+</resources>

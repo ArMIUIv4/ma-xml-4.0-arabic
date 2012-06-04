@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="voiceDialer">Voice Dialer</string>
+    <string name="tool_tip_title">هل كنت تعلم...</string>
+    <string name="tool_tip_message">يؤدي الضغط مع الاستمرار على زر الاتصال الأخضر إلى فتح الطالب الصوتي.</string>
+    <string name="examples">أمثلة: <b>"
+\"الاتصال بجون دوي\"
+\"الاتصال بجون دوي في المنزل، …\"
+\"الاتصال بالبريد3الصوتي\"
+\"الاتصال برقم (866) 555 0123\"
+\"الاتصال برقم 911, 811, …\"
+\"الاتصال برقم +44 7333 444 555\"
+\"إعادة الاتصال\"
+\"فتح التقويم\""</b></string>
+    <string name="title">Voice Dialer</string>
+    <string name="bluetooth_title">طالب صوت عبر Bluetooth</string>
+    <string name="initializing">يتم بدء التشغيل.</string>
+    <string name="listening">جارٍ الاستماع...</string>
+    <string name="please_try_again">يرجى إعادة المحاولة.</string>
+    <string name="failure">فشل</string>
+    <string name="recognition_error">يمكنك أيضًا تجربة إعادة تشغيل الهاتف.</string>
+    <string name="headset_connection_lost">تم فقد الاتصال بسماعة الرأس.</string>
+    <string name="at_home">" في المنزل"</string>
+    <string name="on_mobile">" على الهاتف المحمول"</string>
+    <string name="at_work">" في العمل"</string>
+    <string name="at_other">" في مكان آخر"</string>
+    <string name="logging_enabled">تم تمكين التسجيل في Voice Dialer.</string>
+    <string name="logging_disabled">تم تعطيل التسجيل في Voice Dialer.</string>
+    <string name="speak_now_tts">تحدث الآن.</string>
+    <string name="no_results_tts">لا توجد نتائج، أعد المحاولة.</string>
+    <string name="invalid_choice_tts">اختيار غير صالح.</string>
+    <string name="goodbye_tts">وداعا.</string>
+</resources>

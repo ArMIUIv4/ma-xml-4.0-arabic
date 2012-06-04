@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string-array name="download_filters">
+    <item>ﬂ· «· ‰“Ì·« </item>
+    <item>„ﬂ „·…</item>
+    <item> ‰“Ì·</item>
+  </string-array>
+  <string-array name="prefEntries_max_bytes_limit">
+    <item>10 „Ìﬁ« »«Ì </item>
+    <item>5 „Ìﬁ« »«Ì </item>
+    <item>2 „Ìﬁ« »«Ì </item>
+    <item>1 „Ìﬁ« »«Ì </item>
+    <item>500 ﬂÌ·Ê »«Ì </item>
+    <item>200 ﬂÌ·Ê »«Ì </item>
+    <item>100 ﬂÌ·Ê »«Ì </item>
+  </string-array>
+</resources>

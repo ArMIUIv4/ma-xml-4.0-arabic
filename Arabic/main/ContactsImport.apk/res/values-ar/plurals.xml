@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="spb_strings_export_contacts_exported_txt">
+        <item quantity="other">تم نسخ جهات الإتصال إحتياطيا</item>
+        <item quantity="one">تم نسخ جهة الإتصال إحتياطيا</item>
+    </plurals>
+</resources>

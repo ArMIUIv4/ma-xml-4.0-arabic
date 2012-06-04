@@ -1,17 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
   <string name="added_favorite">إضافة إلى المفضلة</string>
-  <string name="app_name">مستكشف الملفات</string>
+  <string name="app_name">متصفح الملفات</string>
   <string name="cancel">إلغاء</string>
   <string name="category_all">الكل</string>
   <string name="category_apk">تطبيقات</string>
   <string name="category_document">مستندات</string>
-  <string name="category_favorite">المفضلة</string>
-  <string name="category_music">صوتيات</string>
+  <string name="category_favorite">مفضلة</string>
+  <string name="category_music">موسيقى</string>
   <string name="category_other">متفرقات</string>
   <string name="category_picture">صور</string>
-  <string name="category_theme">الموضوعات</string>
-  <string name="category_video">فيديوهات</string>
+  <string name="category_theme">سمات</string>
+  <string name="category_video">فيديو</string>
   <string name="category_zip">ملفات مضغوطة</string>
   <string name="confirm">موافق</string>
   <string name="confirm_know">موافق</string>
@@ -50,7 +50,7 @@
   <string name="new_folder_name">مجلد جديد</string>
   <string name="no">لا</string>
   <string name="no_file">لا توجد ملفات</string>
-  <string name="no_wifi">اتوجد شبكة لاسلكية</string>
+  <string name="no_wifi">لاتوجد شبكة لاسلكية</string>
   <string name="notif_server_starting">بدأ خادم FTP</string>
   <string name="notif_title">خادم FTP</string>
   <string name="operation_cancel">إلغاء</string>
