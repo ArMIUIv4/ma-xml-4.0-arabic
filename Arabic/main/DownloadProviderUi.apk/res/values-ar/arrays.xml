@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
   <string-array name="download_filters">
-    <item>ία ΗαΚδÒναΗΚ</item>
-    <item>γίΚγαΙ</item>
-    <item>ΚδÒνα</item>
+    <item>ΩƒΩ„ Ψ§Ω„ΨªΩ†Ψ²ΩΩ„Ψ§Ψª</item>
+    <item>Ω…ΩƒΨªΩ…Ω„Ψ©</item>
+    <item>ΨªΩ†Ψ²ΩΩ„</item>
   </string-array>
   <string-array name="prefEntries_max_bytes_limit">
-    <item>10 γνήΗ ΘΗνΚ</item>
-    <item>5 γνήΗ ΘΗνΚ</item>
-    <item>2 γνήΗ ΘΗνΚ</item>
-    <item>1 γνήΗ ΘΗνΚ</item>
-    <item>500 ίναζ ΘΗνΚ</item>
-    <item>200 ίναζ ΘΗνΚ</item>
-    <item>100 ίναζ ΘΗνΚ</item>
+    <item>10 Ω…ΩΩ‚Ψ§ Ψ¨Ψ§ΩΨª</item>
+    <item>5 Ω…ΩΩ‚Ψ§ Ψ¨Ψ§ΩΨª</item>
+    <item>2 Ω…ΩΩ‚Ψ§ Ψ¨Ψ§ΩΨª</item>
+    <item>1 Ω…ΩΩ‚Ψ§ Ψ¨Ψ§ΩΨª</item>
+    <item>500 ΩƒΩΩ„Ω Ψ¨Ψ§ΩΨª</item>
+    <item>200 ΩƒΩΩ„Ω Ψ¨Ψ§ΩΨª</item>
+    <item>100 ΩƒΩΩ„Ω Ψ¨Ψ§ΩΨª</item>
   </string-array>
 </resources>

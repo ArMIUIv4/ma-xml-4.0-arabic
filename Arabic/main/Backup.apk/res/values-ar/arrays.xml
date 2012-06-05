@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string-array name="backup_dialog_content_type">
+    <item>بيانات WLAN</item>
+    <item>كل البرامج</item>
+  </string-array>
+  <string-array name="system_package_label">
+    <item>المتصفح</item>
+    <item>متصفح الملفات</item>
+    <item>المعرض</item>
+    <item>مدير الإذونات</item>
+    <item>الكاميرا</item>
+  </string-array>
+  <string-array name="system_data_label">
+    <item>جهات الإتصال</item>
+    <item>سجل المكالمات</item>
+    <item>الرسائل</item>
+    <item>رسائل الوسائط المتعددة</item>
+    <item>إعدادات النظام</item>
+    <item>إعدادات WLAN</item>
+    <item>تصميم سطح المكتب</item>
+    <item>إعدادات التنبية</item>
+    <item>الملاحظات</item>
+    <item>DND</item>
+    <item>الحساب</item>
+  </string-array>
+  <string-array name="app_type_desc">
+    <item>البيانات</item>
+    <item>البرامج</item>
+    <item>البرامج والبيانات</item>
+  </string-array>
+  <string-array name="cloud_data_label">
+    <item>جهات الإتصال</item>
+    <item>سجل المكالمات</item>
+    <item>الرسائل</item>
+    <item>إعدادات WLAN</item>
+    <item>الملاحظات</item>
+  </string-array>
+  <string-array name="cloud_account_data">
+    <item>جهات الإتصال</item>
+    <item>إعدادات WLAN</item>
+    <item>الملاحظات</item>
+  </string-array>
+  <string-array name="cloud_sim_data">
+    <item>سجل المكالمات</item>
+    <item>الرسائل</item>
+  </string-array>
+</resources>

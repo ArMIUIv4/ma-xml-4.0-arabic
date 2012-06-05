@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">الآلة ال</string>
+    <string name="app_name">الحاسبة</string>
     <string name="error">خطأ</string>
     <string name="digit0">0</string>
     <string name="digit1">1</string>
