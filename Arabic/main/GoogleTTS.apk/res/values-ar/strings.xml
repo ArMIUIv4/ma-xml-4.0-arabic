@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="license_activity_title">تراخيص البرامج مفتوحة المصدر</string>
+    <string name="license_activity_loading">جارٍ التحميل…</string>
+    <string name="license_activity_unavailable">حدثت مشكلة أثناء تحميل التراخيص.</string>
+</resources>

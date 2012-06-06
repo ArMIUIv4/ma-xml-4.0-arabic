@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="account_already_has_gmail">الحساب لديها بالفعل بريد Google</string>
+    <string name="doesnt_use_gmail">لا يستخدم بريد Google</string>
+    <string name="gls_login_activity_gmail_domain">Google بريد</string>
+</resources>
