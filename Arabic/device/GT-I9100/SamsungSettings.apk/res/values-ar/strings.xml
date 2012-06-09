@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="factory_settings">النصنع</string>
+    <string name="screen_mode_setting">وضع الشاشة</string>
+    <string name="screen_mode_summary">اختيار وضع الشاشة</string>
+    <string name="touch_key_light">مدة لمس مفتاح الضوء</string>
+    <string name="touch_key_light_summary">ضبط التأخير قبل لمس مفتاح ضوء إيقاف تشغيل تلقائيا</string>
+    <string name="display_saving">ضبط تلقائي لطاقة الشاشة</string>
+    <string name="display_saving_mode_summary">توفير الطاقة من خلال تحليل الصور وتعديل سطوع LCD</string>
+    <string name="a_sensor_title">معايرة أفقية</string>
+    <string name="a_sensor_summary">معايرة أفقيا بشكل صحيح باستخدام التسارع</string>
+    <string name="g_sensor_title">معايرة نطاق الدوران</string>
+    <string name="g_sensor_summary">معايرة الحركة بشكل صحيح باستخدام نطاق الدوران</string>
+</resources>

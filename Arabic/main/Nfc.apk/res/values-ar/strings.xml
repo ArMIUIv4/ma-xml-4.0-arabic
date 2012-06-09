@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">خدمة NFC</string>
+    <string name="nfcUserLabel">Nfc</string>
+    <string name="inbound_me_profile_title">تم استلام جهة اتصال عبر NFC</string>
+    <string name="inbound_me_profile_text">انقر لإضافة هذا الشخص كجهة اتصال</string>
+    <string name="outbound_me_profile_title">اكتمل تفاعل NFC</string>
+    <string name="outbound_me_profile_text">انقر لمنح هذا الشخص معلومات اتصالك</string>
+    <string name="accessibility_nfc_enabled">تم تمكين NFC.</string>
+    <string name="touch">المس لرسم شعاع</string>
+</resources>

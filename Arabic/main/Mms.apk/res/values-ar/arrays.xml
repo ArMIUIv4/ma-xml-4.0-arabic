@@ -1,0 +1,99 @@
+<?xml version="1.0"?>
+<resources>
+  <string-array name="default_smiley_texts">
+    <item>:-)</item>
+    <item>:-(</item>
+    <item>;-)</item>
+    <item>:-P</item>
+    <item>=-O</item>
+    <item>:-*</item>
+    <item>:O</item>
+    <item>B-)</item>
+    <item>:-$</item>
+    <item>:-!</item>
+    <item>:-[</item>
+    <item>O:-)</item>
+    <item>:-\\</item>
+    <item>":'("</item>
+    <item>:-X</item>
+    <item>:-D</item>
+    <item>o_O</item>
+    <item>&amp;lt;3</item>
+    <item>x-(</item>
+    <item>:-/</item>
+    <item>:-I</item>
+  </string-array>
+  <string-array name="default_smiley_names">
+    <item>سعيد</item>
+    <item>حزين</item>
+    <item>يغمز</item>
+    <item>لسان متدلي</item>
+    <item>مندهش</item>
+    <item>تقبيل</item>
+    <item>يصرخ</item>
+    <item>رائع</item>
+    <item>فم به نقود</item>
+    <item>يسكت الفم</item>
+    <item>مُحرج</item>
+    <item>ملاك</item>
+    <item>غير مقرر</item>
+    <item>يبكي</item>
+    <item>الشفاه مغلقة</item>
+    <item>يضحك</item>
+    <item>مرتبك</item>
+    <item>قلب</item>
+    <item>مجنون</item>
+    <item>مبتسم بتكلف</item>
+    <item>وجه جامد</item>
+  </string-array>
+  <string-array name="prefEntries_ringtone_repeat">
+    <item>مرة</item>
+    <item>مرتين</item>
+    <item>ثلاث مرات</item>
+    <item>خمس مرات</item>
+    <item>عشر مرات</item>
+  </string-array>
+  <string-array name="prefValues_ringtone_repeat">
+    <item>1</item>
+    <item>2</item>
+    <item>3</item>
+    <item>5</item>
+    <item>10</item>
+  </string-array>
+  <string-array name="contact_entries">
+    <item>Name</item>
+    <item>Nickname</item>
+    <item>Phone</item>
+    <item>E-mail</item>
+    <item>Organization</item>
+    <item>IM</item>
+    <item>SIP Phone</item>
+    <item>Birthday</item>
+    <item>Website</item>
+    <item>Address</item>
+    <item>Note</item>
+  </string-array>
+  <string-array name="select_dialog_items">
+    <item>ثانية واحدة</item>
+    <item>2 ثانية</item>
+    <item>3 ثوانٍ</item>
+    <item>4 ثوانٍ</item>
+    <item>5 ثوانٍ</item>
+    <item>6 ثوانٍ</item>
+    <item>7 ثوانٍ</item>
+    <item>8 ثوانٍ</item>
+    <item>9 ثوانٍ</item>
+    <item>10 ثوانٍ</item>
+    <item>آخر…</item>
+  </string-array>
+  <string-array name="prefEntries_vibrateWhen">
+    <item>دومًا</item>
+    <item>فقط عندما يكون صامتًا</item>
+    <item>مطلقًا</item>
+  </string-array>
+  <string-array name="prefValues_vibrateWhen">
+    <item>دومًا</item>
+    <item>صامت</item>
+    <item>مطلقًا</item>
+  </string-array>
+</resources>

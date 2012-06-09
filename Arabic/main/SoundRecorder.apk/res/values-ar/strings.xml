@@ -1,48 +1,51 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="alert_message_delete_record">هل تريد حذف التسجيل المحدد؟</string>
-  <string name="app_name">مسجل الصوت</string>
-  <string name="audio_db_album_name">التسجيلات الصوتية</string>
-  <string name="audio_db_artist_name">تسجيلاتك</string>
-  <string name="audio_db_playlist_name">تسجيلاتي</string>
-  <string name="audio_db_title_format">yyyy-MM-dd HH:mm:ss</string>
-  <string name="button_ok">نعم</string>
-  <string name="call_record">تسجيل المكالمات</string>
-  <string name="call_record_or">أو</string>
-  <string name="default_record_name">تسجيل بلا عنوان</string>
-  <string name="delete_dialog_title">هل تريد حذف التسجيل الحالي؟</string>
-  <string name="dialog_delete">حذف</string>
-  <string name="dialog_play">تشغيل</string>
-  <string name="dialog_send">إرسال</string>
-  <string name="error_app_internal">خطأ تطبيق داخلي</string>
-  <string name="error_mediadb_new_record">غير قادر على حفظ الصوت المسجل</string>
-  <string name="error_sdcard_access">تعذر الوصول إلى التخزين الخارجي أو الداخلي</string>
-  <string formatted="false" name="hour">%d ساعة</string>
-  <string name="insert_sd_card">بطاقة SD مطلوبة</string>
-  <string name="mark_now">(الحالي)</string>
-  <string name="max_length_reached">بلغ المدة القصوى</string>
-  <string name="menu_setting">إعدادات</string>
-  <string name="menu_view_record_list">عرض قائمة التسجيل</string>
-  <string formatted="false" name="minute">%d دقيقة</string>
-  <string name="no_file">لايوجد تسجيلات</string>
-  <string name="notification_recording">التسجيل...</string>
-  <string name="notification_stopped">التسجيل توقف</string>
-  <string formatted="false" name="notification_warning">منخفض التخزين(أقل من %d دقيقة)...</string>
-  <string name="open_file_explorer">فتح متصفح الملفات</string>
-  <string formatted="false" name="overwrite_dialog_title">%s موجود مسبقا. هل تريد الكتابة عليه؟</string>
-  <string name="prefDefault_recordType">audio/3gpp</string>
-  <string name="prefDialogTitle_recordType">يرجى تحديد نوع الملف</string>
-  <string name="pref_summary_enable_high_quality">ملف الصوت ذات الجودة العالية يمكن أن تكون كبيرة</string>
-  <string name="pref_summary_enable_sound_effect">تشغيل تأثير الصوت عندما يتم تغيير الحالة</string>
-  <string name="pref_title_enable_high_quality">تمكين الجودة العالية</string>
-  <string name="pref_title_enable_sound_effect">تمكين تأثير الصوت</string>
-  <string name="pref_title_record_type">نوع ملف التسجيل</string>
-  <string name="preferences_title">إعدادات</string>
-  <string name="record_list">قائمة التسجيل</string>
+  <string name="app_name">المسجل</string>
   <string name="recording">تسجيل</string>
   <string name="recording_stopped">توقف التسجيل</string>
-  <string name="sd_card_not_available">بطاقة SD غير متوفر</string>
-  <string formatted="false" name="second">%d ثانية</string>
   <string name="storage_is_full">التخزين ممتلئ</string>
+  <string name="max_length_reached">بلغ المدة القصوى</string>
+  <string name="insert_sd_card">بطاقة SD مطلوبة</string>
+  <string name="button_ok">نعم</string>
   <string formatted="false" name="timer_format">%02d:%02d</string>
+  <string name="audio_db_title_format">yyyy-MM-dd HH:mm:ss</string>
+  <string name="audio_db_artist_name">تسجيلاتك</string>
+  <string name="audio_db_album_name">التسجيلات الصوتية</string>
+  <string name="audio_db_playlist_name">تسجيلاتي</string>
+  <string name="error_sdcard_access">تعذر الوصول إلى التخزين الخارجي أو الداخلي</string>
+  <string name="error_app_internal">خطأ تطبيق داخلي</string>
+  <string name="error_mediadb_new_record">غير قادر على حفظ الصوت المسجل</string>
+  <string name="default_record_name">تسجيل بلا عنوان</string>
+  <string name="menu_view_record_list">عرض قائمة التسجيل</string>
+  <string name="menu_setting">إعدادات</string>
+  <string name="delete_dialog_message">هل تريد حذف التسجيل الحالي؟</string>
+  <string name="overwrite_dialog_message">%s موجود بالفعل. هل ترغب في إستبداله؟</string>
+  <string name="preferences_title">إعدادات</string>
+  <string name="pref_title_record_type">نوع ملف التسجيل</string>
+  <string name="prefDialogTitle_recordType">يرجى تحديد نوع الملف</string>
+  <string name="prefDefault_recordType">audio/3gpp</string>
+  <string name="pref_title_enable_high_quality">تمكين الجودة العالية</string>
+  <string name="pref_summary_enable_high_quality">ملف الصوت ذات الجودة العالية يمكن أن تكون كبيرة</string>
+  <string name="pref_title_enable_sound_effect">تمكين تأثير الصوت</string>
+  <string name="pref_summary_enable_sound_effect">تشغيل تأثير الصوت عندما يتم تغيير الحالة</string>
+  <string name="notification_recording">التسجيل...</string>
+  <string name="notification_stopped">التسجيل توقف</string>
+  <string name="notification_warning">منخفض التخزين(أقل من %d دقيقة)...</string>
+  <string name="record_list">قائمة التسجيل</string>
+  <string name="sd_card_not_available">بطاقة SD غير متوفر</string>
+  <string name="call_record">تسجيل المكالمات</string>
+  <string name="open_file_explorer">فتح متصفح الملفات</string>
+  <string name="no_file">لايوجد تسجيلات</string>
+  <string name="mark_now">(الحالي)</string>
+  <string name="second">%d ثانية</string>
+  <string name="minute">%d دقيقة</string>
+  <string name="hour">%d ساعة</string>
+  <string name="call_record_or">أو</string>
+  <string name="dialog_play">تشغيل</string>
+  <string name="dialog_send">إرسال</string>
+  <string name="dialog_delete">حذف</string>
+  <string name="dialog_warning">تحذير</string>
+  <string name="alert_message_delete_record">هل تريد حذف التسجيل المحدد؟</string>
+  <string name="delete_dialog_title">هل تريد حذف التسجيل الحالي؟</string>
+  <string name="overwrite_dialog_title">%s موجود بالفعل. هل ترغب في إستبداله؟</string>
 </resources>

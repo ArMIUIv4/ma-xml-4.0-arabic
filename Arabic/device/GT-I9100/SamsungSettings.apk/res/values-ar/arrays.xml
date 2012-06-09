@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="touch_key_light_entries">
+        <item>1.5 ثانية</item>
+        <item>6 ثوان</item>
+        <item>إيقاف دائما</item>
+        <item>تشغيل دائما</item>
+    </string-array>
+    <string-array name="screen_mode_entries">
+        <item>ديناميكي</item>
+        <item>قياسي</item>
+        <item>أفلام</item>
+    </string-array>
+</resources>

@@ -83,9 +83,9 @@
   <string name="task_restore_none">لا تحتاج الى استعادة</string>
   <string name="task_stopped_exception">المهمة احبطت</string>
   <string name="sdcard_no_enough_space">لاتوجد مساحة حرة كافية على بطاقة SD</string>
-  <string name="sdcard_no_enough_space_warning">مساحة بطاقة SD منخفضة, النسخ الاحتياطي قد يفشل, هل أنت متأكد أنك تريد الاستمرار؟</string>
+  <string name="sdcard_no_enough_space_message">قد يفشل النسخ الاحتياطي، يرجى تحرير بعض تخزين بطاقة SD وحاول مرة أخرى</string>
   <string name="data_no_enough_space">مساحة التخزين الداخلي لاتكفي, حرر بعض المساحة وحاول مرة أخرى</string>
-  <string name="data_no_enough_space_warning">سعة التخزين الداخلي أقل من 30ميقابايت حرة، الاستعادة قد تفشل، هل أنت متأكد من أنك تريد المتابعة؟</string>
+  <string name="data_no_enough_space_message">الاستعادة قد تفشل، يرجى مسح بعض التخزين الداخلي وحاول مرة أخرى</string>
   <string name="task_running_hint">الخدمة قيد التشغيل في الخلفية، الرجاء إعادة المحاولة لاستعادة النسخة الاحتياطية هذه!</string>
   <string name="task_running_dialog">بيانات خلفية النسخ الاحتياطي والاسترداد قيد التنفيذ، اضغط موافق لعرضها</string>
   <string name="task_service_not_launched">لم يتم تشغيل الخدمة، الرجاء الانتظار!</string>
@@ -169,5 +169,7 @@
   <string name="auto_backup_interval_max">30 يوما</string>
   <string name="auto_backup_interval_min">يوميا</string>
   <string name="auto_backup_setting_title">إعدادات النسخ الاحتياطي التلقائي</string>
+  <string name="data_no_enough_space_warning">سعة التخزين الداخلي أقل من 30ميقابايت حرة، الاستعادة قد تفشل، هل أنت متأكد من أنك تريد المتابعة؟</string>
   <string name="delete_backup">حذف النسخ الاحتياطي</string>
+  <string name="sdcard_no_enough_space_warning">مساحة بطاقة SD منخفضة, النسخ الاحتياطي قد يفشل, هل أنت متأكد أنك تريد الاستمرار؟</string>
 </resources>

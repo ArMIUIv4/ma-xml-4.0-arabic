@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="huawei_settings">المصنع</string>
+    <string name="fast_power_on_title">إقلاع سريع</string>
+    <string name="fast_power_on_summary">تشغيل لتسريع تشغيل الطاقة</string>
+</resources>
