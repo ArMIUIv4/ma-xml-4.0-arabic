@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string-array name="traffic_sort_type">
+    <item>ترتيب حسب الأسم</item>
+    <item>ترتيب حسب حركة بيانات 2G/3G</item>
+    <item>ترتيب حسب مجموع حركة البيانات</item>
+  </string-array>
+  <string-array name="date_of_traffic">
+    <item>حركة البيانات من الأمس</item>
+    <item>حركة البيانات من اليوم</item>
+    <item>حركة البيانات هذا الشهر</item>
+  </string-array>
+</resources>
