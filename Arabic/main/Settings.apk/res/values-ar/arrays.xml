@@ -312,9 +312,9 @@
     <item>ترك القرار للنظام</item>
   </string-array>
   <string-array name="app_install_location_values">
-    <item>device</item>
-    <item>sdcard</item>
-    <item>auto</item>
+    <item>جهاز</item>
+    <item>sdبطاقة</item>
+    <item>تلقائي</item>
   </string-array>
   <string-array name="silent_mode_entries">
     <item>إيقاف</item>
@@ -322,9 +322,9 @@
     <item>صامت</item>
   </string-array>
   <string-array name="silent_mode_values">
-    <item>off</item>
-    <item>vibrate</item>
-    <item>mute</item>
+    <item>إيقاف</item>
+    <item>إهتزاز</item>
+    <item>صامت</item>
   </string-array>
   <string-array name="long_press_timeout_selector_titles">
     <item>قصيرة</item>
@@ -342,9 +342,9 @@
     <item>التحقق دومًا</item>
   </string-array>
   <string-array name="hdcp_checking_values">
-    <item>never</item>
-    <item>drm-only</item>
-    <item>always</item>
+    <item>مطلقا</item>
+    <item>DRM فقط</item>
+    <item>دائما</item>
   </string-array>
   <string-array name="hdcp_checking_summaries">
     <item>عدم استخدام التحقق من HDCP مطلقًا</item>
@@ -537,4 +537,12 @@
     <item>@string/wifi_security_wapi_psk_ascii</item>
     <item>@string/wifi_security_wapi_psk_hexadecimal</item>
   </array>
+  <string-array name="button_light_timeout_entries">
+    <item>ثانية</item>
+    <item>ثانيتين</item>
+    <item>5 ثواني</item>
+    <item>10 ثواني</item>
+    <item>20 ثانية</item>
+    <item>دائما</item>
+  </string-array>
 </resources>

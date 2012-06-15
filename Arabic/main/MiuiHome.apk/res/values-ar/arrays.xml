@@ -22,4 +22,29 @@
     <item>يسار</item>
     <item>يمين</item>
   </string-array>
+  <string-array name="gadget_weather_image">
+    <item>صافي</item>
+    <item>غائم</item>
+    <item>Yin</item>
+    <item>ضباب</item>
+    <item>أمطار سيول</item>
+    <item>عاصفة</item>
+    <item>عاصفة ممطرة</item>
+    <item>عاصفة رعدية</item>
+    <item>زخات مطر</item>
+    <item>أمطار غزيزة</item>
+    <item>أمطار معتدلة</item>
+    <item>رش</item>
+    <item>ثلجي</item>
+    <item>عاصفة ثلجية</item>
+    <item>أمطار ثلجية</item>
+    <item>ثلج</item>
+    <item>ثلوج خفيفة</item>
+    <item>ثلوج</item>
+    <item>عاصفة رملية ثقيلة</item>
+    <item>عاصفة رملية</item>
+    <item>مغبر ورطب</item>
+    <item>Jansa</item>
+    <item>عاصفة برد</item>
+    </string-array>
 </resources>

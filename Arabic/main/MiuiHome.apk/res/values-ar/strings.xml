@@ -104,4 +104,8 @@
   <string name="photo_confirm">تأكيد</string>
   <string name="photo_load_failed">فشل في تحميل الصورة!</string>
   <string name="install_body_format">تثبيت التطبيق  \"%s\"?</string>
+  <string name="gadget_weather_loading">لا توجد بيانات الطقس</string>
+  <string name="gadget_weather_title_14">الطقس 1x4</string>
+  <string name="gadget_weather_title_24">الطقس 2x4</string>
+  <string name="gadget_weather_to">إلى</string>
 </resources>

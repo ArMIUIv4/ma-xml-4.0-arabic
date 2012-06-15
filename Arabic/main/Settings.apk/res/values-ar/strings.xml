@@ -1666,4 +1666,8 @@
   <string name="zone_auto_summaryOn">استخدام المنطقة الزمنية للشبكة</string>
   <string name="zone_list_menu_sort_alphabetically">التصنيف أبجديًا</string>
   <string name="zone_list_menu_sort_by_timezone">تصنيف بحسب المنطقة الزمنية</string>
+  <string name="usage_log">حالة استخدام التطبيقات</string>
+  <string name="usb_msd_summary">نقل الملفات على ويندوز وماك</string>
+  <string name="usb_msd_title">تخزين USB كبير السعة</string>
+  <string name="button_light_timeout">إعدادات ضوء الأزرار</string>
 </resources>
