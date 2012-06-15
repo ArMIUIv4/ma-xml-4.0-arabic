@@ -323,12 +323,12 @@
   <string name="postal_postcode">الرمز البريدي</string>
   <string name="postal_country">البلد</string>
   <string name="full_name">الاسم</string>
-  <string name="name_given">الاسم الممنوح</string>
+  <string name="name_given">الاسم الأول</string>
   <string name="name_family">اسم العائلة</string>
   <string name="name_prefix">بادئة الاسم</string>
   <string name="name_middle">الاسم الأوسط</string>
   <string name="name_suffix">لاحقة الاسم</string>
-  <string name="name_phonetic_given">الاسم الصوتي الممنوح</string>
+  <string name="name_phonetic_given">الاسم الصوتي الاول</string>
   <string name="name_phonetic_middle">الاسم الصوتي الأوسط</string>
   <string name="name_phonetic_family">اسم الأسرة الصوتي</string>
   <string name="name_phonetic">الاسم</string>
@@ -342,10 +342,10 @@
   <string name="no_contact_details">ليس هناك معلومات إضافية لجهة الاتصال هذه</string>
   <string name="group_read_only">غير قابلة للتعديل على هذا الجهاز</string>
   <string name="display_options_sort_list_by">تصنيف القائمة بحسب</string>
-  <string name="display_options_sort_by_given_name">الاسم الممنوح</string>
+  <string name="display_options_sort_by_given_name">الاسم الاول</string>
   <string name="display_options_sort_by_family_name">اسم العائلة</string>
   <string name="display_options_view_names_as">عرض أسماء جهات الاتصال كـ</string>
-  <string name="display_options_view_given_name_first">الاسم الممنوح أولاً</string>
+  <string name="display_options_view_given_name_first">الاسم الاول اولاً</string>
   <string name="display_options_view_family_name_first">الاسم العائلة أولاً</string>
   <string name="search_bar_hint">البحث في جهات الاتصال</string>
   <string name="take_photo">التقاط صورة</string>

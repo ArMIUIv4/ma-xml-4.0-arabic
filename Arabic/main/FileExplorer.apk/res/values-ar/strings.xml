@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
   <string name="added_favorite">إضافة إلى المفضلة</string>
-  <string name="app_name">متصفح الملفات</string>
+  <string name="app_name">المستعرض</string>
   <string name="cancel">إلغاء</string>
   <string name="category_all">الكل</string>
   <string name="category_apk">تطبيقات</string>
