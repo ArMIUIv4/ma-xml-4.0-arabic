@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">حالة MIUI</string>
+    <string name="main_title">استخدام بيانات المجهولة</string>
+    <string name="main_desc">إشتراك في تقديم إستخدام بيانات مجهولة للسماح لمطورين MIUI Android لتعقب عمليات التثبيت الفريدة عبرالأجهزة. المعلومات المقدمة تتضمن المعرف الفريد, الذي لا يخترق خصوصيتك, نوع جهازك ومعلومات الإصدار. البيانات ستقدم مع كل تشغيل للجهاز, للاطلاع على مثال عن البيانات التي يتم إرسالها ,الرجاء أضغط على معاينة أدناه.</string>
+    <string name="main_optin">تمكين الإبلاغ</string>
+    <string name="main_btn_preview">معاينة البيانات</string>
+    <string name="main_btn_save">حفظ التفضيل</string>
+    <string name="main_show_stats">عرض الحالة</string>
+    <string name="preview_id_lbl">المعرف الفريد</string>
+    <string name="preview_device_lbl">الجهاز</string>
+    <string name="preview_version_lbl">نسخة MIUI</string>
+    <string name="preview_done_btn">تم</string>
+    <string name="preview_country_lbl">المنطقة</string>
+    <string name="preview_carrier_lbl">المشغل</string>
+    <string name="preview_android_lbl">Android إصدار</string>
+    <string name="preview_language_lbl">اللغة</string>
+    <string name="notification_ticker">الإحصاءات المختارة</string>
+    <string name="notification_title">احصائيات MIUIAndroid</string>
+    <string name="notification_desc">تمكين أو تعطيل الاحصائيات المجهولة</string>
+    <string name="main_link">&lt;a href=http://miuiandroid.com/miui-stats-opt-in-information/>معرفة المزيد&lt;/a></string>
+</resources>
