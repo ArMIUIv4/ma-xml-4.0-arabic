@@ -64,4 +64,12 @@
   <string name="title_local">محلي</string>
   <string name="title_online">خارجي</string>
   <string name="wallpaper_settings">إعدادات الخلفية</string>
+  <string name="close">إغلاق</string>
+  <string name="download_success">نجح التنزيل</string>
+  <string name="resource_preview">عرض</string>
+  <string name="wallpaper_decoded_error">فشل في الفك!</string>
+  <string name="wallpaper_loading_text">تحميل…</string>
+  <string name="wallpaper_set_as_both">تعيين كلاهما</string>
+  <string name="wallpaper_set_as_destop">تعيين كخلفية</string>
+  <string name="wallpaper_set_as_lockscreen">تعيين كقفل الشاشة</string>
 </resources>

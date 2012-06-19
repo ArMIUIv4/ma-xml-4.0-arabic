@@ -114,4 +114,6 @@
   <string name="save_button">حفظ</string>
   <string name="show_firewall_notification">إظهار إشعارات جدار الحماية</string>
   <string name="show_notification">إظهار الإشعارات</string>
+  <string name="close_rule">تعطيل القاعدة</string>
+  <string name="fw_log_inf">سجل جدار الحماية</string>
 </resources>

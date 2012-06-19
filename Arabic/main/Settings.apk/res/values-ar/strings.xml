@@ -1670,4 +1670,11 @@
   <string name="usb_msd_summary">نقل الملفات على ويندوز وماك</string>
   <string name="usb_msd_title">تخزين USB كبير السعة</string>
   <string name="button_light_timeout">إعدادات ضوء الأزرار</string>
+  <string name="screen_button_custom">تخصيص موقع مفتاح الشاشة</string>
+  <string name="screen_button_key">مفاتيح الشاشة الوهمية</string>
+  <string name="volume_bluetooth_description">صوت البلوتوث</string>
+  <string name="volume_restore">استعادة حجم الصوت</string>
+  <string name="volume_restore_alert">سيتم إرجاع كافة الإعدادات إلى حجم الصوت الافتراضي، هل أنت متأكد؟</string>
+  <string name="volume_system_description">حجم الصوت النظام, لقفل الكاميرا, قفل الشاشة والإشعارات الأخرى للنظام</string>
+  <string name="volume_voice_description">حجم الصوت</string>
 </resources>

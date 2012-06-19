@@ -108,4 +108,5 @@
   <string name="gadget_weather_title_14">الطقس 1x4</string>
   <string name="gadget_weather_title_24">الطقس 2x4</string>
   <string name="gadget_weather_to">إلى</string>
+  <string name="gadget_weather_app_not_installed">تطبيق طقس MIUI غير مثبت</string>
 </resources>

@@ -484,7 +484,7 @@
   <string name="voicemail_settings_for">إعدادات \"%s\"</string>
   <string name="other_settings">إعدادات الاتصال الأخرى</string>
   <string name="dial_button_label">طلب</string>
-  <string name="calling_via_template">"Calling via ^1
+  <string name="calling_via_template">"اتص
 "</string>
   <string name="slide_to_answer">اسحب لليسار للإجابة</string>
   <string name="slide_to_silence">اسحب لليمين لجعل الرنين صامتًا</string>
@@ -589,12 +589,12 @@
   <string name="sip_address_only">SIP_ADDRESS_ONLY</string>
   <string name="sip_ask_me_each_time">SIP_ASK_ME_EACH_TIME</string>
   <string name="domain_address">SipDomain</string>
-  <string name="username">Username</string>
-  <string name="password">Password</string>
-  <string name="display_name">DisplayName</string>
-  <string name="proxy_address">ProxyAddress</string>
-  <string name="port">Port</string>
-  <string name="transport">Protocol</string>
+  <string name="username">اسم المستخدم</string>
+  <string name="password">كلمة المرور</string>
+  <string name="display_name">اسم العرض</string>
+  <string name="proxy_address">عنوان الوكيل</string>
+  <string name="port">المنفذ</string>
+  <string name="transport">البروتوكول</string>
   <string name="send_keepalive">SendKeepAlive</string>
   <string name="auto_registration">AutoRegistration</string>
   <string name="set_primary">SetPrimary</string>
@@ -631,15 +631,15 @@
   <string name="description_target_answer">رد</string>
   <string name="description_target_send_sms">إرسال رسائل قصيرة SMS</string>
   <string name="description_target_decline">رفض</string>
-  <string name="voicemail_notification_vibrate_when_title">Vibrate</string>
-  <string name="voicemail_notification_vibarte_when_dialog_title">Vibrate</string>
-  <string name="voicemail_notification_vibrate_when_default">never</string>
+  <string name="voicemail_notification_vibrate_when_title">هزاز</string>
+  <string name="voicemail_notification_vibarte_when_dialog_title">هزاز</string>
+  <string name="voicemail_notification_vibrate_when_default">مطلقا</string>
   <string name="add_button_miui">إضافة</string>
-  <string name="always_enable_mms_miui">Always receive MMS</string>
+  <string name="always_enable_mms_miui">استقبال MMS دائما</string>
   <string name="always_enable_mms_summary_miui">Always receive MMS even when data is disabled</string>
-  <string name="answer_and_hangup_miui">Hangup and answer</string>
-  <string name="answer_features_setting_category_miui">Answer settings</string>
-  <string name="answer_miui">Answer</string>
+  <string name="answer_and_hangup_miui">اغلاق الخط والرد</string>
+  <string name="answer_features_setting_category_miui">إعدادات الرد</string>
+  <string name="answer_miui">الرد</string>
   <string name="answer_widget_dialog_title_miui">Select your answer gesture</string>
   <string name="answer_widget_sliding_horizontal_miui">Horizontal sliding</string>
   <string name="answer_widget_sliding_vertical_miui">Vertical sliding</string>
@@ -652,8 +652,8 @@
   <string name="auto_answer_delay_entries_immediately_miui">0s</string>
   <string name="auto_answer_delay_title_miui">Delay for auto answer</string>
   <string name="auto_answer_pref_summary_miui">Answer calls automatically</string>
-  <string name="auto_answer_pref_title_miui">Auto answer</string>
-  <string name="auto_answer_scenario_enteries_always_miui">Always</string>
+  <string name="auto_answer_pref_title_miui">رد تلقائي</string>
+  <string name="auto_answer_scenario_enteries_always_miui">دائما</string>
   <string name="auto_answer_scenario_enteries_bluetooth_only_miui">Bluetooth connected only</string>
   <string name="auto_answer_scenario_enteries_headset_bluetooth_miui">Headset or bluetooth connected</string>
   <string name="auto_answer_scenario_enteries_headset_only_miui">Headset connected only</string>
@@ -662,7 +662,7 @@
   <string name="auto_country_code_miui">Auto-add the country code</string>
   <string name="auto_country_code_sum_miui">Auto-add the country code befor the phone number of known contacts, the number with country code will be dailed directly.</string>
   <string name="autoip_miui">Auto IP dialing</string>
-  <string name="auto_ip_setting_miui">Automatic IP settings</string>
+  <string name="auto_ip_setting_miui">إعدادات IP التلقائية</string>
   <string name="autoip_sum_miui">Add IP prefix to a foreign number. Enter current area code below.</string>
   <string name="auto_record_call_summary_miui">Start recording while the call is connected, and save it to folder MIUI/sound_recorder/call_rec of SD card</string>
   <string name="auto_record_call_title_miui">Record automatically</string>
@@ -677,10 +677,10 @@
   <string name="call_assistant_miui">Dialing assistant</string>
   <string name="caller_id_sum_miui">Hide/show my number for outgoing calls (if network support)</string>
   <string name="caller_id_title_miui">Caller ID</string>
-  <string name="caller_manage_manage_done_text_miui">Back to call</string>
+  <string name="caller_manage_manage_done_text_miui">العودة للمكالمة</string>
   <string name="call_forwarding_number_hint_miui">Enter the number to forward to</string>
   <string name="call_forwarding_settings_miui">Call forwarding settings</string>
-  <string name="calling_via_template_miui">"Calling via ^1
+  <string name="calling_via_template_miui">"إتصال عبر ^1
 "</string>
   <string name="call_log_number_limit_miui">Call log quantity restrictions</string>
   <string name="call_log_number_limit_summary_miui">Limit the storage amount of call log to ensure efficiency</string>
@@ -1075,4 +1075,23 @@ Attempts Remaining :"</string>
   <string name="xdivert_sub_absent">Both subscriptions should be activated to process X-Divert</string>
   <string name="xdivert_summary">CFNRc Settings</string>
   <string name="xdivert_title">X-Divert</string>
+  <string name="answer_state_setting_summary">Settings of flip mute, proximity sensor, etc.</string>
+  <string name="answer_state_setting_title">Incoming call status settings</string>
+  <string name="answer_state_setting_title_miui">Incoming call status settings</string>
+  <string name="auto_answer_summary_delay">(delay:%ss)</string>
+  <string name="auto_answer_summary_not_enabled">Not enabled</string>
+  <string name="auto_ip_summary_not_enabled">Not enabled</string>
+  <string name="call_log_number_limit_setting_switcher">Restrictions</string>
+  <string name="call_log_number_limit_setting_switcher_summary">Limit storage capacity of call log to ensure efficiency</string>
+  <string name="call_log_number_limit_setting_title">Call log storage Settings</string>
+  <string name="call_waiting_tone_stop_summary">(Press the volume key can stop the tone manually)</string>
+  <string name="cdma_display_precise_call_state_message_miui">If your operator does not support this, the call state will be incorrect when this switch is opened. Are you sure you want to open it?</string>
+  <string name="cdma_display_precise_call_state_summary_miui">CDMA call timer is restricted by the network operator. If the local operator supports, call state can be shown precisely.</string>
+  <string name="cdma_display_precise_call_state_title_miui">Display precise call state</string>
+  <string name="incall_screen_background_summary_miui">"Use lockscreen wallpaper when there's no avatar"</string>
+  <string name="incall_screen_background_title_miui">In call screen background</string>
+  <string name="reject_via_sms_miui">Reject via SMS</string>
+  <string name="reject_via_sms_summary_miui">Set the SMS sent to the caller when call is rejected</string>
+  <string name="reject_via_sms_title_miui">Reject via SMS Settings</string>
+  <string name="turnover_mute_summary_miui">Flip to silence while the phone placed horizontally</string>
 </resources>

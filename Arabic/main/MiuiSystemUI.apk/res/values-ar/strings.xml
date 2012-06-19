@@ -250,4 +250,16 @@
   <string name="user_guide_for_notification">تلقيت إشعارا جديدا، يمكنك سحبه أسفل شريط المعلومات لمشاهدة التفاصيل</string>
   <string name="user_guide_for_toggle">تمرير قائمة التبديل أفقيا</string>
   <string name="user_guide_for_toggle_list">أضغط لتخصيص قائمة التبديل</string>
+  <string name="key_position_custom">موقع المفتاح المخصص</string>
+  <string name="notifications_off_text">اضغط هنا لتشغيل الإشعارات مرة أخرى.</string>
+  <string name="notifications_off_title">الإشعارات معطلة</string>
+  <string name="recent_apps_key">مفتاح التطبيقات الأخيرة</string>
+  <string name="recent_apps_key_show">إظهار مفتاح التطبيقات الأخيرة</string>
+  <string name="screen_button_custom">تخصيص موقع مفتاح الشاشة</string>
+  <string name="screen_key_back">مفتاح الرجوع</string>
+  <string name="screen_key_home">مفتاح الرئيسية</string>
+  <string name="screen_key_menu">مفتاح القائمة</string>
+  <string name="screen_key_recent_apps">مفتاح التطبيقات الأخيرة</string>
+  <string name="settings_show_network_speed">إظهار سرعة الشبكة</string>
+  <string name="toast_rotation_locked">تم تأمين الشاشة حاليا في الاتجاه الأفقي.</string>
 </resources>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="app_name">أدوات بطاقة SIM</string>
+  <string name="app_name">أدوات SIM</string>
   <string name="menu_end_session">إنهاء الجلسة</string>
   <string name="help">مساعدة</string>
   <string name="menu_back">رجوع</string>
