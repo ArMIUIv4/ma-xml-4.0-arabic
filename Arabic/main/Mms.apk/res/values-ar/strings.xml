@@ -440,4 +440,7 @@
   <string name="wap_push_title">"[WAP Push] "</string>
   <string name="will_send_at">سيتم الإرسال في: %s</string>
   <string name="yes">موافق</string>
+  <string name="dialog_title_date_type">اختيار نوع تاريخ الرسالة</string>
+  <string name="summary_date_type">الطابع الزمني للرسالة</string>
+  <string name="title_date_type">الطابع الزمني للرسالة</string>
 </resources>

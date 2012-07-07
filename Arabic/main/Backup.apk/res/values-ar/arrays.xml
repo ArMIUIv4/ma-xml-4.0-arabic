@@ -10,6 +10,7 @@
     <item>المعرض</item>
     <item>مدير الإذونات</item>
     <item>الكاميرا</item>
+    <item>المراقبة</item>
   </string-array>
   <string-array name="system_data_label">
     <item>جهات الإتصال</item>

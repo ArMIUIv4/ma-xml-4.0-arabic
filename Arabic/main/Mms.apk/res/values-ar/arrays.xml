@@ -96,4 +96,17 @@
     <item>صامت</item>
     <item>مطلقًا</item>
   </string-array>
+  <string-array name="entries_date_type">
+        <item>إظهار وقت الإستقبال</item>
+        <item>إظهار وقت الإرسال (يستخدم وقت الخادم)</item>
+    </string-array>
+    <string-array name="entryvalues_date_type">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="prefValues_vibrateWhen">
+        <item>دومًا</item>
+        <item>صامت</item>
+        <item>مطلقًا</item>
+    </string-array>
 </resources>

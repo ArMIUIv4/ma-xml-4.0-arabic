@@ -444,4 +444,18 @@
   <string name="resource_can_not_selected">%1$s لايمكن تحديدة!</string>
   <string name="resource_system_title">موارد النظام</string>
   <string name="resource_downloaded_title">تحميل الموارد</string>
+  <string name="day_of_month">" %d"</string>
+  <string name="month_of_january">ي</string>
+  <string name="month_of_february">ف</string>
+  <string name="month_of_march">م</string>
+  <string name="month_of_april">أ</string>
+  <string name="month_of_may">و</string>
+  <string name="month_of_june">ن</string>
+  <string name="month_of_july">ل</string>
+  <string name="month_of_august">غ</string>
+  <string name="month_of_september">س</string>
+  <string name="month_of_october">ك</string>
+  <string name="month_of_november">ب</string>
+  <string name="month_of_december">د</string>
+  <string name="resource_see_more">رؤية المزيد</string>
 </resources>
