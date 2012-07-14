@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <resources>
   <string-array name="yahoo_uk">
     <item>Yahoo! UK &amp;amp;amp; Ireland</item>
@@ -86,7 +86,7 @@
     <item>http://www.baidu.com/favicon.ico</item>
     <item>http://www.baidu.com/s?wd={searchTerms}</item>
     <item>GB2312</item>
-    <item/>
+    <item>http://suggestion.baidu.com/su?p=3&amp;wd={searchTerms}</item>
   </string-array>
   <string-array name="yahoo_ch">
     <item>Yahoo! Suche</item>
@@ -172,7 +172,7 @@
     <item>Google</item>
     <item>google.com</item>
     <item>http://www.google.com/favicon.ico</item>
-    <item>http://www.google.com/search?hl={language}&amp;amp;amp;ie={inputEncoding}&amp;amp;amp;source=android-browser&amp;amp;amp;q={searchTerms}</item>
+    <item>http://www.google.com/search?hl={language}&amp;amp;amp;ie={inputEncoding}&amp;source=android-browser&amp;amp;q={searchTerms}</item>
     <item>UTF-8</item>
     <item>http://www.google.com/complete/search?hl={language}&amp;amp;amp;client=android&amp;amp;amp;q={searchTerms}</item>
   </string-array>
@@ -913,5 +913,21 @@
     <item>3</item>
     <item>4</item>
     <item>5</item>
+  </string-array>
+  <string-array name="pref_volume_key_choices">
+    <item>الصفحة لأعلى/لأسفل</item>
+    <item>تبديل التبويب</item>
+  </string-array>
+  <string-array name="pref_volume_key_values">
+    <item>0</item>
+    <item>1</item>
+  </string-array>
+  <string-array name="pref_fling_on_border_choices">
+    <item>الصفحة للأمام/للخلف</item>
+    <item>تبديل التبويب</item>
+  </string-array>
+  <string-array name="pref_fling_on_border_values">
+    <item>0</item>
+    <item>1</item>
   </string-array>
 </resources>

@@ -33,6 +33,7 @@
   <string name="menu_create_folder">مجلد جديد</string>
   <string name="menu_delete">حذف</string>
   <string name="menu_deselect_all">إلغاء تحديد الكل</string>
+  <string name="menu_edit">تعديل</string>
   <string name="menu_export_text">تصدير النص</string>
   <string name="menu_folder_change_name">تغيير اسم المجلد</string>
   <string name="menu_folder_delete">حذف المجلد</string>

@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
   <string name="Import">استيراد</string>
   <string name="activity_not_found">ليس هناك تطبيق متاح لإكمال الإجراء.</string>
@@ -34,6 +34,7 @@
   <string name="clear_thumbnail_cache_confirm">سيتم مسح ذاكرة المصغرات. المعرض سيعيد تفحص ملفات الوسائط ويعيد إنشاء الصور المصغرة في وقت لاحق.</string>
   <string name="click_import">المس هنا للاستيراد</string>
   <string name="close">إغلاق</string>
+  <string name="cloud_albums">الالبومات السحابية</string>
   <string name="confirm_delete">حذف</string>
   <string name="confirm_know">موافق</string>
   <string name="contact_photo">صور جهات الإتصال</string>
@@ -133,6 +134,7 @@
   <string name="menu_item_sort_size_desc">الحجم تنازليا</string>
   <string name="menu_item_sort_visit_asc">التكرار تصاعديا</string>
   <string name="menu_item_sort_visit_desc">التكرار تنازليا</string>
+  <string name="message_no_delete_access">تم رفض الوصول. لا يمكن حذف الملف أو المجلد: %s</string>
   <string name="miliao_folder_display_name">MiTalk</string>
   <string name="miliao_painting_folder_display_name">لوحة MiTalk</string>
   <string name="mimetype">نوع MIME</string>
@@ -235,6 +237,7 @@
   <string name="share">مشاركة</string>
   <string name="sharpen">زيادة الحدة</string>
   <string name="show_all">الصور ومقاطع الفيديو</string>
+  <string name="show_details">التفاصيل</string>
   <string name="show_hidden_album">إضهار الألبومات المخفية</string>
   <string name="show_images_only">الصور فقط</string>
   <string name="show_on_map">عرض على الخريطة</string>

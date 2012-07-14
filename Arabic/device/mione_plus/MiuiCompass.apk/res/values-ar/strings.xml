@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<resources>
+  <string name="app_label">البوصلة</string>
+  <string name="calibrate_success">نجاح المعايرة</string>
+  <string name="cannot_get_location">لا يمكن الحصول على موقعك</string>
+  <string name="dialog_content">البوصلة لم تنته من المعايرة، مما قد يؤدي إلى عدم الدقة. هل أنت متأكد من إلغاء الأمر؟</string>
+  <string name="dialog_title">إلغاء المعايرة</string>
+  <string name="getting_location">الحصول على الموقع ...</string>
+  <string name="location_east">%s E</string>
+  <string name="location_north">%s N</string>
+  <string name="location_south">%s S</string>
+  <string name="location_west">%s W</string>
+  <string name="menu_calibrate">المعايرة</string>
+  <string name="toast_accuracy_low">"إن الدقة منخفضة الرجاء اضغط زر القائمة لمعايرة البوصلة"</string>
+  <string name="user_guide_calibrate">اضغط زر القائمة لمعايرة البوصلة</string>
+</resources>

@@ -1,8 +1,17 @@
-<?xml version="1.0"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <resources>
-  <string name="APKTOOL_DUMMY_0112">false</string>
-  <string name="APKTOOL_DUMMY_0103">false</string>
   <string name="APKTOOL_DUMMY_0104">false</string>
+  <string name="APKTOOL_DUMMY_0105">false</string>
+  <string name="APKTOOL_DUMMY_010d">false</string>
+  <string name="APKTOOL_DUMMY_010e">false</string>
+  <string name="APKTOOL_DUMMY_0110">false</string>
+  <string name="APKTOOL_DUMMY_0111">false</string>
+  <string name="APKTOOL_DUMMY_0112">false</string>
+  <string name="APKTOOL_DUMMY_0113">false</string>
+  <string name="APKTOOL_DUMMY_0114">false</string>
+  <string name="APKTOOL_DUMMY_0115">false</string>
+  <string name="APKTOOL_DUMMY_0116">false</string>
+  <string name="APKTOOL_DUMMY_0117">false</string>
   <string name="accessibility_airplane_mode">نمط الطيران</string>
   <string name="accessibility_back">رجوع</string>
   <string name="accessibility_battery_full">البطارية ممتلئة.</string>
@@ -84,6 +93,8 @@
   <string name="compat_mode_help_header">تكبير/تصغير التوافق</string>
   <string name="compat_mode_off">تمديد لملء الشاشة</string>
   <string name="compat_mode_on">تكبير/تصغير لملء الشاشة</string>
+  <string name="config_statusBarComponent">com.android.systemui.statusbar.phone.PhoneStatusBar</string>
+  <string name="config_systemBarComponent">com.android.systemui.statusbar.tablet.TabletStatusBar</string>
   <string name="data_usage_disabled_dialog">"تم بلوغ الحد الموضوع لاستخدام البيانات.
 
 قد يؤدي الاستخدام الإضافي للبيانات إلى تحصيل رسوم من قبل مشغل شبكة الجوال."</string>
@@ -109,6 +120,7 @@
   <string name="ext_media_safe_unmount_notification_title">بطاقة الذاكرة الرقمية آمنة لإزالتها</string>
   <string name="ext_media_unmountable_notification_message">تلف بطاقة الذاكرة . قد تضطر إلى إعادة تهيئتها</string>
   <string name="ext_media_unmountable_notification_title">بطاقة الذاكرة تالفة</string>
+  <string name="flash_device">/sys/class/leds/flashlight/brightness</string>
   <string name="gps_notification_found_text">تم تعيين الموقع بواسطة GPS</string>
   <string name="gps_notification_searching_text">البحث عن GPS</string>
   <string name="incoming_call_vibrate_hint">مكالمة واردة</string>
@@ -116,6 +128,7 @@
   <string name="invalid_charger">"شحن USB غير مدعوم.
 
 استخدم الشاحن الموفر فقط."</string>
+  <string name="key_position_custom">موقع المفتاح المخصص</string>
   <string name="label_view">عرض</string>
   <string name="lockscreen_carrier_default">لايوجد خدمة</string>
   <string name="mms_vibrate_hint">رسالة</string>
@@ -139,11 +152,20 @@
   <string name="notification_icon_filter_summary">تعطيل هذا الخيار يجعل إشعارات التطبيقات تظهر في الجانب الأيسر العلوي من شريط المعلومات</string>
   <string name="notification_icon_filter_title">إخفاء الإشعارات</string>
   <string name="notification_vibrate_hint">الإشعارات</string>
+  <string name="notifications_off_text">اضغط هنا لتشغيل الإشعارات مرة أخرى.</string>
+  <string name="notifications_off_title">الإشعارات معطلة</string>
+  <string name="recent_apps_key">مفتاح التطبيقات الأخيرة</string>
+  <string name="recent_apps_key_show">إظهار مفتاح التطبيقات الأخيرة</string>
   <string name="return_to_incall_screen">انقر للعودة إلى المكاملة</string>
-  <string name="screen_button_disabled_message"> تم تعطيل وظائف الأزرار أسفل الشاشة . لتمكينهم عن طريق الضغط على زر \"الرئيسية\" و\"الطاقة\"</string>
+  <string name="screen_button_custom">تخصيص موقع مفتاح الشاشة</string>
+  <string name="screen_button_disabled_message">تم تعطيل وظائف الأزرار أسفل الشاشة . لتمكينهم عن طريق الضغط على زر \"الرئيسية\" و\"الطاقة\"</string>
   <string name="screen_button_enabled_message">تمكين وظائف الأزرار أسفل الشاشة</string>
   <string name="screen_button_notification_text">"أضغط على زر "الرئيسية" + "الطاقة" للتمكين"</string>
   <string name="screen_button_notification_title">تم تعطيل أزرار الشاشة</string>
+  <string name="screen_key_back">مفتاح الرجوع</string>
+  <string name="screen_key_home">مفتاح الرئيسية</string>
+  <string name="screen_key_menu">مفتاح القائمة</string>
+  <string name="screen_key_recent_apps">مفتاح التطبيقات الأخيرة</string>
   <string name="screen_rotation_freeze_message">إيقاف دوران الشاشة في الوضع الأوفقي</string>
   <string name="screenshot_failed_text">تعذر حفظ لقطة الشاشة. قد يكون المخزن قيد الاستخدام.</string>
   <string name="screenshot_failed_title">تعذر التقاط لقطة الشاشة.</string>
@@ -152,13 +174,17 @@
   <string name="screenshot_saving_text">يتم حفظ لقطة الشاشة.</string>
   <string name="screenshot_saving_ticker">جارٍ حفظ لقطة الشاشة...</string>
   <string name="screenshot_saving_title">جارٍ حفظ لقطة الشاشة...</string>
+  <string name="settings_auto_dismiss_screenshot_notification">الرفض التلقائي لإشعار لقطة الشاشة</string>
   <string name="settings_expandable_under_fullscreen">توسيع تحت كامل الشاشة</string>
   <string name="settings_expandable_under_fullscreen_summary">بواسطة التحريك من أعلى الشاشة</string>
   <string name="settings_expandable_under_keyguard">توسيع تحت قفل المفاتيح</string>
   <string name="settings_expandable_under_keyguard_summary">تعمل فقط لقفل المفاتيح غير الآمنة</string>
   <string name="settings_expanded_view">توسيع عرض الإشعارات</string>
   <string name="settings_notification_icon">الإشعارات في شريط المعلومات</string>
+  <string name="settings_screenshot_notification_disabled">تعطيل الإشعار للقطات الشاشة الناجحة</string>
   <string name="settings_separator">,</string>
+  <string name="settings_show_flow_info">إظهار معلومات حركة البيانات</string>
+  <string name="settings_show_network_speed">إظهار سرعة الشبكة</string>
   <string name="settings_toggle">الإختصارات</string>
   <string name="settings_toggle_collapse_after_clicked">تساقط بعد النقر</string>
   <string name="settings_toggle_layout_style">تبديل سمة تخطيط</string>
@@ -176,15 +202,23 @@
   <string name="status_bar_do_not_disturb_button">عدم الإزعاج</string>
   <string name="status_bar_input_method_settings_configure_input_methods">تهيئة أساليب الإدخال</string>
   <string name="status_bar_latest_events_title">إشعارات</string>
+  <string name="status_bar_network_flow">اليوم: %1$s المتبقي: %2$s تطبيقات: %3$s</string>
+  <string name="status_bar_network_flow_exceed">"اليوم: %1$s | تم تجاوز: %2$s  |  تطبيقات: %3$s"</string>
+  <string name="status_bar_network_flow_today">اليوم:%1$s</string>
   <string name="status_bar_network_name_separator">"
 "</string>
   <string name="status_bar_no_notifications_title">لا توجد إشعارات</string>
   <string name="status_bar_no_recent_apps">ليس هناك تطبيقات حديثة</string>
   <string name="status_bar_ongoing_events_title">مستمر</string>
   <string name="status_bar_please_disturb_button">إظهار الإشعارات</string>
+  <string name="status_bar_recent_clear_nothing_result">لا توجد ذاكرة للمسح</string>
   <string name="status_bar_recent_clear_result">" تم تفريغ %1$s من الذاكرة .
 الذاكرة المتوفرة الحالية %2$s"</string>
+  <string name="status_bar_recent_guide_all">أسحب لأعلى للإغلاق, أسحب لأسفل للتأمين</string>
+  <string name="status_bar_recent_guide_bottom">أسحب لأسفل للتأمين</string>
+  <string name="status_bar_recent_guide_top">أسحب لأعلى للإغلاق</string>
   <string name="status_bar_recent_inspect_item_title">معلومات التطبيق</string>
+  <string name="status_bar_recent_memory_info">%1$s / %2$s</string>
   <string name="status_bar_recent_memory_info_format">%dM</string>
   <string name="status_bar_recent_remove_item_title">إزالة من القائمة</string>
   <string name="status_bar_settings_airplane">وضع الطائرة</string>
@@ -201,30 +235,44 @@
   <string name="status_bar_time_format_12">h:mma</string>
   <string name="status_bar_time_format_24">HH:mm</string>
   <string name="status_bar_toggle_ac">تحكم بالوصول</string>
+  <string name="status_bar_toggle_advanced_sync_action">com.android.settings/com.android.settings.Settings$ManageAccountsSettingsActivity</string>
   <string name="status_bar_toggle_bluetooth">بلوتوث</string>
+  <string name="status_bar_toggle_bluetooth_action">com.android.settings/com.android.settings.Settings$BluetoothSettingsActivity</string>
   <string name="status_bar_toggle_brightness">السطوع</string>
+  <string name="status_bar_toggle_brightness_action">com.android.settings/com.android.settings.Settings$DisplaySettingsActivity</string>
   <string name="status_bar_toggle_data">البيانات</string>
+  <string name="status_bar_toggle_data_action">com.android.phone/.Settings</string>
   <string name="status_bar_toggle_divider">المزيد</string>
+  <string name="status_bar_toggle_divider_action">com.android.systemui/.settings.StyleSettings</string>
   <string name="status_bar_toggle_flight_mode">نمط الطيران</string>
+  <string name="status_bar_toggle_flight_mode_action">com.android.phone/com.android.phone.Settings</string>
   <string name="status_bar_toggle_gps">GPS</string>
+  <string name="status_bar_toggle_gps_action">com.android.settings/com.android.settings.Settings$LocationSettingsActivity</string>
   <string name="status_bar_toggle_lock">قفل</string>
   <string name="status_bar_toggle_mute">صامت</string>
+  <string name="status_bar_toggle_mute_action">com.android.settings/com.android.settings.Settings$SoundSettingsActivity</string>
   <string name="status_bar_toggle_network_type">نوع الشبكة</string>
+  <string name="status_bar_toggle_network_type_action">com.android.phone/.MiuiPreferredNetworkTypeListPreference</string>
   <string name="status_bar_toggle_privacy_mode">الحماية</string>
   <string name="status_bar_toggle_reboot">إعادة تشغيل</string>
   <string name="status_bar_toggle_rotate">تدوير</string>
+  <string name="status_bar_toggle_rotate_action">com.android.settings/com.android.settings.Settings$DisplaySettingsActivity</string>
   <string name="status_bar_toggle_screen_button">زر الشاشة</string>
   <string name="status_bar_toggle_screenshot">أخذ لقطة</string>
   <string name="status_bar_toggle_shutdown">إيقاف التشغيل</string>
   <string name="status_bar_toggle_sync">مزامنة</string>
+  <string name="status_bar_toggle_sync_action">com.android.settings/com.android.settings.Settings$ManageAccountsSettingsActivity</string>
   <string name="status_bar_toggle_torch">إضاءة</string>
   <string name="status_bar_toggle_vibrate">الاهتزاز</string>
+  <string name="status_bar_toggle_vibrate_action">com.android.settings/com.android.settings.Settings$SoundSettingsActivity</string>
   <string name="status_bar_toggle_wifi">لاسلكي</string>
+  <string name="status_bar_toggle_wifi_action">com.android.settings/com.android.settings.Settings$WifiSettingsActivity</string>
   <string name="status_bar_use_physical_keyboard">استخدام لوحة المفاتيح الفعلية</string>
   <string name="tab_notifications_lable">الإشعارات</string>
   <string name="tab_toggles_lable">الإختصارات</string>
   <string name="title_usb_accessory">ملحق USB</string>
   <string name="to_vibrate_settings">إعدادات الاهتزاز</string>
+  <string name="toast_rotation_locked">تم تأمين الشاشة حاليا في الاتجاه الأفقي.</string>
   <string name="torch_activity_hint">يمكنك فتح المصباح بالضغط على أيقونة المصباح عندما تكون الشاشة مقفلة</string>
   <string name="torch_activity_name">إضاءة</string>
   <string name="usb_accessory_confirm_prompt">فتح %1$s عند توصيل ملحق USB هذا؟</string>
@@ -251,17 +299,4 @@
   <string name="user_guide_for_notification">تلقيت إشعارا جديدا، يمكنك سحبه أسفل شريط المعلومات لمشاهدة التفاصيل</string>
   <string name="user_guide_for_toggle">تمرير قائمة التبديل أفقيا</string>
   <string name="user_guide_for_toggle_list">أضغط لتخصيص قائمة التبديل</string>
-  <string name="key_position_custom">موقع المفتاح المخصص</string>
-  <string name="notifications_off_text">اضغط هنا لتشغيل الإشعارات مرة أخرى.</string>
-  <string name="notifications_off_title">الإشعارات معطلة</string>
-  <string name="recent_apps_key">مفتاح التطبيقات الأخيرة</string>
-  <string name="recent_apps_key_show">إظهار مفتاح التطبيقات الأخيرة</string>
-  <string name="screen_button_custom">تخصيص موقع مفتاح الشاشة</string>
-  <string name="screen_key_back">مفتاح الرجوع</string>
-  <string name="screen_key_home">مفتاح الرئيسية</string>
-  <string name="screen_key_menu">مفتاح القائمة</string>
-  <string name="screen_key_recent_apps">مفتاح التطبيقات الأخيرة</string>
-  <string name="settings_show_network_speed">إظهار سرعة الشبكة</string>
-  <string name="toast_rotation_locked">تم تأمين الشاشة حاليا في الاتجاه الأفقي.</string>
-  <string name="status_bar_network_flow_exceed">"اليوم: %1$s | تم تجاوز: %2$s  |  تطبيقات: %3$s"</string>
 </resources>

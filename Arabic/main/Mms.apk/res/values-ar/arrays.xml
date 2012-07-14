@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <resources>
   <string-array name="default_smiley_texts">
     <item>:-)</item>
@@ -73,13 +73,18 @@
     <item>العنوان</item>
     <item>ملاحظة</item>
   </string-array>
-  <string-array name="entries_date_type">
-    <item>إظهار وقت الإستقبال</item>
-    <item>إظهار وقت الإرسال (يستخدم وقت الخادم)</item>
-  </string-array>
-  <string-array name="entryvalues_date_type">
-    <item>0</item>
-    <item>1</item>
+  <string-array name="contact_values">
+    <item>vnd.android.cursor.item/name</item>
+    <item>vnd.android.cursor.item/nickname</item>
+    <item>vnd.android.cursor.item/phone_v2</item>
+    <item>vnd.android.cursor.item/email_v2</item>
+    <item>vnd.android.cursor.item/organization</item>
+    <item>vnd.android.cursor.item/im</item>
+    <item>vnd.android.cursor.item/sip_address</item>
+    <item>vnd.android.cursor.item/contact_event</item>
+    <item>vnd.android.cursor.item/website</item>
+    <item>vnd.android.cursor.item/postal-address_v2</item>
+    <item>vnd.android.cursor.item/note</item>
   </string-array>
   <string-array name="select_dialog_items">
     <item>ثانية واحدة</item>
@@ -98,6 +103,14 @@
     <item>دومًا</item>
     <item>فقط عندما يكون صامتًا</item>
     <item>مطلقًا</item>
+  </string-array>
+  <string-array name="entries_date_type">
+    <item>إظهار وقت الإستقبال</item>
+    <item>إظهار وقت الإرسال (يستخدم وقت الخادم)</item>
+  </string-array>
+  <string-array name="entryvalues_date_type">
+    <item>0</item>
+    <item>1</item>
   </string-array>
   <string-array name="prefValues_vibrateWhen">
     <item>دومًا</item>

@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
   <string name="app_name">السمات</string>
   <string name="apply_font_btn_exclude">تطبيق بدون الخط</string>
@@ -10,27 +10,28 @@
   <string name="backup_theme_dialog_message">"نسخ احتياطي للسمة الحالية إلى
 %1$s"</string>
   <string name="backup_theme_dialog_ok">نسخ احتياطي</string>
+  <string name="backup_theme_name">نسختي الاحتياطية</string>
   <string name="backup_theme_progress_message">نسخ احتياطي لملفات السمة، يرجى الانتظار ...</string>
   <string name="backup_theme_success_message">اكتمل النسخ الاحتياطي للسمة</string>
   <string name="change_wallpaper">تغيير الخلفية</string>
+  <string name="close">إغلاق</string>
   <string name="component_category_ringtone_title">النغمات</string>
   <string name="component_category_style_title">أنماط</string>
   <string name="component_category_title">تخصيص</string>
   <string name="component_category_wallpaper_title">الخلفيات</string>
   <string name="component_include_title">يحتوي %1$s مكونات</string>
+  <string name="component_lockstyle_personal_title">إعدادات</string>
   <string name="component_screen_title">يتضمن خلفية</string>
   <string name="component_select_title">تحديد %1$s مكونات</string>
   <string name="component_settings_title">تخصيص السمة</string>
   <string name="desktop_wallpaper">خلفية سطح المكتب</string>
+  <string name="download_success">نجح التنزيل</string>
   <string name="live_wallpaper">الخلفية المتحركة</string>
   <string name="lockscreen_wallpaper">خلفية قفل الشاشة</string>
-  <string name="new_format_convert">تحويل %1$s إلى التنسيق الجديد، يرجى الانتظار ...</string>
-  <string name="old_format_convert_tip1">السمة ليست بالتنسيق الجديد، تحويلها سيأخذ بعض الوقت ليكتمل. التحويل الآن؟</string>
-  <string name="old_format_convert_tip2">أو حذفها وتحميل الإصدار الجديد.</string>
-  <string name="old_format_fail">فشل في تحويل، اضغط تطبيق لإعادة المحاولة.</string>
-  <string name="old_format_title">تنسيق قديم</string>
+  <string name="lockstyle_personal_settings">التخصيص</string>
   <string name="play_all_audio_effect">تشغيل تأثير الصوت (المجموع: %1$s)</string>
   <string name="resource_fail_to_show">السمة لا يحتوي على الموارد المطلوبة.</string>
+  <string name="resource_preview">عرض</string>
   <string name="theme_activity_lable">السمات</string>
   <string name="theme_changed_failed_message">فشل في تطبيق السمة.</string>
   <string name="theme_changed_message">تم التطبيق بنجاح.</string>
@@ -57,19 +58,21 @@
   <string name="theme_component_title_wallpaper">الخلفية</string>
   <string name="theme_description_title_customized">مخصص</string>
   <string name="theme_description_title_default">إفتراضي</string>
+  <string name="theme_format_wrong">تنسيق خاطئ!</string>
+  <string name="theme_format_wrong_content">تنسيق السمة غير صحيح</string>
   <string name="theme_import">الاستيراد من بطاقة SD</string>
   <string name="theme_select_others">أخرى</string>
   <string name="third_party_pickers_activity_title">ضبط %1$s</string>
   <string name="title_component">مختلط</string>
+  <string name="title_download_resource">تنزيل الموارد</string>
   <string name="title_local">محلي</string>
   <string name="title_online">خارجي</string>
-  <string name="wallpaper_settings">إعدادات الخلفية</string>
-  <string name="close">إغلاق</string>
-  <string name="download_success">نجح التنزيل</string>
-  <string name="resource_preview">عرض</string>
+  <string name="title_system_resource">موارد النظام</string>
   <string name="wallpaper_decoded_error">فشل في الفك!</string>
   <string name="wallpaper_loading_text">تحميل…</string>
   <string name="wallpaper_set_as_both">تعيين كلاهما</string>
   <string name="wallpaper_set_as_destop">تعيين كخلفية</string>
   <string name="wallpaper_set_as_lockscreen">تعيين كقفل الشاشة</string>
+  <string name="wallpaper_settings">إعدادات الخلفية</string>
+  <string name="wrong_title">خطأ</string>
 </resources>

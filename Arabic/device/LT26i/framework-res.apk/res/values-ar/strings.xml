@@ -1,6 +1,13 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="BaMmi">حظر المكالمات</string>
+  <string name="BaAllMmi">حظر كل المكالمات</string>
+  <string name="BaICMmi">حظر المكالمات الواردة</string>
+  <string name="BaICrMmi">حظر المكالمات الواردة عند التجوال</string>
+  <string name="BaMOMmi">حظر كل المكالمات الصادرة</string>
+  <string name="BaMTMmi">حظر كل المكالمات الواردة</string>
+  <string name="BaOCMmi">حظر المكالمات الصادرة</string>
+  <string name="BaOICMmi">حظر المكالمات الدولية الصادرة</string>
+  <string name="BaOICxHMmi">حظر المكالمات الدولية الصادرة (باستثناء بلد الإقامة)</string>
   <string name="CLIRDefaultOffNextCallOff">الإعدادات الافتراضية لمعرف المتصل غير مقيدة. المكالمة التالية: غير مفيدة</string>
   <string name="CLIRDefaultOffNextCallOn">الإعدادات الافتراضية لمعرف المتصل غير مقيدة. المكالمة التالية: غير مفيدة</string>
   <string name="CLIRDefaultOnNextCallOff">الإعدادات الافتراضية لمعرف المتصل غير مقيدة. المكالمة التالية: غير مفيدة</string>
@@ -34,10 +41,10 @@
   <string name="VideoView_error_text_invalid_progressive_playback">عفوًا، هذا الفيديو غير صالح للتدفق إلى هذا الجهاز.</string>
   <string name="VideoView_error_text_unknown">عفوًا، لا يمكن تشغيل هذا الفيديو.</string>
   <string name="VideoView_error_title">يتعذر تشغيل الفيديو</string>
-  <string formatted="false" name="abbrev_month">%-b</string>
-  <string formatted="false" name="abbrev_month_day">%-e %b</string>
-  <string formatted="false" name="abbrev_month_day_year">%d‏/%m‏/%Y</string>
-  <string formatted="false" name="abbrev_month_year">%b %Y</string>
+  <string name="abbrev_month">%-b</string>
+  <string name="abbrev_month_day" formatted="false">%-e %b</string>
+  <string name="abbrev_month_day_year" formatted="false">%d‏/%m‏/%Y</string>
+  <string name="abbrev_month_year" formatted="false">%b %Y</string>
   <string name="abbrev_wday_month_day_no_year">E d MMMM</string>
   <string name="abbrev_wday_month_day_year">EEE، d MMMM y</string>
   <string name="accessibility_binding_label">إمكانية الوصول</string>
@@ -54,30 +61,37 @@
   <string name="addToDictionary">إضافة إلى القاموس</string>
   <string name="add_account_button_label">إضافة حساب</string>
   <string name="add_account_label">إضافة حساب</string>
-  <string formatted="false" name="aerr_application">للأسف، توقف %1$s.</string>
-  <string formatted="false" name="aerr_process">للأسف، توقفت العملية %1$s.</string>
+  <string name="add_region_in_locale_picker_dummy_string">+</string>
+  <string name="aerr_application">للأسف، توقف %1$s.</string>
+  <string name="aerr_process">للأسف، توقفت العملية %1$s.</string>
   <string name="aerr_title"/>
   <string name="allow">السماح</string>
   <string name="alternate_eri_file">/data/eri.xml</string>
   <string name="alwaysUse">الاستخدام بشكل افتراضي لهذا الإجراء.</string>
   <string name="am">ص</string>
   <string name="android_system_label">نظام Android</string>
-  <string formatted="false" name="android_upgrading_apk">جارٍ تحسين التطبيق %1$d من %2$d.</string>
+  <string name="android_upgrading_apk">جارٍ تحسين التطبيق %1$d من %2$d.</string>
   <string name="android_upgrading_complete">يتم التمهيد.</string>
   <string name="android_upgrading_starting_apps">يتم بدء التطبيقات.</string>
   <string name="android_upgrading_title">جارٍ ترقية Android...</string>
-  <string formatted="false" name="anr_activity_application">"%2$s لا يستجيب.هل تريد إغلاقه؟"</string>
-  <string name="anr_activity_process">"النشاط %1$s لا يستجيب.هل تريد إغلاقه؟"</string>
-  <string formatted="false" name="anr_application_process">%1$s لا يستجيب. هل تريد إغلاقه؟</string>
-  <string name="anr_process" formatted="false">"العملية %1$s لا تستجيب.هل تريد إغلاقها؟"</string>
+  <string name="anr_activity_application">"%2$s لا يستجيب.
+
+هل تريد إغلاقه؟"</string>
+  <string name="anr_activity_process">"النشاط %1$s لا يستجيب.
+
+هل تريد إغلاقه؟"</string>
+  <string name="anr_application_process">%1$s لا يستجيب. هل تريد إغلاقه؟</string>
+  <string name="anr_process">"العملية %1$s لا تستجيب.
+
+هل تريد إغلاقها؟"</string>
   <string name="anr_title"/>
   <string name="autofill_address_line_1_label_re">address|adresse|indirizzo|住所|地址</string>
   <string name="autofill_address_line_1_re">address.?line|address1|addr1|street|strasse|straße|hausnummer|housenumber|house.?name|direccion|dirección|adresse|indirizzo|住所1|morada|endereço|Адрес|地址</string>
   <string name="autofill_address_line_2_re">address.?line2|address2|addr2|street|suite|unit|adresszusatz|ergänzende.?angaben|direccion2|colonia|adicional|addresssuppl|complementnom|appartement|indirizzo2|住所2</string>
   <string name="autofill_address_line_3_re">address.?line3|address3|addr3|street|line3|municipio|batiment|residence|indirizzo3</string>
-  <string name="autofill_address_name_separator">" "</string>
-  <string formatted="false" name="autofill_address_summary_format">$1$2$3</string>
-  <string formatted="false" name="autofill_address_summary_name_format">$1$2$3</string>
+  <string name="autofill_address_name_separator"/>
+  <string name="autofill_address_summary_format">$1$2$3</string>
+  <string name="autofill_address_summary_name_format">$1$2$3</string>
   <string name="autofill_address_summary_separator">"، "</string>
   <string name="autofill_address_type_same_as_re">same as</string>
   <string name="autofill_address_type_use_my_re">use my</string>
@@ -140,6 +154,7 @@
   <string name="capital_on">|</string>
   <string name="car_mode_disable_notification_message">حدد للخروج من وضع السيارة.</string>
   <string name="car_mode_disable_notification_title">تم تمكين وضع السيارة</string>
+  <string name="carrier_invalid_sim_card">بطاقة SIM غير صالحة</string>
   <string name="cfTemplateForwarded">{0}: {1}</string>
   <string name="cfTemplateForwardedTime">{0}: {1} بعد {2} ثوانٍ</string>
   <string name="cfTemplateNotForwarded">{0}: لم تتم إعادة توجيهه</string>
@@ -159,14 +174,15 @@
   <string name="common_name_prefixes"/>
   <string name="common_name_suffixes"/>
   <string name="config_datause_iface">rmnet0</string>
+  <string name="config_defaultSkinPackage">com.sonyericsson.blackthemeblueaccent</string>
   <string name="config_default_dns_server">8.8.8.8</string>
   <string name="config_ethernet_iface_regex">eth\\d</string>
   <string name="config_geocodeProvider">com.google.android.location.GeocodeProvider</string>
-  <string name="config_isoImagePath"/>
+  <string name="config_isoImagePath">/system/etc/dop.iso</string>
   <string name="config_networkLocationProvider">com.google.android.location.NetworkLocationProvider</string>
   <string name="config_ntpServer">pool.ntp.org</string>
   <string name="config_tether_apndata"/>
-  <string name="config_useragentprofile_url"/>
+  <string name="config_useragentprofile_url">http://wap.sonyericsson.com/UAprof/%sR601.xml</string>
   <string name="config_wifi_p2p_device_type">10-0050F204-5</string>
   <string name="config_wimaxManagerClassname"/>
   <string name="config_wimaxNativeLibLocation"/>
@@ -176,18 +192,18 @@
   <string name="configure_input_methods">تهيئة أساليب الإدخال</string>
   <string name="contentServiceSync">تزامن</string>
   <string name="contentServiceSyncNotificationTitle">تزامن</string>
-  <string formatted="false" name="contentServiceTooManyDeletesNotificationDesc">عمليات حذف %s كثيرة للغاية.</string>
+  <string name="contentServiceTooManyDeletesNotificationDesc">عمليات حذف %s كثيرة للغاية.</string>
   <string name="content_description_sliding_handle">مقبض التمرير. انقر سريعا مع الاستمرار.</string>
   <string name="copy">نسخ</string>
   <string name="copyUrl">نسخ عنوان URL</string>
-  <string formatted="false" name="create_contact_using">إنشاء جهة اتصال باستخدام %s</string>
+  <string name="create_contact_using">إنشاء جهة اتصال باستخدام %s</string>
   <string name="cut">قص</string>
   <string name="data_usage_3g_limit_snoozed_title">تم تجاوز حد بيانات الجيل الثاني-الجيل الثالث</string>
   <string name="data_usage_3g_limit_title">تم تعطيل بيانات الجيل الثاني-الجيل الثالث</string>
   <string name="data_usage_4g_limit_snoozed_title">تم تجاوز حد بيانات الجيل الرابع</string>
   <string name="data_usage_4g_limit_title">تم تعطيل بيانات الجيل الرابع</string>
   <string name="data_usage_limit_body">المس للتمكين</string>
-  <string formatted="false" name="data_usage_limit_snoozed_body">%s أكثر من الحد المعين</string>
+  <string name="data_usage_limit_snoozed_body">%s أكثر من الحد المعين</string>
   <string name="data_usage_mobile_limit_snoozed_title">تم تجاوز حد بيانات النقال</string>
   <string name="data_usage_mobile_limit_title">تم تعطيل بيانات النقال</string>
   <string name="data_usage_restricted_body">انقر لإزالة التقييد</string>
@@ -196,9 +212,9 @@
   <string name="data_usage_warning_title">تحذير استخدام البيانات</string>
   <string name="data_usage_wifi_limit_snoozed_title">تم تجاوز حد بيانات Wi-Fi</string>
   <string name="data_usage_wifi_limit_title">تم تعطيل بيانات Wi-Fi</string>
-  <string formatted="false" name="date1_date2">%2$s – %5$s</string>
-  <string formatted="false" name="date1_time1_date2_time2">%3$s %2$s – %6$s %5$s</string>
-  <string formatted="false" name="date_and_time">%-l:%M:%S %p %d‏/%m‏/%Y</string>
+  <string name="date1_date2">%2$s – %5$s</string>
+  <string name="date1_time1_date2_time2">%3$s %2$s – %6$s %5$s</string>
+  <string name="date_and_time" formatted="false">%-l:%M:%S %p %d‏/%m‏/%Y</string>
   <string name="date_picker_decrement_day_button">إنقاص يوم</string>
   <string name="date_picker_decrement_month_button">إنقاص شهر</string>
   <string name="date_picker_decrement_year_button">إنقاص عام</string>
@@ -206,7 +222,7 @@
   <string name="date_picker_increment_day_button">زيادة يوم</string>
   <string name="date_picker_increment_month_button">زيادة شهر</string>
   <string name="date_picker_increment_year_button">زيادة عام</string>
-  <string formatted="false" name="date_time">%2$s %1$s</string>
+  <string name="date_time">%2$s %1$s</string>
   <string name="date_time_set">ضبط</string>
   <string name="day">اليوم</string>
   <string name="day_of_week_long_friday">الجمعة</string>
@@ -242,20 +258,21 @@
   <string name="defaultVoiceMailAlphaTag">البريد الصوتي</string>
   <string name="default_permission_group">افتراضي</string>
   <string name="default_text_encoding">Latin-1</string>
-  <string name="default_wallpaper_component">com.android.wallpaper/.nexus.NexusWallpaper</string>
+  <string name="default_wallpaper_component">@null</string>
   <string name="delete">حذف</string>
   <string name="deleteText">حذف</string>
   <string name="deny">رفض</string>
-  <string formatted="false" name="description_direction_down">اتجاه لأسفل إلى %s.</string>
-  <string formatted="false" name="description_direction_left">اتجاه يسارًا إلى %s.</string>
-  <string formatted="false" name="description_direction_right">اتجاه يمينًا إلى %s.</string>
-  <string formatted="false" name="description_direction_up">اتجاه لأعلى إلى %s.</string>
+  <string name="description_direction_down">اتجاه لأسفل إلى %s.</string>
+  <string name="description_direction_left">اتجاه يسارًا إلى %s.</string>
+  <string name="description_direction_right">اتجاه يمينًا إلى %s.</string>
+  <string name="description_direction_up">اتجاه لأعلى إلى %s.</string>
   <string name="description_target_camera">الكاميرا</string>
   <string name="description_target_silent">صامت</string>
   <string name="description_target_soundon">تشغيل الصوت</string>
   <string name="description_target_unlock">إلغاء قفل</string>
   <string name="description_target_unlock_tablet">مرر بسرعة لإلغاء التأمين.</string>
-  <string formatted="false" name="dial_number_using">اطلب الرقم باستخدام %s</string>
+  <string name="dial_number_using">اطلب الرقم باستخدام %s</string>
+  <string name="dialer_keyboard_hint_txt">استخدام ل م رقمية للطلب</string>
   <string name="dialog_alert_title">انتبه</string>
   <string name="dlg_confirm_kill_storage_users_text">في حالة تشغيل تخزين USB، فسيتم إيقاف بعض التطبيقات التي تستخدمها وقد لا تتوفر حتى يتم إيقاف تشغيل تخزين USB.</string>
   <string name="dlg_confirm_kill_storage_users_title">تشغيل تخزين USB</string>
@@ -263,8 +280,8 @@
   <string name="dlg_ok">موافق</string>
   <string name="double_tap_toast">تلميح: انقر نقرًا مزدوجًا للتكبير والتصغير.</string>
   <string name="editTextMenuTitle">إجراءات النص</string>
-  <string formatted="false" name="elapsed_time_short_format_h_mm_ss">%1$d:%2$02d:%3$02d</string>
-  <string formatted="false" name="elapsed_time_short_format_mm_ss">%1$02d:%2$02d</string>
+  <string name="elapsed_time_short_format_h_mm_ss">%1$d:%2$02d:%3$02d</string>
+  <string name="elapsed_time_short_format_mm_ss">%1$02d:%2$02d</string>
   <string name="ellipsis">…</string>
   <string name="ellipsis_two_dots">‥</string>
   <string name="emailTypeCustom">تخصيص</string>
@@ -281,49 +298,66 @@
   <string name="eventTypeOther">غير ذلك</string>
   <string name="expires_on">تنتهي الصلاحية في:</string>
   <string name="ext_media_badremoval_notification_message">افصل بطاقة SD قبل الإزالة لتجنب فقدان البيانات.</string>
-  <string name="ext_media_badremoval_notification_title">تمت إزالة بطاقة SD على نحو غير متوقع</string>
+  <string name="ext_media_badremoval_notification_title">تمت إزالة بطاقة SD بشكل غير متوقع</string>
   <string name="ext_media_checking_notification_message">التحقق من وجود أخطاء.</string>
-  <string name="ext_media_checking_notification_title">تحضير بطاقة SD</string>
-  <string name="ext_media_nofs_notification_message">بطاقة SD فارغة أو تحتوي على نظام ملفات غير معتمد.</string>
+  <string name="ext_media_checking_notification_title">جارٍ تجهيز بطاقة SD</string>
+  <string name="ext_media_nofs_notification_message">بطاقة SD فارغة أو تشتمل على نظام ملفات غير مدعوم</string>
   <string name="ext_media_nofs_notification_title">بطاقة SD فارغة</string>
-  <string name="ext_media_nomedia_notification_message">تمت إزالة بطاقة SD. أدخل بطاقة جديدة.</string>
-  <string name="ext_media_nomedia_notification_title">تمت إزالة بطاقة SD</string>
+  <string name="ext_media_nomedia_notification_message">تمت إزالة بطاقة SD. أدخل واحدة جديدة.</string>
+  <string name="ext_media_nomedia_notification_title">بطاقة SD تمت إزالتها</string>
   <string name="ext_media_safe_unmount_notification_message">يمكنك إزالة بطاقة SD بأمان.</string>
   <string name="ext_media_safe_unmount_notification_title">يمكن إزالة بطاقة SD بأمان</string>
-  <string name="ext_media_unmountable_notification_message">بطاقة SD تالفة. قد يجب عليك إعادة تهيئتها.</string>
+  <string name="ext_media_unmountable_notification_message">بطاقة SD تالفة. قد يتعين عليك إعادة تهيئتها.</string>
   <string name="ext_media_unmountable_notification_title">بطاقة SD تالفة</string>
   <string name="extmedia_format_button_format">تهيئة</string>
-  <string name="extmedia_format_message">هل تريد تهيئة بطاقة SD؟ ستفقد جميع البيانات على بطاقتك.</string>
+  <string name="extmedia_format_message">هل تريد بالفعل تهيئة بطاقة SD؟ ستفقد جميع البيانات الموجودة على بطاقتك.</string>
   <string name="extmedia_format_title">تهيئة بطاقة SD</string>
   <string name="extract_edit_menu_button">تعديل...</string>
   <string name="factorytest_failed">فشل اختبار المصنع</string>
   <string name="factorytest_no_action">لم يتم العثور على حزمة توفر إجراء FACTORY_TEST.</string>
   <string name="factorytest_not_system">إجراء FACTORY_TEST مدعوم فقط بالنسبة للحزم المثبتة في /system/app.</string>
-  <string name="factorytest_reboot">إعادة التشغيل</string>
+  <string name="factorytest_reboot">إعادة التمهيد</string>
   <string name="fast_scroll_alphabet">" أ ب ت ث ج ح خ د ذ ر ز س ش ص ض ط ظ ع غ ف ق ك ل م ن ه و ي"</string>
   <string name="fast_scroll_numeric_alphabet">" 0123456789أ ب ت ث ج ح خ د ذ ر ز س ش ص ض ط ظ ع غ ف ق ك ل م ن ه و ي"</string>
   <string name="fcComplete">اكتمل رمز الميزة.</string>
   <string name="fcError">هناك مشكلة في الاتصال أو رمز الميزة غير صالح.</string>
-  <string formatted="false" name="fileSizeSuffix">%1$s%2$s</string>
+  <string name="fileSizeSuffix">%1$s%2$s</string>
   <string name="find">بحث</string>
   <string name="find_on_page">بحث في الصفحة</string>
   <string name="fingerprints">بصمات الأصابع:</string>
   <string name="force_close">موافق</string>
-  <string name="format_error">تعذر مسح بطاقة SD.</string>
+  <string name="format_error">فشل مسح بطاقة SD.</string>
   <string name="full_wday_month_day_no_year">E d MMMM</string>
   <string name="gadget_host_error_inflating">خطأ في تضخيم الأداة</string>
+  <string name="general_dialpad_hash_txt">\#</string>
+  <string name="general_dialpad_label_0_txt">+</string>
+  <string name="general_dialpad_label_1_txt"/>
+  <string name="general_dialpad_label_2_txt">ABC</string>
+  <string name="general_dialpad_label_3_txt">DEF</string>
+  <string name="general_dialpad_label_4_txt">GHI</string>
+  <string name="general_dialpad_label_5_txt">JKL</string>
+  <string name="general_dialpad_label_6_txt">MNO</string>
+  <string name="general_dialpad_label_7_txt">PQRS</string>
+  <string name="general_dialpad_label_8_txt">TUV</string>
+  <string name="general_dialpad_label_9_txt">WXYZ</string>
+  <string name="general_dialpad_label_hash_txt"/>
+  <string name="general_dialpad_label_star_txt"/>
+  <string name="general_dialpad_star_txt">*</string>
+  <string name="general_dialpad_voicemail_txt">بريد صوتي</string>
   <string name="gigabyteShort">جيجابايت</string>
   <string name="global_action_lock">تأمين الشاشة</string>
   <string name="global_action_power_off">إيقاف التشغيل</string>
   <string name="global_action_silent_mode_off_status">الصوت قيد التشغيل</string>
   <string name="global_action_silent_mode_on_status">الصوت قيد إيقاف التشغيل</string>
+  <string name="global_action_sleep">وضع السكون</string>
   <string name="global_action_toggle_silent_mode">الوضع الصامت</string>
   <string name="global_actions">خيارات الهاتف</string>
   <string name="global_actions_airplane_mode_off_status">وضع الطائرة قيد إيقاف التشغيل</string>
   <string name="global_actions_airplane_mode_on_status">وضع الطائرة قيد التشغيل</string>
   <string name="global_actions_toggle_airplane_mode">وضع الطائرة</string>
-  <string formatted="false" name="gpsNotifMessage">مطلوب بواسطة %1$s (%2$s)</string>
-  <string formatted="false" name="gpsNotifTicker">طلب تحديد الموقع من %s</string>
+  <string name="global_strings_useragentprofile_url_txt">http://wap.sonyericsson.com/UAprof/%sR101.xml</string>
+  <string name="gpsNotifMessage">مطلوب بواسطة %1$s (%2$s)</string>
+  <string name="gpsNotifTicker">طلب تحديد الموقع من %s</string>
   <string name="gpsNotifTitle">طلب تحديد الموقع</string>
   <string name="gpsVerifNo">لا</string>
   <string name="gpsVerifYes">نعم</string>
@@ -331,16 +365,18 @@
   <string name="grant_credentials_permission_message_header">يتطلب تطبيق واحد أو أكثر مما يلي إذنا بالوصول إلى الحساب، الآن وفي المستقبل.</string>
   <string name="grant_permissions_header_text">طلب الوصول</string>
   <string name="gsm_alphabet_default_charset"/>
-  <string formatted="false" name="heavy_weight_notification">%1$s قيد التشغيل</string>
+  <string name="gui_cancel_txt">إلغاء</string>
+  <string name="gui_ok_txt">موافق</string>
+  <string name="heavy_weight_notification">%1$s قيد التشغيل</string>
   <string name="heavy_weight_notification_detail">حدد للتبديل إلى تطبيق</string>
   <string name="heavy_weight_switcher_text">يوجد تطبيق آخر قيد التشغيل بالفعل ويجب إيقافه قبل التمكن من بدء تشغيل تطبيق جديد.</string>
   <string name="heavy_weight_switcher_title">تبديل التطبيقات؟</string>
   <string name="hour">ساعة</string>
-  <string formatted="false" name="hour_ampm">%-l%P</string>
-  <string formatted="false" name="hour_cap_ampm">%-l%p</string>
-  <string formatted="false" name="hour_minute_24">%-k:%M</string>
-  <string formatted="false" name="hour_minute_ampm">%-l:%M %p</string>
-  <string formatted="false" name="hour_minute_cap_ampm">%-l:%M %p</string>
+  <string name="hour_ampm" formatted="false">%-l%P</string>
+  <string name="hour_cap_ampm" formatted="false">%-l%p</string>
+  <string name="hour_minute_24" formatted="false">%-k:%M</string>
+  <string name="hour_minute_ampm" formatted="false">%-l:%M %p</string>
+  <string name="hour_minute_cap_ampm" formatted="false">%-l:%M %p</string>
   <string name="hours">ساعات</string>
   <string name="httpError">حدث خطأ في الشبكة.</string>
   <string name="httpErrorAuth">المصادقة لم تكن ناجحة.</string>
@@ -379,15 +415,42 @@
   <string name="ime_action_previous">السابق</string>
   <string name="ime_action_search">بحث</string>
   <string name="ime_action_send">إرسال</string>
+  <string name="init_strings_dialog_battery_low_msg_txt">شحن البطارية غير كافٍ لتنفيذ التمهيد. حاول مرة أخرى بعد الشحن.</string>
+  <string name="init_strings_dialog_battery_low_title_txt">شحن البطارية منخفض</string>
+  <string name="init_strings_dialog_make_sure_msg_txt">مسح كل المعلومات الشخصية وأية تطبيقات تم إنزالها؟ الإجراء لا يمكن عكسه!</string>
+  <string name="init_strings_dialog_make_sure_title_txt">تمهيد الهاتف</string>
+  <string name="init_strings_init_mode_exit_btn_txt">خروج</string>
+  <string name="init_strings_init_mode_exit_msg_txt">قم بالخروج لبدء تشغيل الهاتف في الوضع العادي</string>
+  <string name="init_strings_init_mode_reset_btn_txt">إعادة تعيين الهاتف</string>
+  <string name="init_strings_init_mode_reset_msg_txt">"يؤدي التمهيد لمسح كل المعلومات الموجودة على الهاتف.
+ولا يمسح أية صور فوتوغرافية أو موسيقى أو معلومات أخرى مخزنة على بطاقة SD."</string>
+  <string name="init_strings_init_mode_title_summary_txt">إعادة تعيين الهاتف إلى حالة المصنع الأولية</string>
+  <string name="init_strings_init_mode_title_txt">وضع التمهيد</string>
   <string name="inputMethod">أسلوب الإدخال</string>
   <string name="input_method_binding_label">أسلوب الإدخال</string>
+  <string name="internal_storage_erase_data_desc">هل أنت متأكد من رغبتك في تهيئة سعة التخزين الداخلية؟ سيتم فقدان جميع البيانات الموجودة عليه.</string>
+  <string name="internal_storage_factory_reset_checking">يتم التحقق حاليا من التخزين الداخلي.</string>
+  <string name="internal_storage_factory_reset_erase">يتم الآن مسح سعة التخزين الداخلية</string>
+  <string name="internal_storage_factory_reset_error">تعذر مسح سعة التخزين الداخلية</string>
+  <string name="internal_storage_factory_reset_shared">التخزين الداخلي هو حاليا قيد الاستخدام من قبل جهاز كمبيوتر.</string>
+  <string name="internal_storage_factory_reset_unmount">يتم الآن فصل سعة التخزين الداخلية</string>
+  <string name="internal_storage_format_progress">تهيئة التخزين الداخلي</string>
+  <string name="internal_storage_strings_checking_notification_title_txt">يتم الآن تحضير سعة التخزين الداخلية</string>
+  <string name="internal_storage_strings_nofs_notification_message_txt">وحدة التخزين الداخلية فارغة أو نظام الملفات غير مدعوم</string>
+  <string name="internal_storage_strings_nofs_notification_title_txt">وحدة التخزين الداخلية فارغة</string>
+  <string name="internal_storage_strings_unmountable_notification_message_txt">سعة التخزين الداخلية تالف. يرجى تهيئته.</string>
+  <string name="internal_storage_strings_unmountable_notification_title_txt">سعة التخزين الداخلية تالفة</string>
   <string name="invalidPin">اكتب رمز PIN يتكون من 4 لـ 8 أعداد.</string>
   <string name="invalidPuk">اكتب رمز PUK مكونًا من 8 أرقام أو أكثر.</string>
   <string name="issued_by">جهة الإصدار:</string>
   <string name="issued_on">تاريخ الإصدار:</string>
   <string name="issued_to">إصدار لـ:</string>
-  <string name="js_dialog_before_unload">"التصفح بعيدًا عن هذه الصفحة? %s حدد موافق للاستمرار، أو إلغاء للبقاء في الصفحة الحالية."</string>
-  <string formatted="false" name="js_dialog_title">"الصفحة الموجودة على '%s' تقول:"</string>
+  <string name="js_dialog_before_unload">"التصفح بعيدًا عن هذه الصفحة?
+
+%s
+
+حدد موافق للاستمرار، أو إلغاء للبقاء في الصفحة الحالية."</string>
+  <string name="js_dialog_title">"الصفحة الموجودة على '%s' تقول:"</string>
   <string name="js_dialog_title_default">JavaScript</string>
   <string name="keyboard_headset_required_to_hear_password">يمكنك توصيل سماعة رأس لسماع مفاتيح كلمة المرور منطوقة بصوت عالٍ.</string>
   <string name="keyboard_password_character_no_headset">نقطة</string>
@@ -410,26 +473,28 @@
   <string name="kilobyteShort">كيلوبايت</string>
   <string name="last_month">الشهر الماضي</string>
   <string name="launchBrowserDefault">تشغيل المتصفح؟</string>
-  <string formatted="false" name="launch_warning_original">تم تشغيل %1$s من الأصل.</string>
-  <string formatted="false" name="launch_warning_replace">%1$s قيد التشغيل الآن.</string>
+  <string name="launch_warning_original">تم تشغيل %1$s في الأصل.</string>
+  <string name="launch_warning_replace">‏%1$s قيد التشغيل الآن.</string>
   <string name="launch_warning_title">تم إعادة توجيه التطبيق</string>
-  <string name="list_delimeter">", "</string>
+  <string name="list_delimeter">"، "</string>
   <string name="loading">جارٍ التحميل...</string>
   <string name="locale_replacement"/>
-  <string name="lock_pattern_view_aspect">square</string>
+  <string name="lock_pattern_view_aspect">مربع</string>
   <string name="lockscreen_access_pattern_cell_added">تمت إضافة الخلية</string>
   <string name="lockscreen_access_pattern_cleared">تم مسح النمط</string>
   <string name="lockscreen_access_pattern_detected">اكتمل النمط</string>
   <string name="lockscreen_access_pattern_start">بدأ النمط</string>
-  <string formatted="false" name="lockscreen_battery_short">%d%%</string>
+  <string name="lockscreen_battery_short">%d%%</string>
   <string name="lockscreen_carrier_default">لا تتوفر خدمة.</string>
   <string name="lockscreen_charged">تم الشحن.</string>
   <string name="lockscreen_emergency_call">مكالمة طوارئ</string>
-  <string formatted="false" name="lockscreen_failed_attempts_almost_at_wipe">لقد حاولت إلغاء قفل الهاتف بشكل غير صحيح لعدد %d من المرات. وبعد %d محاولة غير ناجحة أخرى، ستتم إعادة تعيين الهاتف إلى الإعدادات الافتراضية للمصنع وسيتم فقد جميع بيانات المستخدم.</string>
-  <string formatted="false" name="lockscreen_failed_attempts_almost_glogin">"لقد رسمت نمط إلغاء القفل بشكل غير صحيح لعدد %d من المرات. بعد %d من المحاولات الأخرى غير الناجحة الأخرى، ستُطالب بإلغاء قفل الهاتف من خلال تسجيل الدخول إلى Google.الرجاء المحاولة مرة أخرى خلال %d ثوانٍ."</string>
-  <string formatted="false" name="lockscreen_failed_attempts_now_wiping">لقد حاولت إلغاء قفل الهاتف بصورة غير صحيحة لعدد %d من المرات. سيتم الآن إعادة تعيين الهاتف إلى الإعدادات الافتراضية للمصنع.</string>
+  <string name="lockscreen_failed_attempts_almost_at_wipe" formatted="false">لقد حاولت إلغاء تأمين الهاتف %d من المرات. بعد %d من المحاولات غير الناجحة، ستتم إعادة تعيين الهاتف إلى الإعدادات الافتراضية للمصنع وسيتم فقد جميع بيانات المستخدم.</string>
+  <string name="lockscreen_failed_attempts_almost_glogin" formatted="false">"لقد رسمت نقش إلغاء التأمين بشكل غير صحيح %d مرة. بعد %d من المحاولات غير الناجحة الأخرى، ستُطالب بإلغاء تأمين الهاتف باستخدام معلومات تسجيل الدخول إلى Google.
+
+ الرجاء المحاولة مرة أخرى خلال %d ثانية."</string>
+  <string name="lockscreen_failed_attempts_now_wiping">لقد حاولت إلغاء تأمين الهاتف %d من المرات بشكل غير صحيح. سيتم الآن إعادة تعيين الهاتف إلى الإعدادات الافتراضية للمصنع.</string>
   <string name="lockscreen_forgot_pattern_button_text">نسيت النمط؟</string>
-  <string name="lockscreen_glogin_account_recovery_hint">"هل نسيت اسم المستخدم أو كلمة المرورتفضل بزيارة "</string>
+  <string name="lockscreen_glogin_account_recovery_hint">"هل نسيت اسم المستخدم أو كلمة السر؟ قم بزيارة"</string>
   <string name="lockscreen_glogin_checking_password">جارٍ التحقق...</string>
   <string name="lockscreen_glogin_forgot_pattern">إلغاء تأمين الحساب</string>
   <string name="lockscreen_glogin_instructions">لإلغاء التأمين، قم بتسجيل الدخول باستخدام حسابك على Google</string>
@@ -443,15 +508,16 @@
   <string name="lockscreen_low_battery">قم بتوصيل الشاحن الخاص بك.</string>
   <string name="lockscreen_missing_sim_instructions">يرجى إدخال بطاقة SIM.</string>
   <string name="lockscreen_missing_sim_instructions_long">بطاقة SIM مفقودة أو غير قابلة للقراءة. الرجاء إدراج بطاقة SIM.</string>
-  <string name="lockscreen_missing_sim_message">لا توجد بطاقة SIM في الهاتف.</string>
+  <string name="lockscreen_missing_sim_message">ليس هناك بطاقة SIM في الهاتف.</string>
   <string name="lockscreen_missing_sim_message_short">لا توجد بطاقة SIM.</string>
   <string name="lockscreen_network_locked_message">الشبكة مؤمنة</string>
   <string name="lockscreen_password_wrong">عذرًا، أعد المحاولة</string>
   <string name="lockscreen_pattern_correct">صواب!</string>
   <string name="lockscreen_pattern_instructions">رسم نمط لإلغاء التأمين</string>
   <string name="lockscreen_pattern_wrong">عذرًا، أعد المحاولة</string>
-  <string name="lockscreen_permanent_disabled_sim_instructions">"بطاقة SIM معطلة دومًا. يرجى الاتصال بمقدم الخدمة اللاسلكية للحصول على بطاقة SIM أخرى."</string>
-  <string formatted="false" name="lockscreen_plugged_in">يتم الشحن، %d%%</string>
+  <string name="lockscreen_permanent_disabled_sim_instructions">"بطاقة SIM معطلة دومًا.
+ يرجى الاتصال بمقدم الخدمة اللاسلكية للحصول على بطاقة SIM أخرى."</string>
+  <string name="lockscreen_plugged_in">يتم الشحن، %d%%</string>
   <string name="lockscreen_return_to_call">عودة للمكالمة</string>
   <string name="lockscreen_screen_locked">الشاشة مؤمنة.</string>
   <string name="lockscreen_sim_locked_message">تم تأمين بطاقة SIM.</string>
@@ -460,24 +526,79 @@
   <string name="lockscreen_sim_unlock_progress_dialog_message">جارٍ إلغاء تأمين بطاقة SIM...</string>
   <string name="lockscreen_sound_off_label">إيقاف تشغيل الصوت</string>
   <string name="lockscreen_sound_on_label">تشغيل الصوت</string>
-  <string formatted="false" name="lockscreen_too_many_failed_attempts_countdown">أعد المحاولة في غضون %d ثوانٍ.</string>
-  <string formatted="false" name="lockscreen_too_many_failed_attempts_dialog_message">"لقد قمت برسم نمط إلغاء التأمين الخاص بك بشكل غير صحيح %d مرات. يرجى إعادة المحاولة في غضون %d ثوانٍ."</string>
-  <string formatted="false" name="lockscreen_too_many_failed_password_attempts_dialog_message">"لقد أدخلت كلمة المرور بشكل غير صحيح لعدد %d من المرات. الرجاء إعادة المحاولة خلال %d ثوانٍ."</string>
-  <string formatted="false" name="lockscreen_too_many_failed_pin_attempts_dialog_message">"لقد أدخلت رقم التعريف الشخصي بشكل غير صحيح لعدد %d من المرات. الرجاء إعادة المحاولة خلال %d ثوانٍ."</string>
+  <string name="lockscreen_strings_backup_new_pattern_question_message_txt">تسجيل نمط إلغاء قفل جديد؟</string>
+  <string name="lockscreen_strings_backup_new_pattern_question_no_txt">لا</string>
+  <string name="lockscreen_strings_backup_new_pattern_question_title_txt">تم إلغاء قفل الشاشة</string>
+  <string name="lockscreen_strings_backup_new_pattern_question_yes_txt">نعم</string>
+  <string name="lockscreen_strings_backup_question_1_txt">ما اسم أمك قبل الزواج؟</string>
+  <string name="lockscreen_strings_backup_question_2_txt">ما هو مسقط رأسك؟</string>
+  <string name="lockscreen_strings_backup_question_3_txt">ما هو مكانك المفضل؟</string>
+  <string name="lockscreen_strings_backup_question_4_txt">ما هو فيلمك المفضل؟</string>
+  <string name="lockscreen_strings_backup_question_answer_hint_txt">إجابة</string>
+  <string name="lockscreen_strings_backup_question_emergency_button_txt">مكالمة طوارئ</string>
+  <string name="lockscreen_strings_backup_question_header_txt">سؤال أمان</string>
+  <string name="lockscreen_strings_backup_question_unlock_button_txt">إلغاء القفل</string>
+  <string name="lockscreen_strings_backup_selection_google_account_summary_txt">إلغاء القفل بتفاصيل حساب Google</string>
+  <string name="lockscreen_strings_backup_selection_google_account_txt">أدخل تفاصيل حساب Google الخاص بك</string>
+  <string name="lockscreen_strings_backup_selection_header_txt">إلغاء قفل الشاشة</string>
+  <string name="lockscreen_strings_backup_selection_next_txt">التالي</string>
+  <string name="lockscreen_strings_backup_selection_security_question_summary_txt">إلغاء بسؤال الأمان</string>
+  <string name="lockscreen_strings_backup_selection_security_question_txt">الإجابة على السؤال</string>
+  <string name="lockscreen_strings_backup_selection_sub_header_txt">تحديد كيفية إلغاء قفل الشاشة في حالة نسيانك للنمط</string>
+  <string name="lockscreen_strings_dialpad_0_txt">0</string>
+  <string name="lockscreen_strings_dialpad_1_txt">1</string>
+  <string name="lockscreen_strings_dialpad_2_txt">2</string>
+  <string name="lockscreen_strings_dialpad_3_txt">3</string>
+  <string name="lockscreen_strings_dialpad_4_txt">4</string>
+  <string name="lockscreen_strings_dialpad_5_txt">5</string>
+  <string name="lockscreen_strings_dialpad_6_txt">6</string>
+  <string name="lockscreen_strings_dialpad_7_txt">7</string>
+  <string name="lockscreen_strings_dialpad_8_txt">8</string>
+  <string name="lockscreen_strings_dialpad_9_txt">9</string>
+  <string name="lockscreen_strings_howtounlock_txt">اضغط على %icon لإلغاء القفل</string>
+  <string name="lockscreen_strings_locked_out_header_txt">نمط غير صحيح</string>
+  <string name="lockscreen_strings_locked_out_message_txt">لقد رسمت النمط بشكل خاطئ 20 مرة. قم بإلغاء القفل باستخدام سؤال الأمان.</string>
+  <string name="lockscreen_strings_locked_out_wrong_answer_message_txt">يرجى الضغط على موافق والمحاولة مرة أخرى</string>
+  <string name="lockscreen_strings_locked_out_wrong_answer_title_txt">إجابة غير صحيحة</string>
+  <string name="lockscreen_strings_locked_out_wrong_answer_txt">إجابة غير صحيحة</string>
+  <string name="lockscreen_strings_sim_locked_out_header_txt">تم حظر بطاقة SIM</string>
+  <string name="lockscreen_strings_sim_puk_attempts_remaining_txt">المحاولات المتبقية:</string>
+  <string name="lockscreen_strings_sim_puk_enter_puk_header_txt">أدخل PUK</string>
+  <string name="lockscreen_strings_sim_puk_locked_header_txt">تم قفل بطاقة SIM</string>
+  <string name="lockscreen_strings_sim_puk_locked_message_txt">أدخل رمز PUK الذي قدمه لك مشغل الخدمة</string>
+  <string name="lockscreen_strings_sim_puk_locked_out_message_txt">يرجى الاتصال بالمشغل</string>
+  <string name="lockscreen_strings_sim_puk_new_pin_header_txt">أدخل رمز PIN الجديد</string>
+  <string name="lockscreen_strings_sim_puk_retype_new_pin_header_txt">كرر رمز PIN الجديد</string>
+  <string name="lockscreen_strings_sim_puk_wrong_nbr_digits_header_txt">يجب أن يتألف PUK من 8 أرقام</string>
+  <string name="lockscreen_strings_timeout_dialog_header_txt">نمط غير صحيح</string>
+  <string name="lockscreen_strings_timeout_dialog_message_txt">المس التالي لإلغاء القفل باستخدام سؤال الأمان أو أعد المحاول خلال 30 ثانية</string>
+  <string name="lockscreen_strings_timeout_dialog_near_lockout_message_txt">تبقى لك 5 محاولات</string>
+  <string name="lockscreen_strings_timeout_dialog_next_label_txt">التالي</string>
+  <string name="lockscreen_strings_timeout_dialog_try_again_label_txt">أعد المحاولة</string>
+  <string name="lockscreen_too_many_failed_attempts_countdown">أعد المحاولة في غضون %d ثوانٍ.</string>
+  <string name="lockscreen_too_many_failed_attempts_dialog_message" formatted="false">"لقد قمت برسم نمط إلغاء التأمين الخاص بك بشكل غير صحيح %d مرات. 
+
+يرجى إعادة المحاولة في غضون %d ثوانٍ."</string>
+  <string name="lockscreen_too_many_failed_password_attempts_dialog_message" formatted="false">"لقد أدخلت كلمة المرور بشكل غير صحيح لعدد %d من المرات. 
+
+الرجاء إعادة المحاولة خلال %d ثوانٍ."</string>
+  <string name="lockscreen_too_many_failed_pin_attempts_dialog_message" formatted="false">"لقد أدخلت رقم التعريف الشخصي بشكل غير صحيح لعدد %d من المرات. 
+
+الرجاء إعادة المحاولة خلال %d ثوانٍ."</string>
   <string name="lockscreen_transport_next_description">زر المقطوعة التالية</string>
   <string name="lockscreen_transport_pause_description">زر الإيقاف المؤقت</string>
   <string name="lockscreen_transport_play_description">زر التشغيل</string>
   <string name="lockscreen_transport_prev_description">زر المقطوعة السابق</string>
   <string name="lockscreen_transport_stop_description">زر الإيقاف</string>
   <string name="lockscreen_unlock_label">إلغاء تأمين</string>
-  <string name="low_internal_storage_view_text">مساحة مخزن الهاتف آخذة في الانخفاض.</string>
+  <string name="low_internal_storage_view_text">مساحة تخزين الهاتف منخفضة.</string>
   <string name="low_internal_storage_view_title">المساحة منخضة</string>
-  <string name="low_memory">مخزن الهاتف ممتلئ! احذف بعض الملفات لتحرير مساحة.</string>
+  <string name="low_memory">سعة تخزين الهاتف ممتلئة! احذف بعض الملفات لتحرير مساحة.</string>
   <string name="me">أنا</string>
   <string name="media_bad_removal">تمت إزالة بطاقة SD قبل إجراء إلغاء تحميلها.</string>
-  <string name="media_checking">يتم حاليًا التحقق من بطاقة SD.</string>
+  <string name="media_checking">يجري فحص بطاقة SD حاليا.</string>
   <string name="media_removed">تمت إزالة بطاقة SD.</string>
-  <string name="media_shared">بطاقة SD قيد الاستخدام حاليًا بواسطة كمبيوتر.</string>
+  <string name="media_shared">بطاقة SD قيد الاستخدام حاليا من قبل الكمبيوتر.</string>
   <string name="media_unknown_state">الوسائط الخارجية في حالة غير معروفة.</string>
   <string name="megabyteShort">ميجابايت</string>
   <string name="menu_delete_shortcut_label">حذف</string>
@@ -487,12 +608,16 @@
   <string name="minute">دقيقة</string>
   <string name="minutes">دقائق</string>
   <string name="mismatchPin">أرقام التعريف الشخصي (PIN) التي أدخلتها غير متطابقة.</string>
+  <string name="mmcc_authentication_reject">غير مسموح ببطاقة SIM</string>
+  <string name="mmcc_illegal_me">غير مسموح بالهاتف MM #6</string>
+  <string name="mmcc_illegal_ms">غير مسموح ببطاقة SIM MM #3</string>
+  <string name="mmcc_imsi_unknown_in_hlr">لم يتم تزويد بطاقة SIM MM #2</string>
   <string name="mmiComplete">MMI كامل.</string>
   <string name="mmiError">توجد مشكلة في الاتصال أو رمز MMI غير صالح.</string>
   <string name="mmiFdnError">تم تقييد العملية إلى أرقام الاتصال بأرقام محددة فقط.</string>
-  <string formatted="false" name="month">%-B</string>
-  <string formatted="false" name="month_day">%-e %B</string>
-  <string formatted="false"name="month_day_year">%-e %B، %Y</string>
+  <string name="month">%-B</string>
+  <string name="month_day" formatted="false">%-e %B</string>
+  <string name="month_day_year" formatted="false">%-e %B، %Y</string>
   <string name="month_long_april">أبريل</string>
   <string name="month_long_august">أغسطس</string>
   <string name="month_long_december">ديسمبر</string>
@@ -541,11 +666,11 @@
   <string name="month_shortest_november">ب</string>
   <string name="month_shortest_october">ك</string>
   <string name="month_shortest_september">س</string>
-  <string formatted="false" name="month_year">%B %Y</string>
+  <string name="month_year" formatted="false">%B %Y</string>
   <string name="more_item_label">المزيد</string>
   <string name="needPuk">إن بطاقة SIM الخاصة بك مؤمنة باستخدام رمز PUK. اكتب رمز PUK لإلغاء تأمينها.</string>
   <string name="needPuk2">اكتب رمز PUK2 لإلغاء تأمين بطاقة SIM.</string>
-  <string formatted="false" name="new_app_action">بدء %1$s</string>
+  <string name="new_app_action">بدء %1$s</string>
   <string name="new_app_description">إيقاف التطبيق القديم بدون حفظ.</string>
   <string name="next_button_label">التالي</string>
   <string name="no">إلغاء</string>
@@ -555,24 +680,24 @@
   <string name="no_permissions">لا يلزم وجود أذونات</string>
   <string name="no_recent_tasks">لا توجد تطبيقات حديثة</string>
   <string name="noon">ظهرًا</string>
-  <string formatted="false" name="notification_title">خطأ عند تسجيل دخول%1$s</string>
+  <string name="notification_title">خطأ عند تسجيل دخول%1$s</string>
   <string name="number_picker_decrement_button">إنقاص</string>
   <string name="number_picker_increment_button">زيادة</string>
   <string name="number_picker_increment_scroll_action">تحريك لأعلى للزيادة ولأسفل للإنقاص.</string>
-  <string formatted="false" name="number_picker_increment_scroll_mode">%s انقر سريعا مع الاستمرار.</string>
-  <string formatted="false" name="numeric_date">%-e‏/%-m‏/%Y</string>
-  <string formatted="false" name="numeric_date_format">d‏/M‏/yyyy</string>
-  <string formatted="false" name="numeric_date_template">%s‏/%s‏/%s</string>
-  <string formatted="false" name="numeric_md1_md2">%3$s‏/%2$s - %8$s‏/%7$s</string>
-  <string formatted="false" name="numeric_md1_time1_md2_time2">%5$s %3$s/‏%2$s – %10$s %8$s/‏%7$s</string>
-  <string formatted="false" name="numeric_mdy1_mdy2">%3$s‏/%2$s‏/%4$s - %8$s‏/%7$s‏/%9$s</string>
-  <string formatted="false" name="numeric_mdy1_time1_mdy2_time2">%5$s %3$s‏/%2$s‏/%4$s – %10$s %8$s‏/%7$s‏/%9$s</string>
-  <string formatted="false" name="numeric_wday1_md1_time1_wday2_md2_time2">%5$s %1$s، %3$s-%2$s – %10$s %6$s، %8$s-%7$s</string>
-  <string formatted="false" name="numeric_wday1_md1_wday2_md2">%1$s، %3$s/‏%2$s - %6$s، %8$s/‏%7$s</string>
-  <string formatted="false" name="numeric_wday1_mdy1_time1_wday2_mdy2_time2">%5$s %1$s، %3$s/‏%2$s/‏%4$s – %10$s %6$s، %8$s/‏%7$s/‏%9$s</string>
-  <string formatted="false" name="numeric_wday1_mdy1_wday2_mdy2">%1$s، %3$s‏/%2$s‏/%4$s - %6$s، %8$s‏/%7$s‏/%9$s</string>
+  <string name="number_picker_increment_scroll_mode">%s انقر سريعا مع الاستمرار.</string>
+  <string name="numeric_date" formatted="false">%-e‏/%-m‏/%Y</string>
+  <string name="numeric_date_format">d‏/M‏/yyyy</string>
+  <string name="numeric_date_template" formatted="false">%s‏/%s‏/%s</string>
+  <string name="numeric_md1_md2">%3$s‏/%2$s - %8$s‏/%7$s</string>
+  <string name="numeric_md1_time1_md2_time2">%5$s %3$s/‏%2$s – %10$s %8$s/‏%7$s</string>
+  <string name="numeric_mdy1_mdy2">%3$s‏/%2$s‏/%4$s - %8$s‏/%7$s‏/%9$s</string>
+  <string name="numeric_mdy1_time1_mdy2_time2">%5$s %3$s‏/%2$s‏/%4$s – %10$s %8$s‏/%7$s‏/%9$s</string>
+  <string name="numeric_wday1_md1_time1_wday2_md2_time2">%5$s %1$s، %3$s-%2$s – %10$s %6$s، %8$s-%7$s</string>
+  <string name="numeric_wday1_md1_wday2_md2">%1$s، %3$s/‏%2$s - %6$s، %8$s/‏%7$s</string>
+  <string name="numeric_wday1_mdy1_time1_wday2_mdy2_time2">%5$s %1$s، %3$s/‏%2$s/‏%4$s – %10$s %6$s، %8$s/‏%7$s/‏%9$s</string>
+  <string name="numeric_wday1_mdy1_wday2_mdy2">%1$s، %3$s‏/%2$s‏/%4$s - %6$s، %8$s‏/%7$s‏/%9$s</string>
   <string name="ok">موافق</string>
-  <string formatted="false" name="old_app_action">رجوع إلى %1$s</string>
+  <string name="old_app_action">رجوع إلى %1$s</string>
   <string name="old_app_description">لا تبدأ تشغيل التطبيق الجديد.</string>
   <string name="older">الأقدم</string>
   <string name="oneMonthDurationPast">منذ شهر واحد</string>
@@ -587,8 +712,8 @@
   <string name="password_keyboard_label_alt_key">ALT</string>
   <string name="password_keyboard_label_symbol_key">\?123</string>
   <string name="paste">لصق</string>
-  <string name="permdesc_accessCoarseLocation">قم بالوصول إلى مصادر المواقع التقريبية مثل قاعدة بيانات شبكة الهاتف الخلوي لتحديد موقع تقريبي للهاتف، حيثما توفر ذلك. يمكن أن تستخدم التطبيقات الضارة ذلك لتحديد مكانك بالتقريب.</string>
-  <string name="permdesc_accessFineLocation">قم بالوصول إلى مصادر المواقع الدقيقة مثل نظام تحديد المواقع العالمي على الهاتف، حيثما توفر ذلك. يمكن أن تستخدم التطبيقات الضارة ذلك لتحديد مكانك، وقد تستهلك المزيد من طاقة البطارية.</string>
+  <string name="permdesc_accessCoarseLocation">الدخول إلى مصادر المواقع التقريبية مثل قاعدة بيانات شبكة الهاتف الخلوي لتحديد موقع تقريبي للهاتف، حيث يتوفر ذلك. يمكن أن تستخدم التطبيقات الضارة ذلك لتحديد مكانك بالتقريب.</string>
+  <string name="permdesc_accessFineLocation">الدخول إلى مصادر المواقع الجيدة مثل نظام تحديد المواقع العالمي على الهاتف، حيث يتوفر ذلك. يمكن أن تستخدم التطبيقات الضارة ذلك لتحديد مكانك، وقد تستهلك المزيد من طاقة البطارية.</string>
   <string name="permdesc_accessLocationExtraCommands">قم بالوصول إلى أوامر موفر الموقع الإضافية. وقد تستخدم التطبيقات الضارة ذلك للتداخل مع تشغيل نظام تحديد المواقع العالمي (GPS) أو مصادر الموقع الأخرى.</string>
   <string name="permdesc_accessMockLocation">قم بإنشاء مصادر موقع وهمية للاختبار. ويمكن للتطبيقات الضارة استخدام ذلك لتجاوز الموقع و/أو الحالة المعادة من قبل مصادر الموقع الحقيقي مثل نظام تحديد المواقع العالمي (GPS) أو موفري الشبكة.</string>
   <string name="permdesc_accessMtp">للسماح بالوصول إلى برنامج تشغيل kernel MTP لتنفيذ بروتوكول MTP USB.</string>
@@ -615,9 +740,9 @@
   <string name="permdesc_bindTextService">للسماح للمالك بالالتزام بواجهة المستوى العلوي لخدمة إدخال النصوص (على سبيل المثال، SpellCheckerService). ولا يجب استخدامه على الإطلاق للتطبيقات العادية.</string>
   <string name="permdesc_bindVpnService">للسماح للمالك بالالتزام بواجهة المستوى العلوي لخدمة الشبكة الظاهرية الخاصة (Vpn). ولن يكون مطلوبًا على الإطلاق مع التطبيقات العادية.</string>
   <string name="permdesc_bindWallpaper">السماح للحامل بالربط حتى الواجهة المستوى العلوي للخلفية. ولا تكون مطلوبة مطلقا للتطبيقات العادية.</string>
-  <string name="permdesc_bluetooth">للسماح لتطبيق ما بعرض تهيئة هاتف Bluetooth المحلي، وإجراء اتصالات وقبولها باستخدام الأجهزة المقترنة.</string>
-  <string name="permdesc_bluetoothAdmin">للسماح لتطبيق ما بتهيئة هاتف Bluetooth المحلي، واكتشاف أجهزة التحكم عن بعد والقرن معها.</string>
-  <string name="permdesc_brick">للسماح للتطبيق بتعطيل الهاتف بالكامل على الدوام. إنه خطير للغاية.</string>
+  <string name="permdesc_bluetooth">للسماح لتطبيق ما بعرض تهيئة هاتف البلوتوث المحلي، وإجراء اتصالات وقبولها باستخدام الأجهزة المقترنة.</string>
+  <string name="permdesc_bluetoothAdmin">للسماح لتطبيق ما بتهيئة هاتف البلوتوث المحلي، واكتشاف أجهزة التحكم عن بعد والاقتران معها.</string>
+  <string name="permdesc_brick">للسماح للتطبيق بتعطيل الهاتف بالكامل على الدوام. هذا خطير للغاية.</string>
   <string name="permdesc_broadcastPackageRemoved">للسماح لتطبيق ببث إعلام بإزالة حزمة تطبيق. وقد تستخدم التطبيقات الضارة ذلك للقضاء على أية تطبيقات أخرى قيد التشغيل.</string>
   <string name="permdesc_broadcastSmsReceived">للسماح لتطبيق ببث إعلام بتلقي رسالة SMS. وقد تستخدم التطبيقات الضارة ذلك لتزييف رسائل SMS الواردة.</string>
   <string name="permdesc_broadcastSticky">للسماح لتطبيق ما بإرسال بث طويل الزيارة، والذي يظل بعد انتهاء البث. قد تجعل التطبيقات الضارة الهاتف بطيئًا أو غير مستقر من خلال التسبب في استخدام مساحة كبيرة للغاية من الذاكرة.</string>
@@ -635,7 +760,7 @@
   <string name="permdesc_changeWifiState">للسماح لتطبيق بالاتصال بنقاط وصول Wi-Fi وقطع الاتصال عنها، ولإجراء تغييرات على شبكات Wi-Fi التي تم تكوينها.</string>
   <string name="permdesc_changeWimaxState">للسماح لتطبيق بالاتصال بشبكة WiMAX وقطع الاتصال بها.</string>
   <string name="permdesc_checkinProperties">للسماح بالوصول للنسخ/للكتابة إلى الخصائص التي تم تحميلها من قبل خدمة الإيداع. وليس للاستخدام من قبل التطبيقات العادية.</string>
-  <string name="permdesc_clearAppCache">للسماح لتطبيق ما بتفريغ مخزن الهاتف من خلال حذف بعض الملفات من دليل ذاكرة التخزين المؤقت للتطبيق. ويكون الوصول في العادة مقيّدًا بشدة لمعالجة النظام.</string>
+  <string name="permdesc_clearAppCache">للسماح لتطبيق ما بتفريغ سعة تخزين الهاتف من خلال حذف بعض الملفات من دليل ذاكرة التخزين المؤقت للتطبيق. ويكون الدخول في العادة مقيّدًا بشدة لمعالجة النظام.</string>
   <string name="permdesc_clearAppUserData">للسماح لتطبيق بمسح بيانات المستخدم.</string>
   <string name="permdesc_confirm_full_backup">للسماح للتطبيق بتشغيل واجهة المستخدم لتأكيد عملية النسخ الاحتياطي الكاملة. ليس للاستخدام بواسطة أي تطبيق.</string>
   <string name="permdesc_copyProtectedData">للسماح باستدعاء خدمة الحاوية الافتراضية لنسخ المحتوى. ولا تستخدمها التطبيقات العادية.</string>
@@ -648,15 +773,18 @@
   <string name="permdesc_dump">للسماح للتطبيق باسترداد الحالة الداخلية للنظام. وقد تسترد التطبيقات الضارة مجموعة كبيرة من المعلومات الخاصة والآمنة التي لا تكون بحاجة إليها في العادة على الإطلاق.</string>
   <string name="permdesc_enableCarMode">للسماح لتطبيق بتمكين وضع السيارة.</string>
   <string name="permdesc_expandStatusBar">للسماح للتطبيق بتوسيع شريط الحالة أو طيه.</string>
-  <string name="permdesc_factoryTest">قم بالتشغيل كاختبار مصنِّع بمستوى أدنى، مما يسمح بالوصول الكامل إلى مكونات الهاتف المادية. لا يتوفر سوى عند تشغيل الهاتف في وضع اختبار المصنِّع.</string>
+  <string name="permdesc_external_lockscreen">يسمح للتطبيق ليكون قفل شاشة خارجي ليحل محل قفل الشاشة الأصلية.</string>
+  <string name="permdesc_factoryTest">للتشغيل كاختبار مصنِّع بمستوى أدنى، مما يسمح بالدخول الكامل إلى جهاز الهاتف. لا يتوفر سوى عند تشغيل الهاتف في وضع اختبار المصنِّع.</string>
   <string name="permdesc_flashlight">للسماح للتطبيق بالتحكم في الكشاف.</string>
+  <string name="permdesc_fm_radio_receiver">يسمح للتطبيق للتحكم في مستقبل الراديو.</string>
+  <string name="permdesc_fm_radio_transmitter">يسمح للتطبيق للتحكم في مرسل الراديو.</string>
   <string name="permdesc_forceBack">للسماح لتطبيق بإغلاق أي نشاط موجود في المقدمة قسرًا والرجوع. ولا يكون مطلوبًا للتطبيقات العادية على الإطلاق.</string>
   <string name="permdesc_forceStopPackages">للسماح لتطبيق بإيقاف التطبيقات الأخرى قسرا.</string>
   <string name="permdesc_getAccounts">للسماح لتطبيق ما بالحصول على قائمة الحسابات المعروفة بواسطة الهاتف.</string>
   <string name="permdesc_getPackageSize">للسماح لتطبيق باسترداد أحجام ذاكرة التخزين المؤقت والبيانات والرمز الخاصة به</string>
   <string name="permdesc_getTasks">للسماح للتطبيق باسترداد معلومات حول المهام الجاري تشغيلها حاليا والتي تم تشغيلها مؤخرا. وقد يتم السماح للتطبيقات الضارة باكتشاف معلومات خاصة حول التطبيقات الأخرى.</string>
   <string name="permdesc_hardware_test">للسماح للتطبيق بالتحكم في الأجهزة الطرفية المتعددة بغرض اختبار الأجهزة.</string>
-  <string name="permdesc_injectEvents">للسماح لتطبيق ما بتسليم أحداث الإدخال الخاصة به (ضغطات المفاتيح وغير ذلك) إلى تطبيقات أخرى. يمكن أن تستخدم التطبيقات الضارة ذلك للسيطرة على الهاتف.</string>
+  <string name="permdesc_injectEvents">للسماح لتطبيق ما بتسليم أحداث الإرسال الخاصة به (ضغطات المفاتيح وغير ذلك) إلى تطبيقات أخرى. يمكن أن تستخدم التطبيقات الضارة ذلك للاستحواذ على الهاتف.</string>
   <string name="permdesc_installLocationProvider">قم بإنشاء مصادر موقع وهمية للاختبار. حيث يمكن للتطبيقات الضارة استخدام ذلك لتجاوز الموقع و/أو الحالة المعادة من قبل مصادر الموقع الحقيقي مثل نظام تحديد المواقع العالمي (GPS) أو موفري الشبكة أو الشاشة والإبلاغ عن موقعك لمصدر خارجي.</string>
   <string name="permdesc_installPackages">للسماح لتطبيق بتثبيت حزم Android جديدة أو محدثة. ويمكن أن تستخدم التطبيقات الضارة ذلك لإضافة تطبيقات جديدة باستخدام الأذونات الفعالة بشكل عشوائي.</string>
   <string name="permdesc_internalSystemWindow">للسماح بإنشاء الإطارات المخصصة للاستخدام من قبل واجهة مستخدم النظام الداخلي. وليست للاستخدام من قبل التطبيقات العادية.</string>
@@ -667,7 +795,7 @@
   <string name="permdesc_manageNetworkPolicy">للسماح لتطبيق بإدارة سياسات الشبكة وتحديد قواعد متعلقة بالتطبيق.</string>
   <string name="permdesc_manageUsb">اسمح للتطبيق بإدارة التفضيلات والأذونات لأجهزة USB.</string>
   <string name="permdesc_masterClear">للسماح لتطبيق بإعادة ضبط النظام بالكامل إلى إعدادات المصنع، مع مسح جميع البيانات، والتكوين، والتطبيقات المثبتة.</string>
-  <string name="permdesc_mediaStorageWrite">للسماح للتطبيق بتعديل محتويات مخزن الوسائط الداخلي.</string>
+  <string name="permdesc_mediaStorageWrite">للسماح لأحد التطبيقات بتعديل محتويات وحدة تخزين الوسائط الداخلية.</string>
   <string name="permdesc_modifyAudioSettings">للسماح للتطبيق بتعديل إعدادات الصوت العمومية مثل مستوى الصوت والتوجيه.</string>
   <string name="permdesc_modifyNetworkAccounting">للسماح بتعديل كيفية حساب استخدام الشبكة مع التطبيقات. ليس للاستخدام بواسطة التطبيقات العادية.</string>
   <string name="permdesc_modifyPhoneState">للسماح للتطبيق بالتحكم في ميزات الهاتف للجهاز. ويمكن للتطبيق المزود بهذا الإذن تبديل الشبكات، وتشغيل راديو الهاتف وإيقاف تشغيله وما شابه ذلك دون إعلامك مطلقا.</string>
@@ -680,8 +808,8 @@
   <string name="permdesc_persistentActivity">للسماح لتطبيق بجعل أجزاء منه ثابتة، بحيث يتعذر على النظام استخدامها للتطبيقات الأخرى.</string>
   <string name="permdesc_pkgUsageStats">للسماح بتعديل إحصائيات استخدام المكونات المجمعة. وليس للاستخدام من قبل التطبيقات العادية.</string>
   <string name="permdesc_processOutgoingCalls">للسماح للتطبيق بمعالجة المكالمات الصادرة وتغيير الرقم المراد الاتصال به. وقد تراقب التطبيقات الضارة المكالمات الصادرة، أو تقوم بإعادة توجيهها، أو منعها.</string>
-  <string name="permdesc_readCalendar">للسماح لأحد التطبيقات بقراءة جميع أحداث التقويم المخزّنة في هاتفك، بما في ذلك تلك الخاصة بالأصدقاء وزملاء العمل. يمكن لأحد التطبيقات الضارة باستخدام هذا الإذن استخراج المعلومات الشخصية من هذه التقويمات بدون معرفة المالكين.</string>
-  <string name="permdesc_readContacts">للسماح لتطبيق ما بقراءة جميع بيانات الأسماء/الأرقام (عنوان) المخزّنة في هاتفك. يمكن أن تستخدم التطبيقات الضارة هذا لإرسال بياناتك إلى أشخاص آخرين.</string>
+  <string name="permdesc_readCalendar">للسماح لأحد التطبيقات بقراءة جميع أحداث التقويم المخزّنة في هاتفك، بما في ذلك أحداث التقويم الخاصة بالأصدقاء وزملاء العمل. يمكن لأحد التطبيقات الضارة باستخدام هذا الإذن استخراج المعلومات الشخصية من هذه التقاويم بدون معرفة المالكين.</string>
+  <string name="permdesc_readContacts">للسماح لتطبيق ما بقراءة جميع بيانات (عنوان) جهات الاتصال المخزّنة في هاتفك. يمكن أن تستخدم التطبيقات الضارة هذا لإرسال بياناتك إلى أشخاص آخرين.</string>
   <string name="permdesc_readDictionary">للسماح لتطبيق بقراءة أية كلمات أو أسماء أو عبارات خاصة قد يكون المستخدم قام بتخزينها في قاموس المستخدم.</string>
   <string name="permdesc_readFrameBuffer">للسماح للتطبيق بقراءة محتوى مخزن الإطارات المؤقت.</string>
   <string name="permdesc_readHistoryBookmarks">للسماح للتطبيق بقراءة جميع عناوين URL التي قام المستعرض بزيارتها، وجميع الإشارات المرجعية للمستعرض.</string>
@@ -689,13 +817,13 @@
   <string name="permdesc_readLogs">للسماح لتطبيق ما بالقراءة من ملفات سجلات النظام المتنوعة. ويسمح ذلك للتطبيق باكتشاف المعلومات العامة حول ما تفعله بالهاتف، ومن المحتمل أن يتضمن معلومات شخصية أو خاصة.</string>
   <string name="permdesc_readNetworkUsageHistory">للسماح لتطبيق بقراءة معلومات سابقة عن استخدام الشبكة لشبكات وتطبيقات معينة.</string>
   <string name="permdesc_readPhoneState">للسماح للتطبيق بالوصول إلى ميزات الهاتف للجهاز. ويمكن لتطبيق مزود بهذا الإذن أن يحدد رقم الهاتف والرقم التسلسلي لهذا الهاتف، وما إذا كان الاتصال نشطا أم لا، والرقم الذي تم الاتصال به وما شابه ذلك.</string>
-  <string name="permdesc_readProfile">للسماح للتطبيق بقراءة معلومات النمط الشخصي المخزنة على الجهاز، مثل الاسم ومعلومات الاتصال. يعني ذلك أن التطبيق يمكنه التعرف عليك وإرسال معلومات النمط الخاصة بك إلى الآخرين.</string>
-  <string name="permdesc_readSms">للسماح للتطبيق بقراءة رسائل SMS المخزنة على الهاتف أو بطاقة SIM. قد تقرأ التطبيقات الضارة رسائلك السرية.</string>
-  <string name="permdesc_readSocialStream">للسماح للتطبيق بالوصول إلى التحديثات الاجتماعية منك ومن أصدقائك ومزامنتها. يمكن أن تستخدم التطبيقات الضارة هذا لقراءة الاتصالات الخاصة بينك وبين أصدقائك على الشبكات الاجتماعية.</string>
+  <string name="permdesc_readProfile">للسماح للتطبيق بقراءة معلومات الملف الشخصي الشخصية المخزنة على الجهاز، مثل الاسم ومعلومات الاتصال. يعني ذلك أن التطبيق يمكنه التعرف عليك وإرسال معلومات ملفك الشخصي إلى الآخرين.</string>
+  <string name="permdesc_readSms">للسماح للتطبيق بقراءة الرسائل القصيرة SMS المخزنة على الهاتف أو بطاقة SIM. قد تقرأ التطبيقات الضارة رسائلك السرية.</string>
+  <string name="permdesc_readSocialStream">للسماح للتطبيق بالدخول إلى التحديثات الاجتماعية منك ومن أصدقائك ومزامنتها. يمكن أن تستخدم التطبيقات الضارة هذا لقراءة الاتصالات الخاصة بينك وبين أصدقائك على الشبكات الاجتماعية.</string>
   <string name="permdesc_readSyncSettings">للسماح لتطبيق بقراءة إعدادات التزامن، مثل ما إذا كان التزامن ممكنًا لجهات الاتصال أم لا.</string>
   <string name="permdesc_readSyncStats">للسماح لتطبيق بقراءة حالة التزامن؛ على سبيل المثال سجل عمليات المزامنة التي تمت.</string>
-  <string name="permdesc_reboot">للسماح للتطبيق بفرض إعادة تمهيد الهاتف.</string>
-  <string name="permdesc_receiveBootCompleted">للسماح لتطبيق ما ببدء تشغيل نفسه عقب انتهاء النظام من التمهيد. قد يؤدي ذلك إلى استغراق مزيد من الوقت لبدء الهاتف ومن ثم السماح للتطبيق بإبطاء الأداء الإجمالي للهاتف حيث يتم تشغيله دومًا.</string>
+  <string name="permdesc_reboot">للسماح للتطبيق بفرض إعادة تشغيل الهاتف.</string>
+  <string name="permdesc_receiveBootCompleted">للسماح لتطبيق ما ببدء تشغيل نفسه عقب انتهاء النظام من التشغيل. قد يؤدي ذلك إلى استغراق مزيد من الوقت عن بدء الهاتف والسماح للتطبيق بإبطاء الأداء الإجمالي للهاتف حيث يتم تشغيله دومًا.</string>
   <string name="permdesc_receiveEmergencyBroadcast">للسماح للتطبيق باستلام رسائل بث الطوارئ ومعالجتها. يتاح هذا الإذن لتطبيقات النظام فقط.</string>
   <string name="permdesc_receiveMms">للسماح للتطبيق بتلقي رسائل MMS ومعالجتها. وقد تقوم التطبيقات الضارة بمراقبة رسائلك أو حذفها دون إظهارها لك.</string>
   <string name="permdesc_receiveSms">للسماح للتطبيق بتلقي رسائل SMS ومعالجتها. وقد تقوم التطبيقات الضارة بمراقبةرسائلك أو حذفها دون إظهارها لك.</string>
@@ -705,7 +833,7 @@
   <string name="permdesc_reorderTasks">للسماح لتطبيق بنقل المهام إلى المقدمة والخلفية. ويمكن أن تقوم التطبيقات الضارة بفرض نفسها على المقدمة دون تحكم منك.</string>
   <string name="permdesc_retrieve_window_content">للسماح للتطبيق باسترداد محتوى الإطار النشط. ويمكن للتطبيقات الضارة استرداد محتوى الإطار بالكامل وفحص جميع النصوص به باستثناء كلمات المرور.</string>
   <string name="permdesc_runSetActivityWatcher">للسماح لتطبيق ما بمراقبة كيفية تشغيل النظام للأنشطة والتحكم بها. ربما تهدد التطبيقات الضارة النظام. ويكون هذا الإذن ضروريًا فقط للتطوير، وليس للاستخدام العادي مطلقًا.</string>
-  <string name="permdesc_sdcardWrite">للسماح لتطبيق ما بالكتابة إلى بطاقة SD.</string>
+  <string name="permdesc_sdcardWrite">للسماح للتطبيقات بالكتابة إلى وحدة التخزين الداخلية.</string>
   <string name="permdesc_sendSms">للسماح للتطبيق بإرسال رسائل SMS. وقد تكلفك التطبيقات الضارة أموالاً من خلال إرسال الرسائل دون تأكيد منك.</string>
   <string name="permdesc_sendSmsNoConfirmation">للسماح للتطبيق بإرسال رسائل SMS. قد تكلفك التطبيقات الضارة المال من خلال إرسال رسائل بدون تأكيد من جانبك.</string>
   <string name="permdesc_setAlarm">للسماح للتطبيق بتعيين تنبيه في تطبيق ساعة تنبيه مثبت. قد لا تطبق بعض تطبيقات ساعة التنبيه هذه الميزة.</string>
@@ -716,12 +844,13 @@
   <string name="permdesc_setPointerSpeed">للسماح لتطبيق ما بتغيير سرعة مؤشر الماوس أو لوحة التعقب في أي وقت. لا يجب استخدامه على الإطلاق للتطبيقات العادية.</string>
   <string name="permdesc_setPreferredApplications">للسماح لتطبيق بتعديل تطبيقاتك المفضلة. ويمكن أن يسمح ذلك للتطبيقات الضارة بتغيير التطبيقات قيد التشغيل بشكل غير ملحوظ، وبذلك تنتحل هوية التطبيقات الموجودة لتجميع البيانات الخاصة منك.</string>
   <string name="permdesc_setProcessLimit">للسماح لتطبيق بالتحكم في الحد الأقصى لعدد العمليات التي سيتم تشغيلهات. ولا تحتاجه التطبيقات العادية على الإطلاق.</string>
-  <string name="permdesc_setTime">للسماح لتطبيق ما بتغيير توقيت ساعة الهاتف.</string>
+  <string name="permdesc_setTime">للسماح لتطبيق ما بتغيير وقت ساعة الهاتف.</string>
   <string name="permdesc_setTimeZone">للسماح لتطبيق ما بتغيير المنطقة الزمنية للهاتف.</string>
   <string name="permdesc_setWallpaper">للسماح للتطبيق بضبط خلفية النظام.</string>
   <string name="permdesc_setWallpaperHints">للسماح للتطبيق بضبط تلميحات حجم خلفية النظام.</string>
   <string name="permdesc_shutdown">لوضع مدير الأنشطة في حالة إيقاف التشغيل. ولا يقوم بإجراء إيقاف تشغيل كامل.</string>
   <string name="permdesc_signalPersistentProcesses">للسماح للتطبيق بطلب إرسال الإشارة المزودة إلى جميع العمليات الدائمة.</string>
+  <string name="permdesc_simauthentication">يسمح للتطبيق الوصول إلى خدمة مصادقة بطاقة Sim.</string>
   <string name="permdesc_statusBar">للسماح للتطبيق بتعطيل شريط المعلومات أو إضافة رموز النظام وإزالتها.</string>
   <string name="permdesc_statusBarService">للسماح بجعل التطبيق شريط الحالة.</string>
   <string name="permdesc_stopAppSwitches">للحيلولة دون تبديل المستخدم إلى تطبيق آخر.</string>
@@ -730,19 +859,20 @@
   <string name="permdesc_systemAlertWindow">للسماح للتطبيق بإظهار إطارات تنبيه النظام. يمكن أن تتحكم التطبيقات الضارة في الشاشة بأكملها.</string>
   <string name="permdesc_useCredentials">للسماح لتطبيق بطلب الرموز المميزة للمصادقة.</string>
   <string name="permdesc_use_sip">للسماح لتطبيق باستخدام خدمة SIP لإجراء/استقبال المكالمات عبر الإنترنت.</string>
+  <string name="permdesc_vendorButton">للسماح لتطبيق بالعمل وفقًا لإجراءات زر البائع.</string>
   <string name="permdesc_vibrate">للسماح للتطبيق بالتحكم في الهزاز.</string>
   <string name="permdesc_wakeLock">للسماح لتطبيق ما بمنع الهاتف من الانتقال إلى وضع السكون.</string>
   <string name="permdesc_writeApnSettings">للسماح لأحد التطبيقات بتغيير إعدادات الشبكة واعتراض وفحص جميع حركة المرور على الشبكة، على سبيل المثال تغيير الخادم الوكيل ومنفذ أي APN. يمكن أن تراقب التطبيقات الضارة حزم الشبكة أو تعيد توجيهها أو تعديلها بدون معرفتك.</string>
   <string name="permdesc_writeCalendar">للسماح لأحد التطبيقات بإرسال دعوات الأحداث كمالك التقويم وإضافة وإزالة وتغيير الأحداث التي يمكنك تعديلها على الجهاز، بما في ذلك الأحداث الخاصة بالزملاء أو زملاء العمل. يمكن لأحد التطبيقات الضارة باستخدام هذا الإذن إرسال رسائل إلكترونية غير مرغوب فيها تظهر على أنها مرسلة من مالكي التقويمات أو تعديل الأحداث بدون معرفة المالكين أو إضافة أحداث مزيفة.</string>
-  <string name="permdesc_writeContacts">للسماح لتطبيق ما بتعديل بيانات الأسماء/الأرقام (عنوان) المخزّنة في هاتفك. يمكن أن تستخدم التطبيقات الضارة ذلك لمسح بيانات الأسماء/الأرقام أو تعديلها.</string>
+  <string name="permdesc_writeContacts">للسماح لتطبيق ما بتعديل بيانات (عنوان) جهة الاتصال المخزّنة في هاتفك. يمكن أن تستخدم التطبيقات الضارة ذلك لمسح بيانات جهة الاتصال أو تعديلها.</string>
   <string name="permdesc_writeDictionary">للسماح لتطبيق بكتابة كلمات جديدة في قاموس المستخدم.</string>
   <string name="permdesc_writeGeolocationPermissions">للسماح لتطبيق بتعديل أذونات الموقع الجغرافي للمستعرض. يمكن أن تستخدم التطبيقات الضارة ذلك للسماح بإرسال معلومات الموقع إلى مواقع ويب عشوائية.</string>
   <string name="permdesc_writeGservices">للسماح لتطبيق بتعديل خريطة خدمات Google. ولا تستخدمه التطبيقات العادية.</string>
-  <string name="permdesc_writeHistoryBookmarks">للسماح لتطبيق ما بتعديل سجل المستعرض أو العلامات المرجعية في هاتفك. يمكن أن تستخدم التطبيقات الضارة ذلك لمسح بيانات المستعرض أو تعديلها.</string>
-  <string name="permdesc_writeProfile">للسماح للتطبيق بتغيير أو إضافة معلومات النمط الشخصي المخزنة على الجهاز، مثل الاسم ومعلومات الاتصال. يعني ذلك أن التطبيقات الأخرى يمكنها التعرف عليك وإرسال معلومات نمطك إلى الآخرين.</string>
+  <string name="permdesc_writeHistoryBookmarks">للسماح لتطبيق ما بتعديل سجل المتصفح أو الإشارات في هاتفك. يمكن أن تستخدم التطبيقات الضارة ذلك لمسح بيانات المتصفح أو تعديلها.</string>
+  <string name="permdesc_writeProfile">للسماح للتطبيق بتغيير أو إضافة معلومات الملف الشخصي الشخصية المخزنة على الجهاز، مثل الاسم ومعلومات الاتصال. يعني ذلك أن التطبيقات الأخرى يمكنها التعرف عليك وإرسال معلومات ملفك الشخصي إلى الآخرين.</string>
   <string name="permdesc_writeSecureSettings">للسماح لتطبيق بتعديل بيانات الإعدادات الآمنة للنظام. ولا تستخدمها التطبيقات العادية.</string>
   <string name="permdesc_writeSettings">للسماح لتطبيق بتعديل بيانات إعدادات النظام. ويمكن للتطبيقات الضارة إتلاف تكوين النظام.</string>
-  <string name="permdesc_writeSms">للسماح للتطبيق بالكتابة إلى رسائل SMS المخزنة على الهاتف أو بطاقة SIM. قد تحذف التطبيقات الضارة رسائلك.</string>
+  <string name="permdesc_writeSms">للسماح للتطبيق بالكتابة إلى الرسائل القصيرة SMS المخزنة على الهاتف أو بطاقة SIM. قد تحذف التطبيقات الضارة رسائلك.</string>
   <string name="permdesc_writeSocialStream">للسماح للتطبيق بعرض التحديثات الاجتماعية من أصدقائك. يمكن أن تستخدم التطبيقات الضارة هذا للتظاهر بأنها صديق وتخدعك لكشف كلمات المرور أو المعلومات السرية الأخرى.</string>
   <string name="permdesc_writeSyncSettings">للسماح لتطبيق بتعديل إعدادات التزامن، مثل ما إذا كان التزامن ممكنًا لجهات الاتصال.</string>
   <string name="permgroupdesc_accounts">الوصول إلى حسابات Google المتوفرة.</string>
@@ -752,9 +882,9 @@
   <string name="permgroupdesc_location">مراقبة موقعك المادي</string>
   <string name="permgroupdesc_messages">قراءة وكتابة رسائل SMS والبريد الإلكتروني والرسائل الأخرى.</string>
   <string name="permgroupdesc_network">السماح للتطبيقات بالوصول إلى ميزات الشبكة المتعددة.</string>
-  <string name="permgroupdesc_personalInfo">الوصول المباشر إلى التقويم والأسماء/الأرقام المخزّنة على الهاتف.</string>
+  <string name="permgroupdesc_personalInfo">الدخول المباشر إلى التقويم وجهات الاتصال المخزّنة على الهاتف.</string>
   <string name="permgroupdesc_phoneCalls">مراقبة المكالمات الهاتفية وتسجيلها ومعالجتها.</string>
-  <string name="permgroupdesc_storage">قم بالوصول إلى بطاقة SD.</string>
+  <string name="permgroupdesc_storage">قم بالوصول إلى وحدة التخزين الداخلية.</string>
   <string name="permgroupdesc_systemTools">وصول وتحكم منخفضا المستوى للنظام.</string>
   <string name="permgrouplab_accounts">حساباتك</string>
   <string name="permgrouplab_costMoney">خدمات تكلفك أموالاً</string>
@@ -768,8 +898,8 @@
   <string name="permgrouplab_storage">التخزين</string>
   <string name="permgrouplab_systemTools">أدوات النظام</string>
   <string name="permission_request_notification_title">تم طلب الإذن</string>
-  <string formatted="false" name="permission_request_notification_with_subtitle">تم طلب الإذن للحساب %s</string>
-  <string formatted="false" name="permissions_format">%1$s, %2$s</string>
+  <string name="permission_request_notification_with_subtitle">تم طلب الإذن للحساب %s</string>
+  <string name="permissions_format">%1$s, %2$s</string>
   <string name="permlab_accessCoarseLocation">موقع رديء (يستند إلى الشبكة).</string>
   <string name="permlab_accessFineLocation">موقع (GPS) دقيق</string>
   <string name="permlab_accessLocationExtraCommands">الوصول إلى أوامر موفر الموقع الإضافية</string>
@@ -831,8 +961,11 @@
   <string name="permlab_dump">استرداد الحالة الداخلية للنظام</string>
   <string name="permlab_enableCarMode">تمكين وضع السيارة</string>
   <string name="permlab_expandStatusBar">توسيع/طي شريط المعلومات</string>
+  <string name="permlab_external_lockscreen">تشغيل كـقفل شاشة خارجي</string>
   <string name="permlab_factoryTest">التشغيل في وضع اختبار المصنع</string>
   <string name="permlab_flashlight">التحكم في الكشاف</string>
+  <string name="permlab_fm_radio_receiver">تحكم بمستقبل الراديو</string>
+  <string name="permlab_fm_radio_transmitter">تحكم بمرسل الراديو</string>
   <string name="permlab_forceBack">إغلاق التطبيق قسرًا</string>
   <string name="permlab_forceStopPackages">إيقاف التطبيقات الأخرى قسرا</string>
   <string name="permlab_getAccounts">اكتشاف الحسابات المعروفة</string>
@@ -850,7 +983,7 @@
   <string name="permlab_manageNetworkPolicy">إدارة سياسة الشبكة</string>
   <string name="permlab_manageUsb">إدارة التفضيلات والأذونات لأجهزة USB</string>
   <string name="permlab_masterClear">إعادة ضبط النظام إلى الإعدادات الافتراضية للمصنع</string>
-  <string name="permlab_mediaStorageWrite">تعديل/حذف محتويات مخزن الوسائط الداخلية</string>
+  <string name="permlab_mediaStorageWrite">تعديل/حذف محتويات وحدة تخزين الوسائط الداخلية</string>
   <string name="permlab_modifyAudioSettings">تغيير إعدادات الصوت الخاصة بك</string>
   <string name="permlab_modifyNetworkAccounting">تعديل حساب استخدام الشبكة</string>
   <string name="permlab_modifyPhoneState">تعديل حالة الهاتف</string>
@@ -874,10 +1007,10 @@
   <string name="permlab_readPhoneState">قراءة هوية وحالة الهاتف</string>
   <string name="permlab_readProfile">قراءة بيانات نمطك</string>
   <string name="permlab_readSms">قراءة رسائل SMS أو MMS</string>
-  <string name="permlab_readSocialStream">قراءة التدفق الاجتماعي</string>
+  <string name="permlab_readSocialStream">قراءة المشاركات الاجتماعية</string>
   <string name="permlab_readSyncSettings">قراءة إعدادات التزامن</string>
   <string name="permlab_readSyncStats">قراءة إحصائيات التزامن</string>
-  <string name="permlab_reboot">فرض إعادة تمهيد الهاتف</string>
+  <string name="permlab_reboot">فرض إعادة تشغيل الهاتف</string>
   <string name="permlab_receiveBootCompleted">البدء تلقائيًا عند التمهيد</string>
   <string name="permlab_receiveEmergencyBroadcast">استقبال عمليات البث عند الطوارئ</string>
   <string name="permlab_receiveMms">تلقي رسائل MMS</string>
@@ -888,7 +1021,7 @@
   <string name="permlab_reorderTasks">إعادة ترتيب التطبيقات قيد التشغيل</string>
   <string name="permlab_retrieve_window_content">استرجاع محتوى الشاشة</string>
   <string name="permlab_runSetActivityWatcher">مراقبة بدء تشغيل جميع التطبيقات والتحكم فيه</string>
-  <string name="permlab_sdcardWrite">تعديل/حذف محتويات بطاقة SD</string>
+  <string name="permlab_sdcardWrite">إدارة محتويات وحدة التخزين الداخلية</string>
   <string name="permlab_sendSms">إرسال رسائل SMS</string>
   <string name="permlab_sendSmsNoConfirmation">إرسال رسائل SMS بدون تأكيد</string>
   <string name="permlab_setAlarm">ضبط التنبيه في ساعة التنبيه</string>
@@ -905,6 +1038,7 @@
   <string name="permlab_setWallpaperHints">ضبط تلميحات حجم الخلفية</string>
   <string name="permlab_shutdown">إيقاف تشغيل جزئي</string>
   <string name="permlab_signalPersistentProcesses">إرسال إشارات Linux إلى التطبيقات</string>
+  <string name="permlab_simauthentication">authenticate simcard</string>
   <string name="permlab_statusBar">تعطيل شريط المعلومات أو تعديله</string>
   <string name="permlab_statusBarService">شريط الحالة</string>
   <string name="permlab_stopAppSwitches">منع تبديلات التطبيقات</string>
@@ -913,6 +1047,7 @@
   <string name="permlab_systemAlertWindow">عرض التنبيهات على مستوى النظام</string>
   <string name="permlab_useCredentials">استخدام بيانات اعتمادات المصادقة لأحد الحسابات</string>
   <string name="permlab_use_sip">إجراء/استقبال المكالمات عبر الإنترنت</string>
+  <string name="permlab_vendorButton">زر البائع</string>
   <string name="permlab_vibrate">التحكم في الهزاز</string>
   <string name="permlab_wakeLock">منع الهاتف من الدخول في وضع السكون</string>
   <string name="permlab_writeApnSettings">تغيير/اعتراض إعدادات الشبكة وحركة المرور</string>
@@ -926,7 +1061,7 @@
   <string name="permlab_writeSecureSettings">تعديل إعدادات النظام الآمنة</string>
   <string name="permlab_writeSettings">تعديل إعدادات النظام العمومية</string>
   <string name="permlab_writeSms">تحرير رسالة SMS أو MMS</string>
-  <string name="permlab_writeSocialStream">كتابة إلى التدفق الاجتماعي</string>
+  <string name="permlab_writeSocialStream">كتابة إلى المشاركات الاجتماعية</string>
   <string name="permlab_writeSyncSettings">كتابة إعدادات التزامن</string>
   <string name="perms_hide"/>
   <string name="perms_show_all"/>
@@ -958,15 +1093,17 @@
   <string name="policydesc_expirePassword">التحكم في عدد مرات تغيير كلمة مرور قفل الشاشة</string>
   <string name="policydesc_forceLock">التحكم في كيفية قفل الشاشة وموعده</string>
   <string name="policydesc_limitPassword">التحكم في الطول والأحرف المسموح بها في كلمات مرور إلغاء قفل الشاشة</string>
+  <string name="policydesc_passwordRecovery">استخدام كلمة مرور الاسترجاع لإلغاء قفل هاتفك عند نسيان كلمة المرور</string>
   <string name="policydesc_resetPassword">تغيير كلمة مرور إلغاء قفل الشاشة</string>
   <string name="policydesc_setGlobalProxy">قم بتعيين بروكسي العمومي للجهاز المقرر استخدامه أثناء تمكين السياسة. يعين مسؤول الجهاز الأول فقط البروكسي العمومي الفعال.</string>
-  <string name="policydesc_watchLogin">مراقبة عدد كلمات المرور غير الصحيحة التي تم إدخالها عند إلغاء قفل الشاشة، وقفل الهاتف ومسح كل بيانات الهاتف إذا تم إدخال عدد كبير جدًا من كلمات المرور غير الصحيحة</string>
-  <string name="policydesc_wipeData">مسح بيانات الهاتف بدون تحذير، وذلك عبر إجراء إعادة الضبط على بيانات المصنع</string>
+  <string name="policydesc_watchLogin">مراقبة عدد كلمات المرور غير الصحيحة التي تم إدخالها عند إلغاء قفل الشاشة، وقفل الهاتف ومحو كل بيانات الهاتف إذا تم إدخال عدد أكبر من اللازم من كلمات المرور غير الصحيحة</string>
+  <string name="policydesc_wipeData">محو بيانات الهاتف بدون تحذير، وذلك عبر إجراء إعادة الضبط بحسب بيانات المصنع</string>
   <string name="policylab_disableCamera">تعطيل الكاميرات</string>
   <string name="policylab_encryptedStorage">تعيين تشفير المخزن</string>
   <string name="policylab_expirePassword">ضبط انتهاء صلاحية كلمة مرور قفل الشاشة</string>
   <string name="policylab_forceLock">قفل الشاشة</string>
   <string name="policylab_limitPassword">ضبط قواعد كلمات المرور</string>
+  <string name="policylab_passwordRecovery">استرجاع كلمة المرور</string>
   <string name="policylab_resetPassword">تغيير كلمة مرور إلغاء قفل الشاشة</string>
   <string name="policylab_setGlobalProxy">تعيين البروكسي العمومي للجهاز</string>
   <string name="policylab_watchLogin">مراقبة محاولات إلغاء قفل الشاشة</string>
@@ -978,11 +1115,11 @@
   <string name="power_dialog">خيارات الهاتف</string>
   <string name="power_off">إيقاف التشغيل</string>
   <string name="prepend_shortcut_label">القائمة+</string>
-  <string formatted="false" name="preposition_for_date">تشغيل%s</string>
-  <string formatted="false" name="preposition_for_time">في %s</string>
-  <string formatted="false" name="preposition_for_year">في %s</string>
+  <string name="preposition_for_date">تشغيل%s</string>
+  <string name="preposition_for_time">في %s</string>
+  <string name="preposition_for_year">في %s</string>
   <string name="progress_erasing">جارٍ مسح بطاقة SD...</string>
-  <string name="progress_unmounting">جارٍ فصل بطاقة SD...</string>
+  <string name="progress_unmounting">جارٍ إلغاء تحميل بطاقة SD...</string>
   <string name="radiobutton_not_selected">غير محدد</string>
   <string name="radiobutton_selected">محدد</string>
   <string name="recent_tasks_title">حديث</string>
@@ -1001,12 +1138,12 @@
   <string name="relationTypeRelative">قريب</string>
   <string name="relationTypeSister">أخت</string>
   <string name="relationTypeSpouse">زوج/زوجة</string>
-  <string formatted="false" name="relative_time">%1$s ، %2$s</string>
+  <string name="relative_time">%1$s ، %2$s</string>
   <string name="replace">استبدال...</string>
   <string name="report">إبلاغ</string>
   <string name="reset">إعادة تعيين</string>
   <string name="ringtone_default">نغمة الرنين الافتراضية</string>
-  <string formatted="false" name="ringtone_default_with_actual">نغمة الرنين الافتراضية (%1$s)</string>
+  <string name="ringtone_default_with_actual">نغمة الرنين الافتراضية (%1$s)</string>
   <string name="ringtone_picker_title">نغمات الرنين</string>
   <string name="ringtone_silent">صامت</string>
   <string name="ringtone_unknown">نغمة رنين غير معروفة</string>
@@ -1025,22 +1162,22 @@
   <string name="roamingText9">تجوال - وظيفة الخدمة الكاملة</string>
   <string name="roamingTextSearching">البحث عن الخدمة</string>
   <string name="safeMode">الوضع الآمن</string>
-  <string formatted="false" name="same_month_md1_md2">%3$s-%8$s %2$s</string>
-  <string formatted="false" name="same_month_md1_time1_md2_time2">%5$s %3$s %2$s – %10$s %8$s %7$s</string>
-  <string formatted="false" name="same_month_mdy1_mdy2">%3$s-%8$s %2$s، %9$s</string>
-  <string formatted="false" name="same_month_mdy1_time1_mdy2_time2">%5$s %3$s %2$s، %4$s – %10$s %8$s %7$s، %9$s</string>
-  <string formatted="false" name="same_month_wday1_md1_time1_wday2_md2_time2">%5$s %1$s %3$s %2$s – %10$s %6$s %8$s %7$s</string>
-  <string formatted="false" name="same_month_wday1_md1_wday2_md2">%1$s %3$s %2$s – %6$s %8$s %7$s</string>
-  <string formatted="false" name="same_month_wday1_mdy1_time1_wday2_mdy2_time2">%5$s %1$s، %3$s %2$s %4$s – %10$s %6$s، %8$s %7$s %9$s</string>
-  <string formatted="false" name="same_month_wday1_mdy1_wday2_mdy2">%1$s، %3$s %2$s %4$s – %6$s، %8$s %7$s %9$s</string>
-  <string formatted="false" name="same_year_md1_md2">%3$s %2$s – %8$s %7$s</string>
-  <string formatted="false" name="same_year_md1_time1_md2_time2">%5$s %3$s %2$s – %10$s %8$s %7$s</string>
-  <string formatted="false" name="same_year_mdy1_mdy2">%3$s %2$s - %8$s %7$s، %9$s</string>
-  <string formatted="false" name="same_year_mdy1_time1_mdy2_time2">%5$s %3$s %2$s، %4$s – %10$s %8$s %7$s، %9$s</string>
-  <string formatted="false" name="same_year_wday1_md1_time1_wday2_md2_time2">%5$s %1$s %3$s %2$s – %10$s %6$s %8$s %7$s</string>
-  <string formatted="false" name="same_year_wday1_md1_wday2_md2">%1$s %3$s %2$s – %6$s %8$s %7$s</string>
-  <string formatted="false" name="same_year_wday1_mdy1_time1_wday2_mdy2_time2">%5$s %1$s، %3$s %2$s %4$s – %10$s %6$s، %8$s %7$s %9$s</string>
-  <string formatted="false" name="same_year_wday1_mdy1_wday2_mdy2">%1$s، %3$s %2$s - %6$s، %8$s %7$s، %9$s</string>
+  <string name="same_month_md1_md2">%3$s-%8$s %2$s</string>
+  <string name="same_month_md1_time1_md2_time2">%5$s %3$s %2$s – %10$s %8$s %7$s</string>
+  <string name="same_month_mdy1_mdy2">%3$s-%8$s %2$s، %9$s</string>
+  <string name="same_month_mdy1_time1_mdy2_time2">%5$s %3$s %2$s، %4$s – %10$s %8$s %7$s، %9$s</string>
+  <string name="same_month_wday1_md1_time1_wday2_md2_time2">%5$s %1$s %3$s %2$s – %10$s %6$s %8$s %7$s</string>
+  <string name="same_month_wday1_md1_wday2_md2">%1$s %3$s %2$s – %6$s %8$s %7$s</string>
+  <string name="same_month_wday1_mdy1_time1_wday2_mdy2_time2">%5$s %1$s، %3$s %2$s %4$s – %10$s %6$s، %8$s %7$s %9$s</string>
+  <string name="same_month_wday1_mdy1_wday2_mdy2">%1$s، %3$s %2$s %4$s – %6$s، %8$s %7$s %9$s</string>
+  <string name="same_year_md1_md2">%3$s %2$s – %8$s %7$s</string>
+  <string name="same_year_md1_time1_md2_time2">%5$s %3$s %2$s – %10$s %8$s %7$s</string>
+  <string name="same_year_mdy1_mdy2">%3$s %2$s - %8$s %7$s، %9$s</string>
+  <string name="same_year_mdy1_time1_mdy2_time2">%5$s %3$s %2$s، %4$s – %10$s %8$s %7$s، %9$s</string>
+  <string name="same_year_wday1_md1_time1_wday2_md2_time2">%5$s %1$s %3$s %2$s – %10$s %6$s %8$s %7$s</string>
+  <string name="same_year_wday1_md1_wday2_md2">%1$s %3$s %2$s – %6$s %8$s %7$s</string>
+  <string name="same_year_wday1_mdy1_time1_wday2_mdy2_time2">%5$s %1$s، %3$s %2$s %4$s – %10$s %6$s، %8$s %7$s %9$s</string>
+  <string name="same_year_wday1_mdy1_wday2_mdy2">%1$s، %3$s %2$s - %6$s، %8$s %7$s، %9$s</string>
   <string name="save_password_label">تأكيد</string>
   <string name="save_password_message">هل ترغب في تذكر المستعرض لكلمة المرور هذه؟</string>
   <string name="save_password_never">مطلقا</string>
@@ -1064,6 +1201,7 @@
   <string name="select_input_method">تحديد أسلوب إدخال</string>
   <string name="sendText">تحديد إجراء للنص</string>
   <string name="sending">جارٍ الإرسال...</string>
+  <string name="seport_strings_accessory_not_supported_txt">الملحق غير مدعوم</string>
   <string name="serial_number">الرقم التسلسلي:</string>
   <string name="serviceClassData">البيانات</string>
   <string name="serviceClassDataAsync">غير متزامن</string>
@@ -1085,7 +1223,7 @@
   <string name="share">مشاركة</string>
   <string name="share_action_provider_share_with">مشاركة مع...</string>
   <string name="shareactionprovider_share_with">مشاركة مع</string>
-  <string formatted="false" name="shareactionprovider_share_with_application">مشاركة مع %s</string>
+  <string name="shareactionprovider_share_with_application">مشاركة مع %s</string>
   <string name="short_format_month">%b</string>
   <string name="shutdown_confirm">سيتم إيقاف تشغيل هاتفك.</string>
   <string name="shutdown_confirm_question">هل تريد إيقاف التشغيل؟</string>
@@ -1110,8 +1248,10 @@
   <string name="sms_control_no">إلغاء</string>
   <string name="sms_control_title">إرسال رسائل SMS</string>
   <string name="sms_control_yes">موافق</string>
-  <string formatted="false" name="smv_application">انتهك التطبيق %1$s (العملية %2$s) نهج StrictMode الخاص به الذي يتم فرضه ذاتيا.</string>
-  <string formatted="false" name="smv_process">انتهكت العملية %1$s سياسة StrictMode المفروضة ذاتيًا.</string>
+  <string name="smv_application">انتهك التطبيق %1$s (العملية %2$s) نهج StrictMode الخاص به الذي يتم فرضه ذاتيا.</string>
+  <string name="smv_process">انتهكت العملية %1$s سياسة StrictMode المفروضة ذاتيًا.</string>
+  <string name="somc_btn_off">〇</string>
+  <string name="somc_btn_on">|</string>
   <string name="ssl_certificate">شهادة الأمان</string>
   <string name="ssl_certificate_is_valid">هذه الشهادة صالحة.</string>
   <string name="status_bar_device_locked">تم قفل الجهاز.</string>
@@ -1126,7 +1266,7 @@
   <string name="sync_do_nothing">عدم تنفيذ أي شيء الآن.</string>
   <string name="sync_really_delete">احذف العناصر.</string>
   <string name="sync_too_many_deletes">تم تجاوز حد الحذف</string>
-  <string formatted="false" name="sync_too_many_deletes_desc">هنا %1$d عناصر محذوفة لـ %2$s، الحساب %3$s. هل ترغب في القيام بذلك؟</string>
+  <string name="sync_too_many_deletes_desc">هنا %1$d عناصر محذوفة لـ %2$s، الحساب %3$s. هل ترغب في القيام بذلك؟</string>
   <string name="sync_undo_deletes">تراجع عن عمليات الحذف.</string>
   <string name="terabyteShort">تيرابايت</string>
   <string name="tethered_notification_message">المس للتهيئة</string>
@@ -1137,9 +1277,9 @@
   <string name="throttle_warning_notification_title">استخدام مرتفع لبيانات النقال</string>
   <string name="throttled_notification_message">المس لمعرفة المزيد حول استخدام بيانات النقال</string>
   <string name="throttled_notification_title">تم تجاوز حد بيانات النقال</string>
-  <string formatted="false" name="time1_time2">%1$s – %2$s</string>
-  <string formatted="false" name="time_date">%1$s %3$s</string>
-  <string formatted="false" name="time_of_day">%-l:%M:%S %p</string>
+  <string name="time1_time2">%1$s – %2$s</string>
+  <string name="time_date">%1$s %3$s</string>
+  <string name="time_of_day" formatted="false">%-l:%M:%S %p</string>
   <string name="time_picker_decrement_hour_button">إنقاص ساعة</string>
   <string name="time_picker_decrement_minute_button">إنقاص دقيقة</string>
   <string name="time_picker_decrement_set_am_button">تعيين الصباح</string>
@@ -1148,8 +1288,8 @@
   <string name="time_picker_increment_minute_button">زيادة دقيقة</string>
   <string name="time_picker_increment_set_pm_button">تعيين المساء</string>
   <string name="time_picker_separator">:</string>
-  <string formatted="false" name="time_wday">%1$s %2$s</string>
-  <string formatted="false" name="time_wday_date">%1$s %2$s %3$s</string>
+  <string name="time_wday">%1$s %2$s</string>
+  <string name="time_wday_date">%1$s %2$s %3$s</string>
   <string name="today">اليوم</string>
   <string name="togglebutton_not_pressed">غير مضغوط</string>
   <string name="togglebutton_pressed">مضغوط</string>
@@ -1160,6 +1300,7 @@
   <string name="twelve_hour_time_format">h:mm a</string>
   <string name="twenty_four_hour_time_format">H:mm</string>
   <string name="unknownName">(غير معروف)</string>
+  <string name="unregistered_sim">بطاقة SIM غير مسجلة</string>
   <string name="untitled">&lt;بدون عنوان&gt;</string>
   <string name="upload_file">اختيار ملف</string>
   <string name="usb_accessory_notification_title">الاتصال بملحق USB</string>
@@ -1168,18 +1309,40 @@
   <string name="usb_notification_message">المس للاطلاع على خيارات USB الأخرى</string>
   <string name="usb_ptp_notification_title">تم التوصيل ككاميرا</string>
   <string name="usb_storage_activity_title">تخزين USB كبير السعة</string>
+  <string name="usb_storage_bad_removal">تمت إزالة مخزن USB قبل فصله</string>
+  <string name="usb_storage_badremoval_notification_message">قم بفصل مخزن USB أولاً لتجنب فقدان البيانات</string>
+  <string name="usb_storage_badremoval_notification_title">تمت إزالة مخزن USB بصورة مفاجئة</string>
   <string name="usb_storage_button_mount">تشغيل تخزين USB</string>
-  <string name="usb_storage_error_message">هناك مشكلة في استخدام بطاقة SD لمخزن USB كبير السعة.</string>
-  <string name="usb_storage_message">لقد اتصلت بجهاز الكمبيوتر من خلال USB. المس الزر أدناه إذا كنت تريد نسخ الملفات بين جهاز الكمبيوتر وبطاقة SD لـ Android.</string>
+  <string name="usb_storage_checking">يتم التحقق من مخزن USB حاليا</string>
+  <string name="usb_storage_checking_notification_title">يتم تحضير مخزن USB</string>
+  <string name="usb_storage_connect_notification_message">تم توصيل مخزن USB</string>
+  <string name="usb_storage_connect_notification_title">تم توصيل مخزن USB</string>
+  <string name="usb_storage_error_message">توجد مشكلة في استخدام وحدة التخزين الداخلية لتخزين USB كبير السعة.</string>
+  <string name="usb_storage_format_error">تعذر مسح مخزن USB</string>
+  <string name="usb_storage_format_message">هل تريد بالفعل تهيئة مخزن USB؟ ستفقد كل البيانات الموجودة عليه.</string>
+  <string name="usb_storage_format_title">تهيئة مخزن USB</string>
+  <string name="usb_storage_message">لقد قمت بتوصيل هاتفك بالكمبيوتر عبر USB. حدد الزر أدناه إذا كنت ترغب في نسخ الملفات بين الكمبيوتر ووحدة التخزين الداخلية لنظام Android.</string>
+  <string name="usb_storage_nofs_notification_message">مخزن USB فارغ أو نظام الملفات غير مدعوم</string>
+  <string name="usb_storage_nofs_notification_title">مخزن USB فارغ</string>
+  <string name="usb_storage_nomedia_notification_message">تمت إزالة مخزن USB بأمان بالفعل</string>
+  <string name="usb_storage_nomedia_notification_title">تمت إزالة مخزن USB</string>
   <string name="usb_storage_notification_message">حدد لنسخ الملفات إلى/من الكمبيوتر.</string>
   <string name="usb_storage_notification_title">تم توصيل USB</string>
+  <string name="usb_storage_progress_erasing">يتم مسح مخزن USB</string>
+  <string name="usb_storage_progress_unmounting">يتم فصل مخزن USB</string>
+  <string name="usb_storage_removed">تمت إزالة مخزن USB</string>
+  <string name="usb_storage_safe_unmount_notification_message">يمكنك إزالة مخزن USB بأمان</string>
+  <string name="usb_storage_safe_unmount_notification_title">الوضع آمن لإزالة مخزن USB</string>
+  <string name="usb_storage_shared">مخزن USB في حالة خطأ</string>
   <string name="usb_storage_stop_button_mount">إيقاف تشغيل تخزين USB</string>
   <string name="usb_storage_stop_error_message">حدثت مشكلة أثناء إيقاف تشغيل تخزين USB. تحقق للتأكد من عدم تحميل مضيف USB، ثم حاول مرة أخرى.</string>
-  <string name="usb_storage_stop_message">قبل إيقاف تشغيل مخزن USB، تأكد من فصل (“إخراج”) بطاقة SD لـ Android من جهاز الكمبيوتر.</string>
+  <string name="usb_storage_stop_message">قبل إيقاف تشغيل مخزن USB، تأكد من إلغاء تحميل (EE) وحدة التخزين الداخلية لنظام Android من الكمبيوتر.</string>
   <string name="usb_storage_stop_notification_message">حدد لإيقاف تشغيل تخزين USB.</string>
   <string name="usb_storage_stop_notification_title">إيقاف تشغيل تخزين USB</string>
   <string name="usb_storage_stop_title">تخزين USB قيد الاستخدام</string>
   <string name="usb_storage_title">تم توصيل USB</string>
+  <string name="usb_storage_unmountable_notification_message">تلف مخزن USB. يجب عليك إعادة تهيئته.</string>
+  <string name="usb_storage_unmountable_notification_title">مخزن USB تالف</string>
   <string name="validity_period">الصلاحية:</string>
   <string name="volume_alarm">مستوى صوت التنبيه</string>
   <string name="volume_bluetooth_call">مستوى صوت مكالمة Bluetooth</string>
@@ -1196,29 +1359,29 @@
   <string name="volume_ringtone">مستوى صوت الرنين</string>
   <string name="volume_unknown">مستوى الصوت</string>
   <string name="vpn_text">انقر سريعًا لإدارة الشبكة.</string>
-  <string formatted="false" name="vpn_text_long">تم الاتصال بـ %s. انقر سريعًا لإدارة الشبكة.</string>
+  <string name="vpn_text_long">تم الاتصال بـ %s. انقر سريعًا لإدارة الشبكة.</string>
   <string name="vpn_title">تم تنشيط VPN.</string>
-  <string formatted="false" name="vpn_title_long">تم تنشيط VPN بواسطة %s</string>
+  <string name="vpn_title_long">تم تنشيط VPN بواسطة %s</string>
   <string name="wait">انتظار</string>
   <string name="wallpaper_binding_label">الخلفية</string>
-  <string formatted="false" name="wday1_date1_time1_wday2_date2_time2">%3$s %1$s %2$s – %6$s %4$s %5$s</string>
-  <string formatted="false" name="wday1_date1_wday2_date2">%1$s %2$s – %4$s %5$s</string>
-  <string formatted="false" name="wday_date">%2$s %3$s</string>
-  <string formatted="false" name="web_user_agent">Mozilla/5.0 (Linux; U; Android %s) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 %sSafari/534.30</string>
+  <string name="wday1_date1_time1_wday2_date2_time2">%3$s %1$s %2$s – %6$s %4$s %5$s</string>
+  <string name="wday1_date1_wday2_date2">%1$s %2$s – %4$s %5$s</string>
+  <string name="wday_date">%2$s %3$s</string>
+  <string name="web_user_agent" formatted="false">Mozilla/5.0 (Linux; U; Android %s) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 %sSafari/534.30</string>
   <string name="web_user_agent_target_content">"Mobile "</string>
   <string name="websearch">بحث الويب</string>
   <string name="week">أسبوع</string>
   <string name="weeks">أسابيع</string>
   <string name="whichApplication">إكمال الإجراء باستخدام</string>
   <string name="wifi_available_sign_in">تسجيل الدخول إلى شبكة Wi-Fi</string>
-  <string formatted="false" name="wifi_available_sign_in_detailed">%1$s</string>
+  <string name="wifi_available_sign_in_detailed">%1$s</string>
   <string name="wifi_p2p_dialog_title">Wi-Fi Direct</string>
   <string name="wifi_p2p_enabled_notification_message">المس للحصول على الإعدادات</string>
   <string name="wifi_p2p_enabled_notification_title">تم تشغيل اتصال Wi-Fi المباشر</string>
   <string name="wifi_p2p_failed_message">تعذر بدء اتصال Wi-Fi Direct</string>
-  <string formatted="false" name="wifi_p2p_pbc_go_negotiation_request_message">هناك طلب إعداد اتصال Wi-Fi Direct من %1$s. انقر فوق موافق للقبول.</string>
-  <string formatted="false" name="wifi_p2p_pin_display_message">يجب إدخال رقم التعريف الشخصي لـ WPS‏ %1$s في الجهاز النظير %2$s لمواصلة إعداد الاتصال</string>
-  <string formatted="false" name="wifi_p2p_pin_go_negotiation_request_message">هناك طلب إعداد اتصال Wi-Fi Direct من %1$s. أدخل رقم التعريف الشخصي للمواصلة.</string>
+  <string name="wifi_p2p_pbc_go_negotiation_request_message">هناك طلب إعداد اتصال Wi-Fi Direct من %1$s. انقر فوق موافق للقبول.</string>
+  <string name="wifi_p2p_pin_display_message">يجب إدخال رقم التعريف الشخصي لـ WPS‏ %1$s في الجهاز النظير %2$s لمواصلة إعداد الاتصال</string>
+  <string name="wifi_p2p_pin_go_negotiation_request_message">هناك طلب إعداد اتصال Wi-Fi Direct من %1$s. أدخل رقم التعريف الشخصي للمواصلة.</string>
   <string name="wifi_p2p_turnon_message">ابدأ تشغيل اتصال Wi-Fi direct. سيؤدي ذلك إلى إيقاف نقطة اتصال محمولة/عميل Wi-Fi.</string>
   <string name="wifi_tether_configure_ssid_default">AndroidAP</string>
   <string name="wifi_watchdog_network_disabled">تعذر الاتصال بـ Wi-Fi</string>

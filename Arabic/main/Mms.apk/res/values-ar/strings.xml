@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <resources>
   <string name="activity_not_found">لا يمكن العثور على برنامج لفتح المرفق</string>
   <string name="activity_not_found_uri">لا يمكن العثور على برنامج لهذا</string>
@@ -99,6 +99,7 @@
   <string name="delivery_header_title">التقرير</string>
   <string name="delivery_report_activity">تقرير التسليم</string>
   <string name="delivery_toast_body">تم تلقي الرسالة بواسطة %s</string>
+  <string name="dialog_title_date_type">اختيار نوع تاريخ الرسالة</string>
   <string name="disable_notifications_dialog_message">منع تكرار إشعارات الرسائل النصية من تطبيق المراسلة الافتراضية؟</string>
   <string name="discard">إلغاء</string>
   <string name="discard_message">إلغاء</string>
@@ -126,6 +127,9 @@
   <string name="error_state">حالة غير متسقة</string>
   <string name="error_state_text">حالة سلاسل المحادثات والمستلمين غير متسقة. الرجاء إعداد تقرير للإبلاغ عن خلل وإرساله إلى http://go/droidanizer</string>
   <string name="error_timed_msg">لا يمكن جدولة الوقت قبل الآن</string>
+  <string name="ex_type_mms">وسائط</string>
+  <string name="ex_type_mx">رسالة سحابية</string>
+  <string name="ex_type_sms">رسالة قصيرة</string>
   <string name="exceed_message_size_limitation">تم بلوغ الحد الأقصى لحجم الرسالة.</string>
   <string name="exit_edit_mode">إلغاء</string>
   <string name="expire_on">تاريخ انتهاء الصلاحية: %s</string>
@@ -204,15 +208,37 @@
   <string name="message_type_label">"النوع: "</string>
   <string name="messagelist_sender_self">أنا</string>
   <string name="messaging_intent_label">SMS</string>
+  <string name="mi_msg">رسالة سحابية</string>
   <string name="mms">رسالة وسائط متعددة</string>
   <string name="move_down">نقل لأسفل</string>
   <string name="move_up">نقل لأعلى</string>
+  <string name="msg_type_hint_mms">رسالة وسائط متعددة</string>
+  <string name="msg_type_hint_mx">رسالة سحابية</string>
+  <string name="msg_type_hint_sms">رسالة نصية</string>
   <string name="multi_select_title_conversation">المواضيع %1$s المحددة</string>
   <string name="multi_select_title_conversation_init">الرجاء اختيار المواضيع</string>
   <string name="multi_select_title_message">الرسائل %1$s المحددة</string>
   <string name="multi_select_title_message_init">الرجاء اختيار الرسائل</string>
   <string name="multimedia_message">رسالة وسائط متعددة</string>
   <string name="multimedia_notification">تنبيه رسالة الوسائط المتعددة</string>
+  <string name="mx_activate_error_malformed_info">فشل تفعيل الرسائل السحابية، لا بد من إعادة تفعيل الرسائل السحابية</string>
+  <string name="mx_activate_error_server">خادم التفعيل فشل في تفعيل الرسائل السحابية</string>
+  <string name="mx_activate_error_sim_change">بطاقة SIM تغيرت, لا بد من إعادة تفعيل الرسائل السحابية</string>
+  <string name="mx_activate_error_title">فشل تفعيل الرسائل السحابية</string>
+  <string name="mx_activate_failure">فشل تفعيل الرسائل السحابية</string>
+  <string name="mx_activate_hint_malformed_info">توقفت العملية، لا بد من إعادة تفعيل الرسائل السحابية. تفعيلها الآن؟</string>
+  <string name="mx_activate_hint_server">خادم التفعيل فشل في تفعيل الرسائل السحابية؟ تفعيلها الآن؟</string>
+  <string name="mx_activate_hint_sim_change">بطاقة SIM تغيرت، لا بد من إعادة تفعيل الرسائل السحابية. تفعيلها الآن؟</string>
+  <string name="mx_activating">التفعيل...</string>
+  <string name="mx_auto_resend_sms">إرسال كرسالة قصيرة</string>
+  <string name="mx_auto_resend_sms_summary">أرسلها كرسالة قصيرة عندما تكون الرسائل السحبابية غير متوفر. قد يتم تطبيق أسعار رسائل الناقل</string>
+  <string name="mx_btn_enable">تفعيل</string>
+  <string name="mx_count_dspt">منذ التفعيل, MIUI قد أرسلت %d رسالة سحابية لك</string>
+  <string name="mx_dspt">إرسال رسائل عبر الإنترنت بين MIUI, قم بالتشغيل للإرسال عن طريق المشغل إذا فشل</string>
+  <string name="mx_enable">تمكين الرسائل السحابية</string>
+  <string name="mx_reactivate">إعادة تفعيل الرسائل السحابية</string>
+  <string name="mx_warning_notice">سيتم إرسال رسالة قصيرة لتفعيل الرسائل السحابية. قد يتم تطبيق بيانات الأسعار النقل العادي</string>
+  <string name="need_download">في انتظار المزامنة...</string>
   <string name="new_message">رسالة جديدة</string>
   <string name="new_message_arrived">وصلت رسالة جديدة</string>
   <string name="new_phrase">عبارة جدية</string>
@@ -260,7 +286,7 @@
   <string name="pref_sms_storage_title">إعدادات التخزين</string>
   <string name="pref_sms_theme_title">إعدادات السمة</string>
   <string name="pref_summary_allow_3rd_mms">السماح للتطبيقات الخارجية الوصول إلى سجلات الرسائل القصيرة</string>
-  <string name="pref_summary_allow_si_sl_push">Allow receiving and notifying WAP push messages (SI/SL)</string>
+  <string name="pref_summary_allow_si_sl_push">السماح لاستقبال والإشعار رسائل دفع الواب (SI/SL)</string>
   <string name="pref_summary_auto_delete">حذف الرسائل القديمة عند بلوغ الحدود</string>
   <string name="pref_summary_delete_limit">%1$s من الرسائل في كل محادثة</string>
   <string name="pref_summary_delivery_reports">طلب تقرير تسليم عن كل رسالة ترسلها</string>
@@ -289,7 +315,7 @@
   <string name="pref_time_auto_group_summary">رسائل المجموعة بالوقت</string>
   <string name="pref_time_auto_group_title">مجموعة</string>
   <string name="pref_title_allow_3rd_mms">Third-party access</string>
-  <string name="pref_title_allow_si_sl_push">Allow WAP push</string>
+  <string name="pref_title_allow_si_sl_push">السماح لدفع الواب</string>
   <string name="pref_title_auto_delete">حذف الرسائل القديمة</string>
   <string name="pref_title_delivery_reports">تقارير التسليم</string>
   <string name="pref_title_delivery_ringtone">نغمة لتقارير التسليم</string>
@@ -321,6 +347,7 @@
   <string name="priority_low">منخفضة</string>
   <string name="priority_normal">عادي</string>
   <string name="privacy_mode_hint">لا يمكن إرسال الرسالة في وضع الحماية</string>
+  <string name="processing">تجهيز...</string>
   <string name="random_pick">خلط</string>
   <string name="rate_limit_surpassed">تأكيد</string>
   <string name="received_label">"تم التلقي: "</string>
@@ -405,12 +432,14 @@
   <string name="storage_limits_title">حد الرسائل</string>
   <string name="subject_hint">الموضوع</string>
   <string name="subject_label">"الموضوع: "</string>
+  <string name="summary_date_type">الطابع الزمني للرسالة</string>
   <string name="text_in_popup_saved_to_clipboard">تم حفظ النص المعدل في النافذة إلى الحافظة</string>
   <string name="text_message">رسالة نصية</string>
   <string name="timed_message_expired_title">%d الرسائل المحددة زمنيا لم ترسل</string>
   <string name="timed_message_expired_title_2">هل تريد أن ترسلهم الآن؟</string>
-  <string name="timed_message_in_total">... (%d in total)</string>
+  <string name="timed_message_in_total">... (%d في المجموع)</string>
   <string name="timed_message_to">إلى</string>
+  <string name="title_date_type">الطابع الزمني للرسالة</string>
   <string name="title_timed_message_dialog">الرجاء تكوين وقت لهذه الرسالة المحددة زمنيا</string>
   <string name="to_address_label">"إلى: "</string>
   <string name="to_count">%d في كل</string>
@@ -437,10 +466,7 @@
   <string name="view_delivery_report">عرض التقرير</string>
   <string name="view_message_details">عرض التفاصيل</string>
   <string name="view_slideshow">إظهار عرض الشريحة</string>
-  <string name="wap_push_title">"[WAP Push] "</string>
+  <string name="wap_push_title">"[دفع الواب] "</string>
   <string name="will_send_at">سيتم الإرسال في: %s</string>
   <string name="yes">موافق</string>
-  <string name="dialog_title_date_type">اختيار نوع تاريخ الرسالة</string>
-  <string name="summary_date_type">الطابع الزمني للرسالة</string>
-  <string name="title_date_type">الطابع الزمني للرسالة</string>
 </resources>
