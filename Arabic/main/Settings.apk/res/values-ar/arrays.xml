@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <resources>
   <string-array name="timezone_filters">
     <item>أمريكا</item>
@@ -312,9 +312,9 @@
     <item>ترك القرار للنظام</item>
   </string-array>
   <string-array name="app_install_location_values">
-    <item>جهاز</item>
-    <item>sdبطاقة</item>
-    <item>تلقائي</item>
+    <item>device</item>
+    <item>sdcard</item>
+    <item>auto</item>
   </string-array>
   <string-array name="silent_mode_entries">
     <item>إيقاف</item>
@@ -322,9 +322,9 @@
     <item>صامت</item>
   </string-array>
   <string-array name="silent_mode_values">
-    <item>إيقاف</item>
-    <item>إهتزاز</item>
-    <item>صامت</item>
+    <item>off</item>
+    <item>vibrate</item>
+    <item>mute</item>
   </string-array>
   <string-array name="long_press_timeout_selector_titles">
     <item>قصيرة</item>
@@ -342,9 +342,9 @@
     <item>التحقق دومًا</item>
   </string-array>
   <string-array name="hdcp_checking_values">
-    <item>مطلقا</item>
-    <item>DRM فقط</item>
-    <item>دائما</item>
+    <item>never</item>
+    <item>drm-only</item>
+    <item>always</item>
   </string-array>
   <string-array name="hdcp_checking_summaries">
     <item>عدم استخدام التحقق من HDCP مطلقًا</item>
@@ -480,12 +480,12 @@
     <item>ياقوتي</item>
   </string-array>
   <string-array name="led_color_values">
-    <item>أبيض</item>
-    <item>أخضر</item>
-    <item>أحمر</item>
-    <item>أزرق</item>
-    <item>أزرق</item>
-    <item>سماوي</item>
+    <item>white</item>
+    <item>green</item>
+    <item>red</item>
+    <item>blue</item>
+    <item>yellow</item>
+    <item>cyan</item>
     <item>\#800080</item>
     <item>\#ffc0cb</item>
     <item>\#ffa500</item>
@@ -512,9 +512,9 @@
     <item>9000</item>
   </string-array>
   <string-array name="led_color_values_for_mione">
-    <item>أزرق</item>
-    <item>أحمر</item>
-    <item>أخضر</item>
+    <item>blue</item>
+    <item>red</item>
+    <item>green</item>
     <item>\#FFFF0033</item>
     <item>\#FF5500FF</item>
     <item>\#FFAA00AA</item>
@@ -533,10 +533,34 @@
     <item>سماوي</item>
     <item>ياقوتي</item>
   </string-array>
+  <string-array name="always_enabled_app_list">
+    <item>com.android.providers.applications</item>
+    <item>com.android.providers.calendar</item>
+    <item>com.android.providers.contacts</item>
+    <item>com.android.providers.downloads</item>
+    <item>com.android.providers.drm</item>
+    <item>com.android.providers.media</item>
+    <item>com.android.providers.telephony</item>
+    <item>com.android.providers.userdictionary</item>
+    <item>com.miui.providers.userbook</item>
+    <item>com.miui.providers.weather</item>
+  </string-array>
   <array name="wifi_wapi_psk_type">
     <item>@string/wifi_security_wapi_psk_ascii</item>
     <item>@string/wifi_security_wapi_psk_hexadecimal</item>
   </array>
+  <string-array name="back_long_press_timeout">
+    <item>0.5 second</item>
+    <item>1 second</item>
+    <item>1.5 seconds</item>
+    <item>2 seconds</item>
+  </string-array>
+  <string-array name="back_long_press_timeout_value">
+    <item>500</item>
+    <item>1000</item>
+    <item>1500</item>
+    <item>2000</item>
+  </string-array>
   <string-array name="button_light_timeout_entries">
     <item>ثانية</item>
     <item>ثانيتين</item>
@@ -544,5 +568,13 @@
     <item>10 ثواني</item>
     <item>20 ثانية</item>
     <item>دائما</item>
+  </string-array>
+  <string-array name="button_light_timeout_value">
+    <item>1000</item>
+    <item>2000</item>
+    <item>5000</item>
+    <item>10000</item>
+    <item>20000</item>
+    <item>-1</item>
   </string-array>
 </resources>

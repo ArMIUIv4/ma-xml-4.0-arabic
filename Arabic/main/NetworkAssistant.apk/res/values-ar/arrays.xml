@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0"?>
 <resources>
   <string-array name="traffic_sort_type">
     <item>ترتيب حسب الأسم</item>
@@ -9,5 +9,42 @@
     <item>حركة البيانات من الأمس</item>
     <item>حركة البيانات من اليوم</item>
     <item>حركة البيانات هذا الشهر</item>
+  </string-array>
+  <string-array name="date_of_app">
+    <item>أمس</item>
+    <item>اليوم</item>
+    <item>هذا الشهر</item>
+  </string-array>
+  <string-array name="carriers">
+    <item>China Mobile</item>
+    <item>China Unicom</item>
+    <item>China Telecom</item>
+  </string-array>
+  <string-array name="brands_cmcc">
+    <item>GSM</item>
+    <item>M-Zone</item>
+    <item>Easyown</item>
+  </string-array>
+  <string-array name="brands_unicom">
+    <item>Unicom 2G</item>
+    <item>Unicom 3G</item>
+  </string-array>
+  <string-array name="network_speed_update_internals">
+    <item>3s</item>
+    <item>4s</item>
+    <item>5s</item>
+    <item>6s</item>
+    <item>7s</item>
+    <item>8s</item>
+    <item>9s</item>
+  </string-array>
+  <string-array name="network_speed_update_internal_values">
+    <item>3000</item>
+    <item>4000</item>
+    <item>5000</item>
+    <item>6000</item>
+    <item>7000</item>
+    <item>8000</item>
+    <item>9000</item>
   </string-array>
 </resources>

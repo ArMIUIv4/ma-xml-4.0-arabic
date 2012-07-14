@@ -278,6 +278,7 @@
   <string name="bluetooth_connection_dialog_text">هل تريد الاتصال بـ \"%1$s\"؟</string>
   <string name="bluetooth_connection_notif_message">المس للاتصال بـ \"%1$s\".</string>
   <string name="bluetooth_connection_permission_request">طلب اتصال بلوتوث</string>
+  <string name="bluetooth_default_name">MIUI هاتف</string>
   <string name="bluetooth_device">جهاز بلوتوث بدون اسم</string>
   <string name="bluetooth_device_advanced_enable_opp_title">السماح بعمليات نقل الملفات الواردة</string>
   <string name="bluetooth_device_advanced_online_mode_summary">اتصال بجهاز البلوتوث</string>
@@ -362,6 +363,7 @@
   <string name="bluetooth_profile_a2dp">الإعدادات الصوتية للوسائط</string>
   <string name="bluetooth_profile_headset">الإعدادات الصوتية للهاتف</string>
   <string name="bluetooth_profile_hid">جهاز الإرسال</string>
+  <string name="bluetooth_profile_name">"%1$s's MIUI هاتف"</string>
   <string name="bluetooth_profile_opp">نقل الملف</string>
   <string name="bluetooth_profile_pan">الدخول إلى الإنترنت</string>
   <string name="bluetooth_profile_pan_nap">مشاركة اتصال الإنترنت</string>
@@ -400,6 +402,7 @@
   <string name="build_number">رقم الإصدار</string>
   <string name="builtin_keyboard_settings_summary">إعدادات لوحة المفاتيح الفعلية</string>
   <string name="builtin_keyboard_settings_title">لوحة مفاتيح فعلية</string>
+  <string name="button_light_timeout">إعدادات ضوء الأزرار</string>
   <string name="cache_header_label">ذاكرة التخزين المؤقت</string>
   <string name="cache_size_label">ذاكرة التخزين المؤقت</string>
   <string name="cached">عملية الخلفية المخزنة مؤقتًا</string>
@@ -439,6 +442,7 @@
   <string name="computing_size">جارٍ الحساب...</string>
   <string name="config_list_label">تكوين الشبكات</string>
   <string name="configure_input_method">إعداد أسلوب الإدخال</string>
+  <string name="confirm_erase">تأكيد المسح</string>
   <string name="confirm_new_backup_pw_prompt">أعد كتابة كلمة المرور الجديدة للنسخة الاحتياطية الكاملة هنا</string>
   <string name="contributors_title">المساهمون</string>
   <string name="controls_label">عناصر التحكم</string>
@@ -625,10 +629,17 @@
   <string name="enable_adb_summary">وضع تصحيح الأخطاء عند توصيل USB</string>
   <string name="enable_back_long_press">اضغط مطولا على الرجوع لقتل التطبيقات</string>
   <string name="enable_compatibility">تغيير حجم التطبيق</string>
+  <string name="enable_snapshot_screenlock">الضغط مطولا على مفتاح الرجوع لأخذ لقطة شاشة في شاشة القفل</string>
   <string name="enable_text">تمكين</string>
   <string name="enter_password">اكتب كلمة المرور لتشفير وحدة التخزين</string>
+  <string name="erase_application">مسح التطبيقات</string>
+  <string name="erase_application_description">مسح التطبيقات المثبتة</string>
   <string name="erase_external_storage">محو وحدة تخزين USB</string>
   <string name="erase_external_storage_description">محو جميع البيانات على وحدة تخزين USB الداخلية، مثل الموسيقى أو الصور</string>
+  <string name="erase_optional">المسح الاختياري</string>
+  <string name="erase_personal_data">البيانات الشخصية</string>
+  <string name="erase_personal_data_description">بما في ذلك الحسابات وجهات الاتصال وسجلات المكالمات وغيرها من البيانات</string>
+  <string name="erase_sure">تأكيد المسح؟</string>
   <string name="error_apn_empty">لا يمكن أن يكون APN فارغًا.</string>
   <string name="error_mcc_not3">يجب أن يكون حقل MCC من ثلاثة أرقام.</string>
   <string name="error_mnc_not23">يجب أن يتكون حقل MNC من رقمين أو ثلاثة أرقام.</string>
@@ -636,6 +647,7 @@
   <string name="error_title"/>
   <string name="external_code_size_label">تطبيق وحدة تخزين USB</string>
   <string name="external_data_size_label">بيانات وحدة تخزين USB</string>
+  <string name="factory_reset_summary">يمكنك مسح البيانات الشخصية الخاصة بك عن طريق إستعادة هاتفك، أو الاختيار لمسح التطبيقات المثبتة وتهيئة بطاقة SD لاستعادة ضبط المصنع</string>
   <string name="filter">تصفية</string>
   <string name="filter_apps_all">الكل</string>
   <string name="filter_apps_onsdcard">وحدة تخزين USB</string>
@@ -652,6 +664,8 @@
   <string name="force_stop_dlg_text">في حالة فرض إيقاف التطبيق، ربما لا يعمل بشكل صحيح.</string>
   <string name="force_stop_dlg_title">هل تريد فرض الإيقاف؟</string>
   <string name="forget_wifi_message">نسيان شبكة Wi-Fi هذه ؟ قد تحتاج إلى إعادة إدخال كلمة المرور عند الاتصال مرة أخرى</string>
+  <string name="frequently_fragment_delete">مسح</string>
+  <string name="frequently_fragment_tempty">سيتم إدراج البنود التي يكثر استخدامها هنا</string>
   <string name="gadget_picker_title">اختيار أداة</string>
   <string name="gadget_title">التحكم في الطاقة</string>
   <string name="gadget_toggle_bluetooth">تحديث إعداد البلوتوث</string>
@@ -820,16 +834,21 @@
   <string name="manageapplications_settings_title">إدارة التطبيقات</string>
   <string name="manually_add_network">إضافة الشبكة يدويا</string>
   <string name="master_clear_accounts">"تم تسجيل دخولك حاليًا في الحسابات التالية:"</string>
+  <string name="master_clear_all">"هل أنت متأكد أنك تريد مسح كافة البيانات إلى ضبط المصنع؟ لا يمكن التراجع عن هذه العملية"</string>
   <string name="master_clear_button_text">إعادة تعيين الهاتف</string>
   <string name="master_clear_confirm_title">هل تريد إعادة الضبط؟</string>
   <string name="master_clear_desc">"هذا سوف يمسح جميع البيانات من هاتفك"</string>
   <string name="master_clear_desc_also_erases_external"/>
   <string name="master_clear_desc_erase_external_storage">"لمسح الموسيقى والصور، وبيانات المستخدم الأخرى، فإن"</string>
+  <string name="master_clear_erase_application_progress">مسح التطبيقات في التقدم...</string>
   <string name="master_clear_failed">لم يتم تنفيذ إعادة التعيين نظرًا لعدم توفر خدمة System Clear.</string>
   <string name="master_clear_final_button_text">مسح كل شيء</string>
   <string name="master_clear_final_desc">هل تريد مسح جميع المعلومات الشخصية والتطبيقات التي تم تنزيلها؟ لا يمكنك عكس هذا الإجراء!</string>
   <string name="master_clear_gesture_explanation">يجب رسم نقش إلغاء التأمين لتأكيد إعادة ضبط بيانات المصنع.</string>
   <string name="master_clear_gesture_prompt">ارسم نقش إلغاء التأمين</string>
+  <string name="master_clear_personal_data">"هل أنت متأكد من مسح البيانات الشخصية الخاصة بك؟ لا يمكن التراجع عن هذه العملية"</string>
+  <string name="master_clear_personal_data_application">"هل أنت متأكد من مسح البيانات الشخصية والتطبيقات المثبتة؟ لا يمكن التراجع عن هذه العملية"</string>
+  <string name="master_clear_personal_data_sdcard">"هل أنت متأكد من مسح البيانات الشخصية وتهيئة بطاقة SD؟ لا يمكن التراجع عن هذه العملية"</string>
   <string name="master_clear_summary">مسح جميع بيانات الهاتف</string>
   <string name="master_clear_title">إعادة الضبط بحسب بيانات المصنع</string>
   <string name="media_button">زر الوسائط</string>
@@ -1051,6 +1070,7 @@
   <string name="remove_account_failed">هذا الحساب مطلوب من قِبل بعض التطبيقات. ولا يمكنك إزالته إلا من خلال إجراء إعادة ضبط الهاتف بحسب إعدادات المصنع الافتراضية (والتي تعمل على حذف جميع بياناتك الشخصية) في الإعدادات &gt; النسخ الاحتياطي وإعادة الضبط.</string>
   <string name="remove_account_label">إزالة الحساب</string>
   <string name="remove_device_admin">إلغاء التنشيط</string>
+  <string name="remove_from_frequently_fragment">إزالة \"%s\" من الإعدادات الشائعة؟</string>
   <string name="restore_default_apn">جارٍ استعادة إعدادات APN الافتراضية.</string>
   <string name="restore_default_apn_completed">اكتملت إعادة تعيين إعدادات APN الافتراضية.</string>
   <string name="ring_volume_title">مستوى صوت الرنين</string>
@@ -1076,19 +1096,21 @@
   <string name="runningservices_settings_summary">عرض الخدمات قيد التشغيل في الوقت الحالي والتحكم فيها</string>
   <string name="runningservices_settings_title">الخدمات قيد التشغيل</string>
   <string name="scan_list_label">نتائج المسح:</string>
+  <string name="screen_button_custom">تخصيص موقع مفتاح الشاشة</string>
+  <string name="screen_button_key">مفاتيح الشاشة الوهمية</string>
   <string name="screen_compatibility_label">توافق الشاشة</string>
   <string name="screen_compatibility_text">ربما لم يتم تصميم هذا التطبيق ليلائم شاشتك، يمكنك التحكم في كيفية ضبطه ليلائم شاشتك هنا.</string>
   <string name="screen_timeout">السكون</string>
   <string name="screen_timeout_summary">بعد %1$s من عدم النشاط</string>
   <string name="screen_timeout_title">سكون الشاشة</string>
   <string name="screensaver_activate_on_dock_title">البدء أيضا عند الإرساء</string>
-  <string name="screensaver_component_title">Selected candy</string>
+  <string name="screensaver_component_title">تحديد الحلويات</string>
   <string name="screensaver_settings_summary_off">معطل</string>
   <string name="screensaver_settings_summary_on">سوف تبدأ عند السكون إذا كان موصول إلى الطاقة</string>
-  <string name="screensaver_settings_title">Screen Candy</string>
+  <string name="screensaver_settings_title">حلويات الشاشة</string>
   <string name="screensaver_test">تجربة ذلك!</string>
-  <string name="screensaver_timeout_summary">After %1$s spent idle</string>
-  <string name="screensaver_timeout_title">When to activate</string>
+  <string name="screensaver_timeout_summary">بعد %1$s انتهاء الخمول</string>
+  <string name="screensaver_timeout_title">عند التفعيل</string>
   <string name="screensaver_timeout_zero_summary">مطلقا</string>
   <string name="sd_card_settings_label">وحدة تخزين USB</string>
   <string name="sd_card_storage">وحدة تخزين USB</string>
@@ -1144,7 +1166,7 @@
   <string name="search_status_bar">شريط الحالة</string>
   <string name="search_sync">المزامنة</string>
   <string name="search_tether">الربط</string>
-  <string name="search_unlock_set">Unlock set</string>
+  <string name="search_unlock_set">تم تعيين إلغاء التأمين</string>
   <string name="search_vpn">VPN</string>
   <string name="search_wallpaper">الخلفيات</string>
   <string name="search_wifi">WiFi</string>
@@ -1184,6 +1206,8 @@
   <string name="show_background_processes">عرض العمليات المخزنة مؤقتًا</string>
   <string name="show_cpu_usage">عرض استخدام CPU</string>
   <string name="show_cpu_usage_summary">عرض تراكب الشاشة لاستخدام CPU الحالي</string>
+  <string name="show_fc">إظهار الإغلاقات الجبرية</string>
+  <string name="show_fc_summary">إظهار مربع حوار الإغلاق الجبري للتطبيقات</string>
   <string name="show_owner_info_on_lockscreen_label">إظهار معلومات المالك في شاشة التأمين</string>
   <string name="show_password">جعل كلمات المرور مرئية</string>
   <string name="show_password_summary"/>
@@ -1284,7 +1308,7 @@
   <string name="sync_item_title">مزامنة %s</string>
   <string name="sync_menu_sync_cancel">إلغاء المزامنة</string>
   <string name="sync_menu_sync_now">مزامنة الآن</string>
-  <string formatted="false" name="sync_one_time_sync">"المس للمزامنة الآن%1$s"</string>
+  <string name="sync_one_time_sync" formatted="false">"المس للمزامنة الآن%1$s"</string>
   <string name="sync_plug"/>
   <string name="sync_settings">الحسابات والمزامنة</string>
   <string name="system_package">لا يمكن تثبيت تحديثات النظام على وسائط خارجية.</string>
@@ -1397,6 +1421,7 @@
   <string name="untitled_apn">بلا عنوان</string>
   <string name="upload_debug_log_summary">رفع سجل التصحيح فقط عندما يكون اتصال WLAN متاح لمساعدة فريق MIUI لتطوير ROM أكثر استقرارا.</string>
   <string name="upload_debug_log_title">رفع سجل التصحيح</string>
+  <string name="usage_log">حالة استخدام التطبيقات</string>
   <string name="usage_name_percent">%1$s - %2$s%%</string>
   <string name="usage_stats_label">إحصاءات الاستخدام</string>
   <string name="usage_time_label">وقت الاستخدام</string>
@@ -1414,6 +1439,8 @@
   <string name="usage_type_wifi_running">WiFi قيد التشغيل</string>
   <string name="usb_connection_category">اتصال كـ</string>
   <string name="usb_label_installer_cd">تثبيت أدوات نقل الملفات</string>
+  <string name="usb_msd_summary">نقل الملفات على ويندوز وماك</string>
+  <string name="usb_msd_title">تخزين USB كبير السعة</string>
   <string name="usb_mtp_summary">يتيح لك نقل ملفات الوسائط على Windows، أو استخدام نقل الملفات في Android على Mac (راجع www.android.com/filetransfer)</string>
   <string name="usb_mtp_title">جهاز الوسائط (MTP)</string>
   <string name="usb_ptp_summary">يتيح لك نقل الصور باستخدام برامج الكاميرا، ونقل أي ملفات على أجهزة كمبيوتر لا تدعم MTP</string>
@@ -1453,10 +1480,15 @@
   <string name="voice_input_output_settings_title">إعدادات الإدخال الصوتي والاستماع</string>
   <string name="voice_search_settings_title">البحث الصوتي</string>
   <string name="volume_alarm_description">التنبيهات</string>
+  <string name="volume_bluetooth_description">صوت البلوتوث</string>
   <string name="volume_category_title">الصوت</string>
   <string name="volume_media_description">الموسيقى والفيديو والألعاب والوسائط الأخرى</string>
   <string name="volume_notification_description">تنبيهات</string>
+  <string name="volume_restore">استعادة حجم الصوت</string>
+  <string name="volume_restore_alert">سيتم إرجاع كافة الإعدادات إلى حجم الصوت الافتراضي، هل أنت متأكد؟</string>
   <string name="volume_ring_description">نغمة الرنين والتنبيهات</string>
+  <string name="volume_system_description">حجم الصوت النظام, لقفل الكاميرا, قفل الشاشة والإشعارات الأخرى للنظام</string>
+  <string name="volume_voice_description">حجم الصوت</string>
   <string name="vpn_cancel">إلغاء</string>
   <string name="vpn_connect">اتصال</string>
   <string name="vpn_connect_to">الاتصال بـ %s</string>
@@ -1666,15 +1698,4 @@
   <string name="zone_auto_summaryOn">استخدام المنطقة الزمنية للشبكة</string>
   <string name="zone_list_menu_sort_alphabetically">التصنيف أبجديًا</string>
   <string name="zone_list_menu_sort_by_timezone">تصنيف بحسب المنطقة الزمنية</string>
-  <string name="usage_log">حالة استخدام التطبيقات</string>
-  <string name="usb_msd_summary">نقل الملفات على ويندوز وماك</string>
-  <string name="usb_msd_title">تخزين USB كبير السعة</string>
-  <string name="button_light_timeout">إعدادات ضوء الأزرار</string>
-  <string name="screen_button_custom">تخصيص موقع مفتاح الشاشة</string>
-  <string name="screen_button_key">مفاتيح الشاشة الوهمية</string>
-  <string name="volume_bluetooth_description">صوت البلوتوث</string>
-  <string name="volume_restore">استعادة حجم الصوت</string>
-  <string name="volume_restore_alert">سيتم إرجاع كافة الإعدادات إلى حجم الصوت الافتراضي، هل أنت متأكد؟</string>
-  <string name="volume_system_description">حجم الصوت النظام, لقفل الكاميرا, قفل الشاشة والإشعارات الأخرى للنظام</string>
-  <string name="volume_voice_description">حجم الصوت</string>
 </resources>
